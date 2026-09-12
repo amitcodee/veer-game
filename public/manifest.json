@@ -1,0 +1,87 @@
+﻿{
+  "name": "Veer Game - India's #1 Online Gaming Platform",
+  "short_name": "Veer Game",
+  "description": "Play games including Wingo colour prediction, Aviator, K3, 5D, and Slots on Veer Game. Win real rewards with instant UPI withdrawals!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a111e",
+  "theme_color": "#ff5d43",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Play Games",
+      "short_name": "Games",
+      "description": "Browse and play 8+ games",
+      "url": "/#games",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Login Guide",
+      "short_name": "Login",
+      "description": "Login to your account",
+      "url": "/#login",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Rewards & Bonuses",
+      "short_name": "Bonuses",
+      "description": "View current bonuses and promotions",
+      "url": "/#bonus",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}

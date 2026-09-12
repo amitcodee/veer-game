@@ -2,10 +2,10 @@ import Script from "next/script";
 
 const siteConfig = {
   name: "Veer Game",
-  url: "http://veergames1.com",
+  url: "https://veergames1.com",
   description:
     "Veer Game - India's most trusted online gaming platform with Wingo colour prediction, Aviator crash, K3, 5D, slots, and instant UPI withdrawals.",
-  logo: "http://veergames1.com/images/logo/logo.png",
+  logo: "https://veergames1.com/images/logo/logo.png",
   email: "support@veergames1.com",
   telephone: "+91-8000000000",
   address: {

@@ -13,6 +13,7 @@ const links = [
   ["Withdraw", "/#withdraw"],
   ["Rewards", "/#bonus"],
   ["APK guide", "/#apk"],
+  ["Guides", "/blog"],
   ["FAQ", "/#faq"],
 ] as const;
 

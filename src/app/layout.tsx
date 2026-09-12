@@ -9,7 +9,7 @@ import "./globals.css";
 
 const siteConfig = {
   name: "Veer Game",
-  url: "http://veergames1.com",
+  url: "https://veergames1.com",
   description:
     "Veer Game Official Website 2026. Register with invite code 69548120159 to claim ₹100 welcome bonus. Play Wingo Colour Prediction, Aviator, K3, 5D, Slots. Min deposit ₹100, fast UPI withdrawals & 12MB Android APK download.",
 };

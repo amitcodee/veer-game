@@ -22,7 +22,7 @@ export interface BlogPost {
 export const OFFICIAL_REGISTER_URL = "https://www.veergame14.com/#/register?invitationCode=69548120159";
 export const OFFICIAL_INVITE_CODE = "69548120159";
 export const OFFICIAL_TELEGRAM_URL = "https://t.me/+SQ2smTBoOV82ZjY9";
-export const BASE_URL = "http://veergames1.com";
+export const BASE_URL = "https://veergames1.com";
 
 export const blogPosts: BlogPost[] = [
   {
@@ -67,7 +67,7 @@ export const blogPosts: BlogPost[] = [
       <section id="introduction">
         <h2>1. What is Veer Games (Veer Game)?</h2>
         <p>
-          <strong><a href="http://veergames1.com/">Veer Games</a></strong> (commonly searched as <strong><a href="http://veergames1.com/">Veer Game</a></strong>) is India's premier online entertainment and colour prediction ecosystem. Featuring high-frequency interactive games such as <a href="http://veergames1.com/#wingo">Wingo Colour Prediction</a>, K3 Lotre, 5D Lottery, Aviator Crash, Slots, and Limbo, the platform delivers millisecond-fast round results paired with instant banking infrastructure.
+          <strong><a href="https://veergames1.com/">Veer Games</a></strong> (commonly searched as <strong><a href="https://veergames1.com/">Veer Game</a></strong>) is India's premier online entertainment and colour prediction ecosystem. Featuring high-frequency interactive games such as <a href="https://veergames1.com/#wingo">Wingo Colour Prediction</a>, K3 Lotre, 5D Lottery, Aviator Crash, Slots, and Limbo, the platform delivers millisecond-fast round results paired with instant banking infrastructure.
         </p>
         <p>
           Whether you play directly on the web or download the dedicated <a href="/blog/veer-game-app-download-apk">Veer Games Android APK (v2.1)</a>, creating a verified profile with official <a href="/blog/veer-game-invite-code-referral-daily-salary">invite code 69548120159</a> is your gateway to instant ₹100 welcome rewards, ₹100 minimum deposit, and rapid UPI withdrawals.
@@ -80,7 +80,7 @@ export const blogPosts: BlogPost[] = [
           Setting up an account on Veer Game is 100% free and takes less than 60 seconds. Follow these official steps to ensure your account is properly registered under the secured server:
         </p>
         <ol class="blog-list">
-          <li><strong>Step 1:</strong> Visit the official registration portal directly at <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">Veer Game Official Registration</a> or use the <a href="http://veergames1.com/#register">registration section on our homepage</a>.</li>
+          <li><strong>Step 1:</strong> Visit the official registration portal directly at <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">Veer Game Official Registration</a> or use the <a href="https://veergames1.com/#register">registration section on our homepage</a>.</li>
           <li><strong>Step 2: Enter Mobile Number:</strong> Provide a valid 10-digit Indian mobile number capable of receiving SMS OTP verifications.</li>
           <li><strong>Step 3: Create a Strong Password:</strong> Use a combination of uppercase letters, numbers, and symbols (minimum 8 characters) to secure your wallet balance.</li>
           <li><strong>Step 4: Confirm Invitation Code:</strong> Verify that the invitation code field displays <strong>69548120159</strong>. This grants you the welcome bonus voucher and VIP account status.</li>
@@ -125,7 +125,7 @@ export const blogPosts: BlogPost[] = [
             <tr>
               <td>VIP Telegram Access</td>
               <td>Public Only</td>
-              <td>Direct Access to <a href="http://veergames1.com/#telegram">Official Telegram VIP Signals</a></td>
+              <td>Direct Access to <a href="https://veergames1.com/#telegram">Official Telegram VIP Signals</a></td>
             </tr>
           </tbody>
         </table>
@@ -137,14 +137,14 @@ export const blogPosts: BlogPost[] = [
           Once your profile is registered, you can log in any time from any device:
         </p>
         <ul class="blog-list">
-          <li>Navigate to the <a href="http://veergames1.com/#login">Veer Game Login Portal</a>.</li>
+          <li>Navigate to the <a href="https://veergames1.com/#login">Veer Game Login Portal</a>.</li>
           <li>Select your country code (default: +91 for India).</li>
           <li>Input your registered 10-digit mobile number.</li>
           <li>Enter your secure password.</li>
           <li>Click <strong>"Log In"</strong> to access your main dashboard, wallet balances, and game lobby.</li>
         </ul>
         <p>
-          <em>Pro-Tip:</em> If you are using the <a href="http://veergames1.com/#apk">Veer Game Mobile App</a>, you can enable biometrics (Fingerprint or Face ID) for 1-tap instant login without entering passwords repeatedly.
+          <em>Pro-Tip:</em> If you are using the <a href="https://veergames1.com/#apk">Veer Game Mobile App</a>, you can enable biometrics (Fingerprint or Face ID) for 1-tap instant login without entering passwords repeatedly.
         </p>
       </section>
 
@@ -156,7 +156,7 @@ export const blogPosts: BlogPost[] = [
         <ul class="blog-list">
           <li><strong>Never share your password or OTP:</strong> Official Veer Game support staff will NEVER ask for your password or SMS verification codes.</li>
           <li><strong>Set a dedicated Withdrawal Password:</strong> Inside your user center, configure a 6-digit withdrawal PIN that is distinct from your main login password.</li>
-          <li><strong>Verify URL Authenticity:</strong> Always make sure you are accessing through verified domains like <a href="http://veergames1.com/">veergames1.com</a> or the official direct partner <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">veergame14.com</a>.</li>
+          <li><strong>Verify URL Authenticity:</strong> Always make sure you are accessing through verified domains like <a href="https://veergames1.com/">veergames1.com</a> or the official direct partner <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">veergame14.com</a>.</li>
         </ul>
       </section>
 
@@ -176,7 +176,7 @@ export const blogPosts: BlogPost[] = [
       <section id="banking-link">
         <h2>7. Linking Bank Account for ₹100 Min Deposit & Withdrawals</h2>
         <p>
-          After successfully logging in, head to the <a href="http://veergames1.com/#deposit">Deposit & Wallet Section</a>. Veer Game supports seamless UPI (PhonePe, Google Pay, Paytm) with a minimum deposit of just <strong>₹100</strong>. When you are ready to cash out your winnings, navigate to <a href="http://veergames1.com/#withdraw">Withdraw</a>, bind your Bank IFSC and Account Number, and enjoy rapid payouts.
+          After successfully logging in, head to the <a href="https://veergames1.com/#deposit">Deposit & Wallet Section</a>. Veer Game supports seamless UPI (PhonePe, Google Pay, Paytm) with a minimum deposit of just <strong>₹100</strong>. When you are ready to cash out your winnings, navigate to <a href="https://veergames1.com/#withdraw">Withdraw</a>, bind your Bank IFSC and Account Number, and enjoy rapid payouts.
         </p>
       </section>
     `,
@@ -242,10 +242,10 @@ export const blogPosts: BlogPost[] = [
       <section id="apk-overview">
         <h2>1. Official Veer Games APK v2.1 Overview</h2>
         <p>
-          The <strong><a href="http://veergames1.com/#apk">Veer Games APK</a></strong> (also known as <strong><a href="http://veergames1.com/#apk">Veer Game APK v2.1</a></strong>) is the official Android client built for Indian players who demand ultra-fast round execution, smooth animations, and top-grade security.
+          The <strong><a href="https://veergames1.com/#apk">Veer Games APK</a></strong> (also known as <strong><a href="https://veergames1.com/#apk">Veer Game APK v2.1</a></strong>) is the official Android client built for Indian players who demand ultra-fast round execution, smooth animations, and top-grade security.
         </p>
         <p>
-          While the web portal at <a href="http://veergames1.com/">veergames1.com</a> runs across all desktop and mobile browsers, the native Android application reduces latency to under 20ms—vital for executing real-time <a href="/blog/wingo-colour-prediction-tricks-veer-game">Wingo colour prediction strategies</a> and cashouts on Aviator. Before installing, ensure you have registered your account via the <a href="/blog/veer-game-login-registration-guide">Veer Games Login &amp; Registration Portal</a>.
+          While the web portal at <a href="https://veergames1.com/">veergames1.com</a> runs across all desktop and mobile browsers, the native Android application reduces latency to under 20ms—vital for executing real-time <a href="/blog/wingo-colour-prediction-tricks-veer-game">Wingo colour prediction strategies</a> and cashouts on Aviator. Before installing, ensure you have registered your account via the <a href="/blog/veer-game-login-registration-guide">Veer Games Login &amp; Registration Portal</a>.
         </p>
       </section>
 
@@ -302,7 +302,7 @@ export const blogPosts: BlogPost[] = [
         </p>
         <ol class="blog-list">
           <li><strong>Step 1 - Register First:</strong> Ensure you have created your account first at <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">Veer Game Register (Code 69548120159)</a>.</li>
-          <li><strong>Step 2 - Download the APK:</strong> Head to the <a href="http://veergames1.com/#apk">Veer Game APK Section</a> and tap <em>"Download Official APK"</em>. Your browser will initiate the 12.4 MB package download.</li>
+          <li><strong>Step 2 - Download the APK:</strong> Head to the <a href="https://veergames1.com/#apk">Veer Game APK Section</a> and tap <em>"Download Official APK"</em>. Your browser will initiate the 12.4 MB package download.</li>
           <li><strong>Step 3 - Enable Unknown Sources:</strong> If prompted by Android, go to <em>Settings &gt; Security &gt; Install Unknown Apps</em> and toggle permission on for your browser (Chrome or Brave).</li>
           <li><strong>Step 4 - Complete Installation:</strong> Open your Downloads folder, tap <code>veergame-v2.1.apk</code>, and click <em>"Install"</em>.</li>
           <li><strong>Step 5 - Open & Log In:</strong> Launch the app from your home screen, enter your phone number and password, and begin playing!</li>
@@ -313,7 +313,7 @@ export const blogPosts: BlogPost[] = [
         <h2>4. Benefits of Using the App vs Web Browser</h2>
         <ul class="blog-list">
           <li><strong>Ultra-Low Latency:</strong> Local asset caching ensures color charts and Aviator flight curves render with zero stutter.</li>
-          <li><strong>Real-Time Telegram Signal Alerts:</strong> Receive notifications directly on your phone when high-accuracy signals drop in our <a href="http://veergames1.com/#telegram">Official Telegram Channel</a>.</li>
+          <li><strong>Real-Time Telegram Signal Alerts:</strong> Receive notifications directly on your phone when high-accuracy signals drop in our <a href="https://veergames1.com/#telegram">Official Telegram Channel</a>.</li>
           <li><strong>Biometric Security:</strong> Unlock your game account instantly using fingerprint or facial recognition.</li>
           <li><strong>Lower Data Usage:</strong> Consumes 70% less cellular data compared to repeatedly reloading browser web scripts.</li>
         </ul>
@@ -322,7 +322,7 @@ export const blogPosts: BlogPost[] = [
       <section id="safety-audit">
         <h2>5. Security & Antivirus Verification</h2>
         <p>
-          Every build of the Veer Game APK is digitally signed and audited through VirusTotal, Lookout, and Google Play Protect standards. It requests zero unnecessary system permissions—no contacts, no camera, and no storage tracking. All banking data transmitted for your <a href="http://veergames1.com/#deposit">₹100 deposits</a> and <a href="http://veergames1.com/#withdraw">withdrawals</a> is secured with 256-bit TLS encryption.
+          Every build of the Veer Game APK is digitally signed and audited through VirusTotal, Lookout, and Google Play Protect standards. It requests zero unnecessary system permissions—no contacts, no camera, and no storage tracking. All banking data transmitted for your <a href="https://veergames1.com/#deposit">₹100 deposits</a> and <a href="https://veergames1.com/#withdraw">withdrawals</a> is secured with 256-bit TLS encryption.
         </p>
       </section>
 
@@ -334,7 +334,7 @@ export const blogPosts: BlogPost[] = [
         <ul class="blog-list">
           <li>This is a generic prompt shown by Android for all third-party APKs downloaded outside Google Play.</li>
           <li>Tap <strong>"More Details"</strong> and then click <strong>"Install Anyway (Unsafe)"</strong>.</li>
-          <li>Rest assured, the APK from <a href="http://veergames1.com/">veergames1.com</a> is completely authentic and verified.</li>
+          <li>Rest assured, the APK from <a href="https://veergames1.com/">veergames1.com</a> is completely authentic and verified.</li>
         </ul>
       </section>
     `,
@@ -401,7 +401,7 @@ export const blogPosts: BlogPost[] = [
       <section id="wingo-fundamentals">
         <h2>1. Understanding Wingo Fundamentals & Odds on Veer Games</h2>
         <p>
-          <strong><a href="http://veergames1.com/#wingo">Wingo Colour Prediction</a></strong> is the flagship game on <strong><a href="http://veergames1.com/">Veer Games</a></strong> (Veer Game), celebrated across India for its simplicity, speed, and mathematical predictability. Verified by independent <a href="/blog/veer-game-real-or-fake-withdrawal-proof">security and fairness audits</a>, players predict outcomes generated by an audited cryptographic random number generator (RNG) producing digits from <strong>0 through 9</strong> mapped to <strong>Green</strong>, <strong>Red</strong>, and <strong>Violet</strong>.
+          <strong><a href="https://veergames1.com/#wingo">Wingo Colour Prediction</a></strong> is the flagship game on <strong><a href="https://veergames1.com/">Veer Games</a></strong> (Veer Game), celebrated across India for its simplicity, speed, and mathematical predictability. Verified by independent <a href="/blog/veer-game-real-or-fake-withdrawal-proof">security and fairness audits</a>, players predict outcomes generated by an audited cryptographic random number generator (RNG) producing digits from <strong>0 through 9</strong> mapped to <strong>Green</strong>, <strong>Red</strong>, and <strong>Violet</strong>.
         </p>
         <p>
           Veer Games offers four distinct high-speed intervals accessible on both web and the official <a href="/blog/veer-game-app-download-apk">Android APK</a>:
@@ -516,14 +516,14 @@ export const blogPosts: BlogPost[] = [
           </tbody>
         </table>
         <p>
-          <em>Note:</em> Always start with a baseline bet proportional to your wallet balance. With the accessible <a href="http://veergames1.com/#deposit">minimum deposit of ₹100 on Veer Game</a>, starting at ₹5 or ₹10 gives you healthy 4 to 5 levels of cushion.
+          <em>Note:</em> Always start with a baseline bet proportional to your wallet balance. With the accessible <a href="https://veergames1.com/#deposit">minimum deposit of ₹100 on Veer Game</a>, starting at ₹5 or ₹10 gives you healthy 4 to 5 levels of cushion.
         </p>
       </section>
 
       <section id="chart-patterns">
         <h2>4. The 4 Most Powerful Chart Trend Patterns</h2>
         <p>
-          Always study the bottom history chart on the <a href="http://veergames1.com/#wingo">Wingo Game Screen</a> before committing funds. Look for these four classical patterns:
+          Always study the bottom history chart on the <a href="https://veergames1.com/#wingo">Wingo Game Screen</a> before committing funds. Look for these four classical patterns:
         </p>
         <ol class="blog-list">
           <li><strong>The Straight Dragon Streak (Single Color Run):</strong> When Red or Green repeats 4 or more consecutive times (e.g., Red - Red - Red - Red). Never bet against a dragon; follow the trend until it breaks.</li>
@@ -539,7 +539,7 @@ export const blogPosts: BlogPost[] = [
           Don't trade alone. The <a href="https://t.me/+SQ2smTBoOV82ZjY9" target="_blank" rel="noopener noreferrer">Official Veer Game Telegram VIP Community</a> publishes daily scheduled prediction sessions conducted by certified data analysts with historical win rates exceeding 85%.
         </p>
         <p>
-          Members receive round numbers, color choices, and risk level warnings in real-time. Join for free at <a href="http://veergames1.com/#telegram">our Telegram Portal</a>.
+          Members receive round numbers, color choices, and risk level warnings in real-time. Join for free at <a href="https://veergames1.com/#telegram">our Telegram Portal</a>.
         </p>
       </section>
 
@@ -547,7 +547,7 @@ export const blogPosts: BlogPost[] = [
         <h2>6. Golden Rules of Risk Control</h2>
         <ul class="blog-list">
           <li><strong>Set a Daily Stop-Loss and Profit Target:</strong> Stop playing once you reach 20% to 30% profit on your balance. Never gamble out of anger.</li>
-          <li><strong>Withdraw Profits Regularly:</strong> Do not leave large excess balances in your active gaming wallet. Use Veer Game's instant <a href="http://veergames1.com/#withdraw">withdrawal feature</a> to lock profits into your personal bank.</li>
+          <li><strong>Withdraw Profits Regularly:</strong> Do not leave large excess balances in your active gaming wallet. Use Veer Game's instant <a href="https://veergames1.com/#withdraw">withdrawal feature</a> to lock profits into your personal bank.</li>
           <li><strong>Never Buy "Prediction Software/Hacks":</strong> Anyone attempting to sell "100% Guaranteed Wingo Hack Mods" is a scammer. Veer Game's server uses cryptographic hashing that cannot be cracked externally.</li>
         </ul>
       </section>
@@ -618,7 +618,7 @@ export const blogPosts: BlogPost[] = [
           With dozens of gaming and colour prediction apps in the Indian market, the question <strong>"Is Veer Games Real or Fake?"</strong> is essential for every new player.
         </p>
         <p>
-          Following our exhaustive security, banking, and RNG fairness audit of the platform operating under <a href="http://veergames1.com/">veergames1.com</a> and its partner cashier <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">veergame14.com</a>, <strong>Veer Games (Veer Game) is 100% verified as a legitimate, paying gaming portal</strong>.
+          Following our exhaustive security, banking, and RNG fairness audit of the platform operating under <a href="https://veergames1.com/">veergames1.com</a> and its partner cashier <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">veergame14.com</a>, <strong>Veer Games (Veer Game) is 100% verified as a legitimate, paying gaming portal</strong>.
         </p>
         <p>
           More than 500,000 active Indian players log in daily to enjoy <a href="/blog/wingo-colour-prediction-tricks-veer-game">Wingo predictions</a> and cash out via IMPS/UPI. Before proceeding, make sure you download the official <a href="/blog/veer-game-app-download-apk">Veer Games APK v2.1</a> and create your profile using the verified <a href="/blog/veer-game-login-registration-guide">registration guide</a>.
@@ -667,7 +667,7 @@ export const blogPosts: BlogPost[] = [
           </tbody>
         </table>
         <p>
-          All withdrawal requests were credited directly to our test accounts within 15 minutes of approval. You can view updated withdrawal guides and banking verification on our <a href="http://veergames1.com/#withdraw">Withdrawal Policy Page</a>.
+          All withdrawal requests were credited directly to our test accounts within 15 minutes of approval. You can view updated withdrawal guides and banking verification on our <a href="https://veergames1.com/#withdraw">Withdrawal Policy Page</a>.
         </p>
       </section>
 
@@ -678,7 +678,7 @@ export const blogPosts: BlogPost[] = [
         </p>
         <ul class="blog-list">
           <li><strong>256-Bit SSL/TLS Encryption:</strong> Ensures that your passwords, banking coordinates, and payment requests cannot be intercepted.</li>
-          <li><strong>Provably Fair RNG Engine:</strong> Game rounds in <a href="http://veergames1.com/#wingo">Wingo</a> and <a href="http://veergames1.com/#games">Dice/5D</a> utilize cryptographically randomized seeds generated on secure cloud servers.</li>
+          <li><strong>Provably Fair RNG Engine:</strong> Game rounds in <a href="https://veergames1.com/#wingo">Wingo</a> and <a href="https://veergames1.com/#games">Dice/5D</a> utilize cryptographically randomized seeds generated on secure cloud servers.</li>
           <li><strong>Separate Player Funds Account:</strong> Player deposit balances are ring-fenced from company operating capital, ensuring prompt payout liquidity at all times.</li>
         </ul>
       </section>
@@ -689,7 +689,7 @@ export const blogPosts: BlogPost[] = [
           Predatory platforms often force players to deposit ₹1,000 to ₹5,000 before testing the software. Veer Game maintains an ultra-accessible <strong>₹100 minimum deposit</strong>.
         </p>
         <p>
-          This allows every new member to test the deposit process, place low-stakes ₹10 bets, and perform a live test withdrawal with zero financial strain. Learn more on our <a href="http://veergames1.com/#deposit">Deposit Methods Page</a>.
+          This allows every new member to test the deposit process, place low-stakes ₹10 bets, and perform a live test withdrawal with zero financial strain. Learn more on our <a href="https://veergames1.com/#deposit">Deposit Methods Page</a>.
         </p>
       </section>
 
@@ -699,7 +699,7 @@ export const blogPosts: BlogPost[] = [
           Due to Veer Game's widespread popularity, malicious third parties often set up clone websites attempting to capture passwords or steal deposits. To keep your money safe:
         </p>
         <ul class="blog-list">
-          <li>Always verify that the domain name is <a href="http://veergames1.com/">veergames1.com</a> or the direct official partner <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">veergame14.com</a>.</li>
+          <li>Always verify that the domain name is <a href="https://veergames1.com/">veergames1.com</a> or the direct official partner <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">veergame14.com</a>.</li>
           <li>Confirm that the invitation code is <strong>69548120159</strong>.</li>
           <li>Never transfer money to personal UPI IDs sent to you by strangers on WhatsApp or unofficial groups. All deposits MUST be initiated inside the official Veer Game payment cashier.</li>
           <li>Only follow announcements from our <a href="https://t.me/+SQ2smTBoOV82ZjY9" target="_blank" rel="noopener noreferrer">Official Telegram Channel</a>.</li>
@@ -776,7 +776,7 @@ export const blogPosts: BlogPost[] = [
       <section id="what-is-invite-code">
         <h2>1. What is Veer Games Invite Code 69548120159?</h2>
         <p>
-          The <strong>Veer Games Invite Code</strong> (also referred to as the <strong><a href="http://veergames1.com/#referral">Veer Game Referral Code</a></strong>) is the master agency invitation code required during registration to unlock VIP agent salary rights and highest commission rebate brackets.
+          The <strong>Veer Games Invite Code</strong> (also referred to as the <strong><a href="https://veergames1.com/#referral">Veer Game Referral Code</a></strong>) is the master agency invitation code required during registration to unlock VIP agent salary rights and highest commission rebate brackets.
         </p>
         <p>
           The official verified code for 2026 is <strong>69548120159</strong>. By entering this code—or completing <a href="/blog/veer-game-login-registration-guide">Veer Games registration</a> through <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer">this direct official signup link</a>—you immediately qualify for the ₹100 welcome bonus, access to the <a href="/blog/wingo-colour-prediction-tricks-veer-game">Wingo VIP analysis room</a>, and entry into the <strong>Veer Games Agent Daily Salary Program</strong>.
@@ -787,7 +787,7 @@ export const blogPosts: BlogPost[] = [
         <h2>2. New User Signup Perks with Code 69548120159</h2>
         <ul class="blog-list">
           <li><strong>Welcome Cash Voucher:</strong> Get up to ₹100 credited directly toward your initial gameplay rounds.</li>
-          <li><strong>First Deposit Boost:</strong> Deposit just <a href="http://veergames1.com/#deposit">₹100 or more</a> on your first transaction to trigger a 100% promotional recharge match.</li>
+          <li><strong>First Deposit Boost:</strong> Deposit just <a href="https://veergames1.com/#deposit">₹100 or more</a> on your first transaction to trigger a 100% promotional recharge match.</li>
           <li><strong>Loss Rebate Protection:</strong> Qualify for weekly cashback on net gaming turnover.</li>
           <li><strong>Direct Agency Master Rights:</strong> Immediately generate your own sub-invitation links to start earning passive income.</li>
         </ul>
@@ -796,7 +796,7 @@ export const blogPosts: BlogPost[] = [
       <section id="commission-tiers">
         <h2>3. The 6-Tier Lifetime Commission Structure</h2>
         <p>
-          Unlike standard referral schemes that pay a one-off bonus, Veer Game provides a <strong>multi-tier lifetime turnover commission</strong>. Every time someone in your subordinate network places a bet on <a href="http://veergames1.com/#wingo">Wingo</a>, <a href="http://veergames1.com/#games">Aviator</a>, or Slots, a percentage of their betting volume is deposited into your commission wallet—whether they win or lose!
+          Unlike standard referral schemes that pay a one-off bonus, Veer Game provides a <strong>multi-tier lifetime turnover commission</strong>. Every time someone in your subordinate network places a bet on <a href="https://veergames1.com/#wingo">Wingo</a>, <a href="https://veergames1.com/#games">Aviator</a>, or Slots, a percentage of their betting volume is deposited into your commission wallet—whether they win or lose!
         </p>
         <table>
           <thead>
@@ -909,8 +909,8 @@ export const blogPosts: BlogPost[] = [
           Ready to start your journey as an official Veer Game Agent? Follow these high-converting promotion strategies:
         </p>
         <ol class="blog-list">
-          <li><strong>Create a Telegram Community:</strong> Share accurate Wingo prediction analysis and strategies sourced from the <a href="http://veergames1.com/#telegram">Official Telegram Channel</a>. Pin your invite link at the top.</li>
-          <li><strong>Produce YouTube Video Tutorials:</strong> Showcase how easy it is to register, deposit <a href="http://veergames1.com/#deposit">₹100 via UPI</a>, and perform live withdrawals. People trust transparent proof!</li>
+          <li><strong>Create a Telegram Community:</strong> Share accurate Wingo prediction analysis and strategies sourced from the <a href="https://veergames1.com/#telegram">Official Telegram Channel</a>. Pin your invite link at the top.</li>
+          <li><strong>Produce YouTube Video Tutorials:</strong> Showcase how easy it is to register, deposit <a href="https://veergames1.com/#deposit">₹100 via UPI</a>, and perform live withdrawals. People trust transparent proof!</li>
           <li><strong>Share on WhatsApp & Instagram:</strong> Create engaging short-form reels explaining color prediction rules and sharing daily payout screenshots.</li>
         </ol>
       </section>
@@ -921,7 +921,7 @@ export const blogPosts: BlogPost[] = [
           Your agency commission wallet is completely separate from your game betting wallet. You do NOT have to wager or roll over your commission funds before cashing out!
         </p>
         <p>
-          Simply click <em>"Commission Transfer to Balance"</em> or withdraw directly to your verified bank account or UPI address through the <a href="http://veergames1.com/#withdraw">Veer Game Withdrawal System</a>. Funds typically reach your bank account within 10 to 15 minutes.
+          Simply click <em>"Commission Transfer to Balance"</em> or withdraw directly to your verified bank account or UPI address through the <a href="https://veergames1.com/#withdraw">Veer Game Withdrawal System</a>. Funds typically reach your bank account within 10 to 15 minutes.
         </p>
       </section>
     `,

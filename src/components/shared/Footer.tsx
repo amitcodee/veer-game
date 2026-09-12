@@ -41,12 +41,13 @@ export default function Footer() {
         </div>
         <div>
           <h3>Platform Guides</h3>
-          <Link href="/#register">How to Register</Link>
-          <Link href="/#login">Login Guide</Link>
-          <Link href="/#wingo">Wingo Colour Prediction</Link>
-          <Link href="/#telegram">Telegram Channel</Link>
-          <Link href="/#referral">Refer & Earn (Agent Salary)</Link>
-          <Link href="/#giftcode">Gift Codes</Link>
+          <Link href="/blog">Official Guides &amp; Blog</Link>
+          <Link href="/blog/veer-game-login-registration-guide">Veer Game Login &amp; Register</Link>
+          <Link href="/blog/veer-game-app-download-apk">APK Download v2.1</Link>
+          <Link href="/blog/wingo-colour-prediction-tricks-veer-game">Wingo Tricks &amp; Formula</Link>
+          <Link href="/blog/veer-game-real-or-fake-withdrawal-proof">Real or Fake Audit &amp; Proof</Link>
+          <Link href="/blog/veer-game-invite-code-referral-daily-salary">Invite Code 69548120159</Link>
+          <Link href="/#referral">Refer &amp; Earn (Agent Salary)</Link>
         </div>
         <div>
           <h3>Trust & Legal</h3>

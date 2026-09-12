@@ -6,8 +6,37 @@ import GamesCategoryTabs from "@/components/home/GamesCategoryTabs";
 import RegisterButton from "@/components/shared/RegisterButton";
 
 export const metadata: Metadata = {
-  title: "Veer Game - Login, Register, APK Download & Online Gaming Platform in India 2026",
-  description: "Veer Game is a popular online gaming app in India with games like Wingo Colour Prediction, K3, 5D, Aviator, Slots, Plinko, Limbo & Poker. Register now and get up to Rs.100 welcome bonus!",
+  title: "Veer Games (Veer Game) Official Website 2026 | Login, Register & APK Download (Code: 69548120159)",
+  description:
+    "Veer Games (Veer Game) Official Portal 2026. Register with invite code 69548120159 to claim ₹100 welcome bonus. Play Wingo Colour Prediction, Aviator, K3, 5D. Min deposit ₹100, fast UPI withdrawals & 12MB APK download.",
+  keywords: [
+    "Veer Games",
+    "Veer Game",
+    "Veer Games official website",
+    "Veer Game official website",
+    "Veer Games login",
+    "Veer Game login",
+    "Veer Games register",
+    "Veer Game register",
+    "Veer Games app download",
+    "Veer Game app download",
+    "Veer Games APK download",
+    "Veer Game APK download",
+    "Veer Games invite code 69548120159",
+    "Veer Games referral code",
+    "Wingo colour prediction",
+    "Veer Games real or fake",
+    "Veer Games minimum deposit 100",
+    "Veer Games telegram channel",
+    "Veer Games login link",
+    "Veer Games sign up",
+    "Veer Games agent salary",
+    "Veer Games 2026",
+    "veergames1.com",
+  ],
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const games = [

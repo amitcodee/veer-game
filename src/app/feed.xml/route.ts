@@ -1,5 +1,14 @@
 import { blogPosts, BASE_URL } from "@/data/blogData";
 
+function escapeXml(unsafe: string): string {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
 export async function GET() {
   const feedItems = blogPosts
     .map(
@@ -10,9 +19,9 @@ export async function GET() {
       <guid isPermaLink="true">${BASE_URL}/blog/${post.slug}</guid>
       <description><![CDATA[${post.excerpt}]]></description>
       <pubDate>${new Date(post.datePublished).toUTCString()}</pubDate>
-      <author>support@veergames1.com (${post.author})</author>
-      <category>${post.category}</category>
-      <enclosure url="${post.image}" length="0" type="image/jpeg" />
+      <author>support@veergames1.com (${escapeXml(post.author)})</author>
+      <category><![CDATA[${post.category}]]></category>
+      <enclosure url="${escapeXml(post.image)}" length="0" type="image/jpeg" />
     </item>`
     )
     .join("\n");
@@ -20,16 +29,16 @@ export async function GET() {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Veer Game Official Updates &amp; Strategy Guides</title>
+    <title><![CDATA[Veer Game Official Updates & Strategy Guides]]></title>
     <link>${BASE_URL}</link>
-    <description>Latest official guides, login tutorials, APK updates, Wingo prediction strategies, and agent salary insights for Veer Game.</description>
+    <description><![CDATA[Latest official guides, login tutorials, APK updates, Wingo prediction strategies, and agent salary insights for Veer Game.]]></description>
     <language>en-IN</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${BASE_URL}/feed.xml" rel="self" type="application/rss+xml" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <image>
       <url>${BASE_URL}/images/logo/logo.png</url>
-      <title>Veer Game</title>
+      <title><![CDATA[Veer Game]]></title>
       <link>${BASE_URL}</link>
     </image>
     ${feedItems}

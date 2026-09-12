@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     siteName: "Veer Game",
     images: [
       {
-        url: "https://picsum.photos/id/1073/1200/630",
-        width: 1200,
-        height: 630,
+        url: `${BASE_URL}/images/imgs/veergame-1024x683.jpeg`,
+        width: 1024,
+        height: 683,
         alt: "Veer Game Official Blog and Strategy Hub",
       },
     ],
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Veer Game Official Blog & Platform Guides",
     description:
       "All official guides for Veer Game login, registration, APK download, and Wingo strategies.",
-    images: ["https://picsum.photos/id/1073/1200/630"],
+    images: [`${BASE_URL}/images/imgs/veergame-1024x683.jpeg`],
   },
 };
 

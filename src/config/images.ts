@@ -1,60 +1,58 @@
 /**
  * Centralized Image Configuration for Veer Game
- *
- * This file contains all image URLs used throughout the site.
- * Uses external placeholder services for professional-looking images:
- * - picsum.photos for general images
- * - ui-avatars.com for avatars/team photos
- * - placehold.co for specific sized placeholders
+ * Uses authentic local screenshots and promotional assets from /images/imgs/
  */
 
-// Helper function to generate Picsum URLs with specific IDs for consistency
-const picsum = (id: number, width: number, height: number) =>
-  `https://picsum.photos/id/${id}/${width}/${height}`;
+export const localImgs = {
+  heroBanner: "/images/imgs/veergame-1024x683.jpeg",
+  appLandscape: "/images/imgs/veer-game-app-1-1024x683.jpeg",
+  appMobileScreen: "/images/imgs/veer-game-app-465x1024.jpeg",
+  loginScreen: "/images/imgs/veer-game-login-573x1024.jpeg",
+  salaryChart: "/images/imgs/veer-game-salary-1024x936.jpeg",
+  walletAudit: "/images/imgs/veer-493x1024.jpeg",
+  squareBadge: "/images/imgs/veer-game-300x300.jpeg",
+  logo: "/images/logo/logo.png",
+};
 
 // Helper function to generate UI Avatars
 const avatar = (name: string, size: number = 200) =>
-  `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=${size}&background=7c3aed&color=fff&bold=true&format=png`;
+  `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=${size}&background=ff5d43&color=fff&bold=true&format=png`;
 
-// Helper function for placeholder.co
-const placeholder = (width: number, height: number, text: string, bgColor: string = '7c3aed', textColor: string = 'ffffff') =>
-  `https://placehold.co/${width}x${height}/${bgColor}/${textColor}?text=${encodeURIComponent(text)}`;
-
-// Game images with gaming-themed placeholders
+// Game images with local authentic assets
 export const gameImages = {
   colorPrediction: {
-    thumbnail: picsum(206, 400, 300), // Colorful abstract
-    banner: picsum(206, 800, 400),
+    thumbnail: localImgs.heroBanner,
+    banner: localImgs.heroBanner,
     icon: "/images/games/color-prediction-icon.svg",
     alt: "Color Prediction Game - Predict colors and win rewards",
   },
   diceGames: {
-    thumbnail: picsum(534, 400, 300), // Dice/gaming themed
-    banner: picsum(534, 800, 400),
+    thumbnail: localImgs.appLandscape,
+    banner: localImgs.appLandscape,
     icon: "/images/games/dice-icon.svg",
     alt: "Dice Games - Roll the dice and test your luck",
   },
   slots: {
-    thumbnail: picsum(250, 400, 300), // Casino/slots themed
-    banner: picsum(250, 800, 400),
+    thumbnail: localImgs.squareBadge,
+    banner: localImgs.heroBanner,
     icon: "/images/games/slots-icon.svg",
     alt: "Slots - Spin the reels for jackpots",
   },
   strategyGames: {
-    thumbnail: picsum(1003, 400, 300), // Strategy/thinking
-    banner: picsum(1003, 800, 400),
+    thumbnail: localImgs.appMobileScreen,
+    banner: localImgs.appLandscape,
     icon: "/images/games/strategy-icon.svg",
     alt: "Strategy Games - Outsmart your opponents",
   },
   aviator: {
-    thumbnail: picsum(146, 400, 300), // Sky/flight themed
-    banner: picsum(146, 800, 400),
+    thumbnail: localImgs.appLandscape,
+    banner: localImgs.heroBanner,
     icon: "/images/games/aviator-icon.svg",
     alt: "Aviator - Ride the wave and cash out",
   },
   spinWin: {
-    thumbnail: picsum(186, 400, 300), // Spinning/circular
-    banner: picsum(186, 800, 400),
+    thumbnail: localImgs.squareBadge,
+    banner: localImgs.appLandscape,
     icon: "/images/games/spin-icon.svg",
     alt: "Spin and Win - Daily prizes and bonuses",
   },
@@ -62,14 +60,14 @@ export const gameImages = {
 
 // Game category images
 export const categoryImages = {
-  prediction: picsum(206, 200, 200),
-  diceCards: picsum(534, 200, 200),
-  slots: picsum(250, 200, 200),
-  crashGames: picsum(146, 200, 200),
-  strategy: picsum(1003, 200, 200),
-  spinGames: picsum(186, 200, 200),
-  sports: picsum(54, 200, 200),
-  premium: picsum(238, 200, 200),
+  prediction: localImgs.heroBanner,
+  diceCards: localImgs.appLandscape,
+  slots: localImgs.squareBadge,
+  crashGames: localImgs.appMobileScreen,
+  strategy: localImgs.loginScreen,
+  spinGames: localImgs.squareBadge,
+  sports: localImgs.appLandscape,
+  premium: localImgs.salaryChart,
 };
 
 // Team member images
@@ -86,7 +84,6 @@ export const teamImages = {
     photo: avatar("CS", 200),
     alt: "Veer Game Support Team - 24/7 Customer Assistance",
   },
-  // Individual team members for enhanced about page
   members: [
     { name: "Security Team", photo: avatar("Security", 200), role: "Data Protection & Encryption" },
     { name: "Game Developers", photo: avatar("Developers", 200), role: "Fair Play & Innovation" },
@@ -100,33 +97,33 @@ export const teamImages = {
 // Blog post images
 export const blogImages = {
   colorPredictionStrategy: {
-    thumbnail: picsum(206, 600, 400),
-    featured: picsum(206, 1200, 600),
-    alt: "Color Prediction Strategy Guide",
+    thumbnail: localImgs.heroBanner,
+    featured: localImgs.heroBanner,
+    alt: "Wingo Color Prediction Strategy Guide",
   },
   beginnersGuide: {
-    thumbnail: picsum(1073, 600, 400),
-    featured: picsum(1073, 1200, 600),
-    alt: "Beginner's Guide to Veer Game",
+    thumbnail: localImgs.loginScreen,
+    featured: localImgs.loginScreen,
+    alt: "Veer Game Login and Registration Guide",
   },
-  topGames: {
-    thumbnail: picsum(96, 600, 400),
-    featured: picsum(96, 1200, 600),
-    alt: "Top Games to Play This Month",
+  apkDownload: {
+    thumbnail: localImgs.appLandscape,
+    featured: localImgs.appLandscape,
+    alt: "Veer Game Android APK v2.1 Download",
   },
   secureGaming: {
-    thumbnail: picsum(60, 600, 400),
-    featured: picsum(60, 1200, 600),
-    alt: "Secure Gaming Tips",
+    thumbnail: localImgs.walletAudit,
+    featured: localImgs.walletAudit,
+    alt: "Veer Game Real or Fake Audit & Payout Proof",
   },
   referralProgram: {
-    thumbnail: picsum(64, 600, 400),
-    featured: picsum(64, 1200, 600),
-    alt: "Referral Program Guide",
+    thumbnail: localImgs.salaryChart,
+    featured: localImgs.salaryChart,
+    alt: "Veer Game Invite Code 69548120159 & Agent Daily Salary",
   },
   aviatorStrategies: {
-    thumbnail: picsum(146, 600, 400),
-    featured: picsum(146, 1200, 600),
+    thumbnail: localImgs.appLandscape,
+    featured: localImgs.appLandscape,
     alt: "Aviator Game Strategies",
   },
 };
@@ -134,100 +131,98 @@ export const blogImages = {
 // Promotion images
 export const promotionImages = {
   welcomeBonus: {
-    banner: picsum(238, 800, 400),
-    thumbnail: picsum(238, 400, 300),
-    alt: "Welcome Bonus - Get 21 rupees free on signup",
+    banner: localImgs.heroBanner,
+    thumbnail: localImgs.squareBadge,
+    alt: "Welcome Bonus - Get up to ₹100 free on signup",
   },
-  depositBonus: {
-    banner: picsum(96, 800, 400),
-    thumbnail: picsum(96, 400, 300),
-    alt: "100% Deposit Bonus - Double your first deposit",
+  dailyCheckin: {
+    banner: localImgs.appLandscape,
+    thumbnail: localImgs.squareBadge,
+    alt: "Daily Check-in Bonus",
   },
-  referEarn: {
-    banner: picsum(64, 800, 400),
-    thumbnail: picsum(64, 400, 300),
-    alt: "Refer and Earn - Get 500 rupees per referral",
-  },
-  dailyRewards: {
-    banner: picsum(170, 800, 400),
-    thumbnail: picsum(170, 400, 300),
-    alt: "Daily Rewards - Win up to 10000 rupees daily",
-  },
-  weeklyTournament: {
-    banner: picsum(20, 800, 400),
-    thumbnail: picsum(20, 400, 300),
-    alt: "Weekly Tournament - Compete for big prizes",
+  inviteEarn: {
+    banner: localImgs.salaryChart,
+    thumbnail: localImgs.salaryChart,
+    alt: "Invite & Earn - Daily Agent Salary",
   },
   vipRewards: {
-    banner: picsum(248, 800, 400),
-    thumbnail: picsum(248, 400, 300),
-    alt: "VIP Rewards - Exclusive benefits for top players",
+    banner: localImgs.heroBanner,
+    thumbnail: localImgs.squareBadge,
+    alt: "VIP Rewards Program",
+  },
+  rechargeBonus: {
+    banner: localImgs.walletAudit,
+    thumbnail: localImgs.walletAudit,
+    alt: "Recharge Bonus - Extra rewards on UPI deposits",
+  },
+  cashback: {
+    banner: localImgs.appLandscape,
+    thumbnail: localImgs.squareBadge,
+    alt: "Cashback - Real-time turnover rebate",
   },
 };
 
-// Hero section images
-export const heroImages = {
-  phoneMockup: picsum(306, 400, 800),
-  backgroundPattern: picsum(281, 1920, 1080),
-  appScreenshot: picsum(3, 400, 700),
-  alt: {
-    phoneMockup: "Veer Game Mobile App Preview",
-    backgroundPattern: "Gaming Background Pattern",
-    appScreenshot: "Veer Game App Screenshot",
+// App download section images
+export const appImages = {
+  phoneMockup: localImgs.appMobileScreen,
+  backgroundPattern: localImgs.heroBanner,
+  appScreenshot: localImgs.appLandscape,
+  qrCode: "/images/qr-code.png",
+  badges: {
+    googlePlay: "/images/badges/google-play-badge.svg",
+    appStore: "/images/badges/app-store-badge.svg",
+    directApk: "/images/badges/direct-apk-badge.svg",
   },
 };
 
-// Icon images (for features, benefits, etc.)
-export const iconImages = {
-  security: "/images/icons/security.svg",
-  fastPayouts: "/images/icons/fast-payouts.svg",
-  support: "/images/icons/support.svg",
-  fairPlay: "/images/icons/fair-play.svg",
-  games: "/images/icons/games.svg",
-  rewards: "/images/icons/rewards.svg",
+// Trust and security badges
+export const trustBadges = [
+  {
+    icon: "/images/badges/ssl-secure.svg",
+    label: "256-Bit SSL Secured",
+    alt: "SSL Secured Encryption",
+  },
+  {
+    icon: "/images/badges/fair-play.svg",
+    label: "Provably Fair RNG",
+    alt: "Fair Play Certified",
+  },
+  {
+    icon: "/images/badges/instant-payout.svg",
+    label: "Instant UPI Payouts",
+    alt: "Instant UPI & Bank Withdrawals",
+  },
+  {
+    icon: "/images/badges/support-247.svg",
+    label: "24/7 Telegram Support",
+    alt: "24/7 Customer Support",
+  },
+];
+
+// Page hero background images
+export const heroBackgrounds = {
+  homeHero: localImgs.heroBanner,
+  aboutHero: localImgs.heroBanner,
+  contactHero: localImgs.appLandscape,
+  faqHero: localImgs.loginScreen,
+  gamesHero: localImgs.heroBanner,
+  promotionsHero: localImgs.salaryChart,
+  blogHero: localImgs.heroBanner,
+  notFound: localImgs.squareBadge,
+  error: localImgs.squareBadge,
 };
 
-// Trust badges and certifications
-export const trustImages = {
-  ssl: "/images/trust/ssl-secure.svg",
-  rng: "/images/trust/rng-certified.svg",
-  payment: "/images/trust/secure-payment.svg",
-  responsible: "/images/trust/responsible-gaming.svg",
+// Export all as default config object
+const imagesConfig = {
+  localImgs,
+  gameImages,
+  categoryImages,
+  teamImages,
+  blogImages,
+  promotionImages,
+  appImages,
+  trustBadges,
+  heroBackgrounds,
 };
 
-// General/Miscellaneous images
-export const miscImages = {
-  aboutHero: picsum(1029, 1200, 600),
-  contactHero: picsum(497, 1200, 600),
-  faqHero: picsum(119, 1200, 600),
-  gamesHero: picsum(96, 1200, 600),
-  promotionsHero: picsum(238, 1200, 600),
-  blogHero: picsum(1073, 1200, 600),
-  notFound: picsum(219, 800, 600),
-  error: picsum(669, 800, 600),
-};
-
-// Default placeholder generator for dynamic content
-export const getPlaceholder = (
-  width: number,
-  height: number,
-  text: string = "Veer Game"
-) => placeholder(width, height, text);
-
-// Avatar generator for user-generated content
-export const getUserAvatar = (name: string, size: number = 80) => avatar(name, size);
-
-// Export all configurations
-export default {
-  games: gameImages,
-  categories: categoryImages,
-  team: teamImages,
-  blog: blogImages,
-  promotions: promotionImages,
-  hero: heroImages,
-  icons: iconImages,
-  trust: trustImages,
-  misc: miscImages,
-  getPlaceholder,
-  getUserAvatar,
-};
+export default imagesConfig;

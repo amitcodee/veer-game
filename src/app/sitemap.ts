@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "hourly",
       priority: 0.95,
       images: [
-        "https://picsum.photos/id/1073/1200/630",
+        `${baseUrl}/images/imgs/veergame-1024x683.jpeg`,
       ],
     },
   ];

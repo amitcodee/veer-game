@@ -454,6 +454,22 @@ export default function HomePage() {
                   <span className="pulse-dot" aria-hidden="true"></span> LIVE
                 </span>
               </div>
+              <div style={{ padding: "10px 12px 4px 12px" }}>
+                <Image
+                  src="/images/imgs/veergame-1024x683.jpeg"
+                  alt="Veer Game Official Platform Lobby 2026"
+                  width={1024}
+                  height={683}
+                  priority
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    borderRadius: "10px",
+                    display: "block",
+                    border: "1px solid rgba(255,255,255,0.12)",
+                  }}
+                />
+              </div>
               <div className="hero-tiles">
                 {heroTiles.map((t) => (
                   <Link
@@ -1966,7 +1982,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="apk-content" style={{ marginTop: "32px" }}>
+          <div className="apk-content" style={{ marginTop: "32px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem", alignItems: "center" }}>
             <div className="apk-info">
               <h3>Why Install the Official Android App?</h3>
               <ul className="apk-benefits">
@@ -1989,6 +2005,27 @@ export default function HomePage() {
                 <li>Click Install and wait a few seconds for completion.</li>
                 <li>Open the app, register or login, and claim your ₹100 welcome bonus!</li>
               </ol>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <Image
+                src="/images/imgs/veer-game-app-465x1024.jpeg"
+                alt="Veer Game Android Mobile App Interface"
+                width={280}
+                height={615}
+                className="section-img"
+                style={{
+                  maxWidth: "240px",
+                  height: "auto",
+                  margin: "0 auto",
+                  borderRadius: "16px",
+                  boxShadow: "0 12px 36px rgba(0,0,0,0.25)",
+                  border: "2px solid rgba(15, 27, 45, 0.12)",
+                  display: "block",
+                }}
+              />
+              <span style={{ display: "block", marginTop: "8px", fontSize: "0.85rem", color: "var(--vg-text-light)" }}>
+                Veer Game Android App UI (v2.1)
+              </span>
             </div>
           </div>
         </div>
@@ -2055,6 +2092,26 @@ export default function HomePage() {
               <div>
                 <strong>Agent Note:</strong> Daily salaries are calculated and credited automatically every 24 hours based on active team member qualifications.
               </div>
+            </div>
+
+            <div style={{ textAlign: "center", margin: "28px auto 10px", maxWidth: "760px" }}>
+              <Image
+                src="/images/imgs/veer-game-salary-1024x936.jpeg"
+                alt="Veer Game Agent Daily Salary Structure and Commission Chart"
+                width={1024}
+                height={936}
+                className="section-img section-img-wide"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  borderRadius: "14px",
+                  border: "1px solid rgba(255,255,255,0.15)",
+                  boxShadow: "0 10px 30px rgba(0,0,0,0.35)",
+                }}
+              />
+              <span style={{ display: "block", marginTop: "10px", fontSize: "0.85rem", color: "var(--vg-on-dark-dim)" }}>
+                Official Veer Game Agent Daily Salary Table &amp; Turnover Commission Schedule
+              </span>
             </div>
           </div>
         </div>

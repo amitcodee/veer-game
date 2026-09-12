@@ -113,11 +113,11 @@ export const metadata: Metadata = {
       "Play Wingo, K3, 5D, Aviator & more on Veer Game. ₹100 Min Deposit, Instant UPI withdrawals, 24/7 support. Download APK & get up to ₹100 bonus!",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
+        url: "/images/imgs/veergame-1024x683.jpeg",
+        width: 1024,
+        height: 683,
         alt: "Veer Game - India's Trusted Online Gaming Platform",
-        type: "image/png",
+        type: "image/jpeg",
       },
     ],
   },
@@ -126,7 +126,7 @@ export const metadata: Metadata = {
     title: "Veer Game Official Website 2026 | Login, Register & APK",
     description:
       "India's most trusted gaming platform. Play Wingo, K3, 5D, Aviator & more. Download now & win real rewards with invite code 69548120159!",
-    images: ["/twitter-image.png"],
+    images: ["/images/imgs/veergame-1024x683.jpeg"],
     creator: "@veergames",
     site: "@veergames",
   },
@@ -172,7 +172,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         <link rel="dns-prefetch" href="https://t.me" />
-        <link rel="dns-prefetch" href="https://picsum.photos" />
         <link rel="alternate" type="application/rss+xml" title="Veer Game RSS Feed" href="/feed.xml" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

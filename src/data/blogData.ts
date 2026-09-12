@@ -51,7 +51,7 @@ export const blogPosts: BlogPost[] = [
       "Veer Game me register kaise kare",
       "Veer Game official website link"
     ],
-    image: "https://picsum.photos/id/1073/1200/630",
+    image: "/images/imgs/veer-game-login-573x1024.jpeg",
     imageAlt: "Veer Game Login and Registration Portal Guide 2026",
     tableOfContents: [
       { id: "introduction", title: "1. What is Veer Game?" },
@@ -227,7 +227,7 @@ export const blogPosts: BlogPost[] = [
       "Veer Game app download link",
       "Veer Game install kaise kare"
     ],
-    image: "https://picsum.photos/id/146/1200/630",
+    image: "/images/imgs/veer-game-app-1-1024x683.jpeg",
     imageAlt: "Veer Game APK Download Latest Version for Android",
     tableOfContents: [
       { id: "apk-overview", title: "1. Official Veer Game APK Overview" },
@@ -386,7 +386,7 @@ export const blogPosts: BlogPost[] = [
       "Veer Game colour prediction trick in Hindi",
       "Veer Game se paise kaise jeete"
     ],
-    image: "https://picsum.photos/id/206/1200/630",
+    image: "/images/imgs/veergame-1024x683.jpeg",
     imageAlt: "Wingo Colour Prediction Strategy and Formula on Veer Game",
     tableOfContents: [
       { id: "wingo-fundamentals", title: "1. Understanding Wingo Fundamentals & Odds" },
@@ -600,7 +600,7 @@ export const blogPosts: BlogPost[] = [
       "Veer Game real hai ya fake",
       "Veer Game fraud to nahi hai"
     ],
-    image: "https://picsum.photos/id/60/1200/630",
+    image: "/images/imgs/veer-493x1024.jpeg",
     imageAlt: "Veer Game Legitimacy Audit and Withdrawal Proof Review",
     tableOfContents: [
       { id: "audit-verdict", title: "1. The Verdict: Is Veer Game Real or Fake?" },
@@ -761,7 +761,7 @@ export const blogPosts: BlogPost[] = [
       "Veer Game invite code today",
       "Veer Game referral code free bonus"
     ],
-    image: "https://picsum.photos/id/64/1200/630",
+    image: "/images/imgs/veer-game-salary-1024x936.jpeg",
     imageAlt: "Veer Game Invite Code 69548120159 and Agent Daily Salary System",
     tableOfContents: [
       { id: "what-is-invite-code", title: "1. What is Veer Game Invite Code 69548120159?" },

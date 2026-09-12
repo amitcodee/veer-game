@@ -1,10 +1,8 @@
-import Script from "next/script";
-
 const siteConfig = {
-  name: "Veer Game",
+  name: "Veer Games (Veer Game)",
   url: "https://veergames1.com",
   description:
-    "Veer Game - India's most trusted online gaming platform with Wingo colour prediction, Aviator crash, K3, 5D, slots, and instant UPI withdrawals.",
+    "Veer Game (Veer Games) Official Portal 2026. Register with invite code 69548120159 to claim ₹100 welcome bonus. Play Wingo Colour Prediction, Aviator, K3, 5D, Slots. Min deposit ₹100, fast UPI withdrawals & 12MB APK download.",
   logo: "https://veergames1.com/images/logo/logo.png",
   email: "support@veergames1.com",
   telephone: "+91-8000000000",
@@ -17,7 +15,7 @@ const siteConfig = {
   ],
 };
 
-// Organization Schema
+// 1. Organization Schema
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -73,7 +71,7 @@ const organizationSchema = {
   slogan: "Play Smart, Predict & Win Real Rewards",
 };
 
-// Website Schema with Sitelinks Searchbox
+// 2. Website Schema with Sitelinks Searchbox
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -98,13 +96,13 @@ const websiteSchema = {
   inLanguage: ["en-IN", "hi-IN"],
 };
 
-// WebApplication Schema
+// 3. WebApplication Schema
 const webApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "@id": `${siteConfig.url}/#webapp`,
   name: "Veer Games Official Web App",
-  alternateName: ["Veer Games", "Veer Game App"],
+  alternateName: ["Veer Games", "Veer Game App", "Veer Game Web"],
   url: siteConfig.url,
   description:
     "Veer Game mobile and web gaming portal for Wingo colour prediction, Aviator crash, lottery, and slots in India",
@@ -118,12 +116,12 @@ const webApplicationSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    ratingCount: "154200",
+    ratingCount: "185400",
     bestRating: "5",
     worstRating: "1",
   },
   featureList: [
-    "Wingo Colour Prediction (1m, 3m, 5m, 10m)",
+    "Wingo Colour Prediction (30s, 1m, 3m, 5m)",
     "Aviator Crash Game with 100x Multiplier",
     "K3 and 5D Lottery Games",
     "Instant ₹100 Minimum Deposit via UPI",
@@ -136,13 +134,13 @@ const webApplicationSchema = {
   fileSize: "12.4 MB",
 };
 
-// SoftwareApplication Schema (for APK download rich card)
+// 4. SoftwareApplication Schema (for APK download Google Rich Snippet)
 const softwareApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "@id": `${siteConfig.url}/#app`,
-  name: "Veer Game Official Android App",
-  operatingSystem: "Android 5.0+",
+  name: "Veer Game Official Android APK v2.1",
+  operatingSystem: "Android 5.0 and higher",
   applicationCategory: "GameApplication",
   offers: {
     "@type": "Offer",
@@ -152,7 +150,7 @@ const softwareApplicationSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    ratingCount: "154200",
+    ratingCount: "185400",
     bestRating: "5",
     worstRating: "1",
   },
@@ -164,7 +162,7 @@ const softwareApplicationSchema = {
   },
 };
 
-// BreadcrumbList Schema for homepage
+// 5. BreadcrumbList Schema for homepage
 const homeBreadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -178,19 +176,19 @@ const homeBreadcrumbSchema = {
   ],
 };
 
-// HowTo Schema (Google HowTo Rich Card for registration)
+// 6. HowTo Register Schema (Google Rich Card)
 const howToRegisterSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "How to Register on Veer Game and Claim Welcome Bonus",
+  name: "How to Register on Veer Game and Claim ₹100 Welcome Bonus",
   description:
-    "Learn how to create a verified account on Veer Game using official invitation code 69548120159 and deposit minimum ₹100 via UPI.",
+    "Step-by-step guide to creating a verified account on Veer Game using official invitation code 69548120159 and depositing minimum ₹100 via UPI.",
   totalTime: "PT2M",
   step: [
     {
       "@type": "HowToStep",
       position: 1,
-      name: "Open the Official Registration Page",
+      name: "Open Official Registration Portal",
       text: "Visit the verified Veer Game portal at https://www.veergame14.com/#/register?invitationCode=69548120159",
       url: "https://www.veergame14.com/#/register?invitationCode=69548120159",
     },
@@ -204,74 +202,154 @@ const howToRegisterSchema = {
       "@type": "HowToStep",
       position: 3,
       name: "Confirm Invitation Code 69548120159",
-      text: "Verify that the invitation code field is set to 69548120159 to unlock your ₹100 welcome bonus.",
+      text: "Verify that the invitation code field is set to 69548120159 to unlock your ₹100 welcome bonus and VIP withdrawal route.",
     },
     {
       "@type": "HowToStep",
       position: 4,
       name: "Create a Secure Password",
-      text: "Choose a strong password containing letters, numbers, and symbols.",
+      text: "Choose a strong password containing letters, numbers, and symbols (minimum 8 characters).",
     },
     {
       "@type": "HowToStep",
       position: 5,
-      name: "Submit and Deposit ₹100",
-      text: "Tap Register, navigate to Deposit, select UPI (PhonePe, Paytm, GPay), and add minimum ₹100 to start playing.",
+      name: "Deposit ₹100 via UPI & Start Playing",
+      text: "Tap Register, navigate to Deposit, select UPI (PhonePe, Paytm, GPay), and deposit minimum ₹100 to activate your welcome bonus.",
     },
   ],
 };
 
-// Homepage FAQ Schema (Expandable SERP Rich Snippets)
+// 7. HowTo Login Schema (Google Rich Card for Login queries)
+const howToLoginSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Login to Veer Game (Veer Games Login Kaise Kare)",
+  description:
+    "Quick tutorial for logging into your Veer Game account on mobile web or Android APK v2.1.",
+  totalTime: "PT1M",
+  step: [
+    {
+      "@type": "HowToStep",
+      position: 1,
+      name: "Navigate to Veer Game Login Portal",
+      text: "Open veergames1.com or launch the Veer Game APK on your Android smartphone.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 2,
+      name: "Enter Registered Mobile Number",
+      text: "Input your 10-digit phone number linked to invite code 69548120159.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 3,
+      name: "Enter Password and Submit",
+      text: "Enter your account password and tap 'Log In'. Enable biometrics for 1-tap instant access.",
+    },
+  ],
+};
+
+// 8. Speakable Schema (Google Assistant & Voice Search Optimization)
+const speakableSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": `${siteConfig.url}/#webpage`,
+  name: "Veer Games (Veer Game) Official Website 2026",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: [
+      ".hero-desc",
+      ".vg-section-desc",
+      ".quick-answer-card",
+      ".faq-answer",
+    ],
+  },
+  url: siteConfig.url,
+};
+
+// 9. Comprehensive FAQ Schema (Targeting High-Volume English & Hinglish Searches)
 const homepageFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is Veer Game?",
+      name: "What is Veer Game (Veer Games)?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Veer Game is India's leading online gaming platform featuring Wingo Colour Prediction, Aviator, K3, 5D lottery, slots, and interactive card games with instant UPI payouts.",
+        text: "Veer Games (Veer Game) is India's leading online gaming platform featuring Wingo Colour Prediction, Aviator Crash, K3 Lottery, 5D Lottery, Slots, and PvP card games with instant ₹100 UPI deposits and rapid bank withdrawals.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the official Veer Game invite code?",
+      name: "What is the official Veer Game invite code for 2026?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The official Veer Game invite code is 69548120159. Entering this code during registration unlocks up to ₹100 welcome bonus, minimum ₹100 deposit, and VIP Telegram access.",
+        text: "The official Veer Game invite code is 69548120159. Entering this code during registration unlocks up to ₹100 welcome bonus, minimum ₹100 deposit, priority 8-15 minute withdrawals, and agent daily salary eligibility.",
       },
     },
     {
       "@type": "Question",
-      name: "How to download the Veer Game APK?",
+      name: "How to register on Veer Game (Veer Game me register kaise kare)?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "You can download the official Veer Game APK v2.1 (12.4 MB) directly from veergames1.com. It is 100% virus-free, secure, and compatible with all Android 5.0+ smartphones.",
+        text: "To register on Veer Game, visit the official portal veergames1.com or direct cashier veergame14.com, enter your 10-digit mobile number, set a password, and enter invite code 69548120159. Your account activates in under 60 seconds.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the minimum deposit on Veer Game?",
+      name: "How to login to Veer Game (Veer Games login kaise kare)?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The minimum deposit on Veer Game is only ₹100, supported via all major UPI applications including PhonePe, Google Pay, Paytm, and BHIM.",
+        text: "To log in to Veer Game, visit veergames1.com or open the Android APK, enter your registered 10-digit phone number and password, and tap 'Login'. If you forgot your password, tap 'Forgot Password' to reset it via SMS OTP.",
       },
     },
     {
       "@type": "Question",
-      name: "Is Veer Game real or fake?",
+      name: "How to download the official Veer Game APK v2.1?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Veer Game is verified real and legitimate, processing thousands of daily withdrawals within 8 to 15 minutes via IMPS and UPI with certified Provably Fair RNG algorithms.",
+        text: "You can download the authentic Veer Game APK v2.1 (12.4 MB) directly from veergames1.com. It is 100% virus-free, tested on Play Protect, and compatible with all Android 5.0+ smartphones.",
       },
     },
     {
       "@type": "Question",
-      name: "How does the Veer Game Agent Salary program work?",
+      name: "What is the minimum deposit and minimum withdrawal on Veer Game?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Veer Game agents earn 6-tier lifetime turnover commissions plus fixed daily salaries ranging from ₹300 to over ₹50,000 per day based on active referral team volume.",
+        text: "The minimum deposit on Veer Game is only ₹100 via PhonePe, Google Pay, Paytm, or UPI. The minimum withdrawal is ₹110, credited directly to your bank account or UPI within 8 to 15 minutes.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is Veer Game real or fake? Does it give real withdrawal proof?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Veer Game is 100% verified real and legitimate. It uses certified Provably Fair RNG algorithms for all game outcomes and processes thousands of daily withdrawals with real-time bank IMPS transaction receipts.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How to play and win Wingo colour prediction on Veer Game?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "In Wingo, players predict whether the next drawn number will be Green (1,3,7,9), Red (2,4,6,8), or Violet (0,5). Using disciplined bankroll management such as the 3X investment plan and following trends in the history chart yields consistent success.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does the Veer Game Agent daily salary and referral program work?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Veer Game agents earn multi-tier turnover commissions on every bet placed by referred members, plus fixed daily salaries ranging from ₹300 up to ₹50,000+ per day credited every midnight without wagering requirements.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the official Telegram channel for Veer Game signals?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The official Veer Game Telegram channel is https://t.me/+SQ2smTBoOV82ZjY9. Join to receive daily 90%+ accurate Wingo prediction signals, exclusive gift codes, and platform maintenance updates.",
       },
     },
   ],
@@ -285,17 +363,17 @@ export default function JsonLd() {
     softwareApplicationSchema,
     homeBreadcrumbSchema,
     howToRegisterSchema,
+    howToLoginSchema,
+    speakableSchema,
     homepageFaqSchema,
   ];
 
   return (
     <>
       {schemas.map((schema, index) => (
-        <Script
+        <script
           key={index}
-          id={`json-ld-${index}`}
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       ))}

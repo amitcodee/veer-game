@@ -23,14 +23,24 @@ export const metadata: Metadata = {
     "Veer Games APK download",
     "Veer Game APK download",
     "Veer Games invite code 69548120159",
+    "Veer Game invite code 69548120159",
     "Veer Games referral code",
+    "Veer Game referral code",
     "Wingo colour prediction",
     "Veer Games real or fake",
+    "Veer Game real or fake",
     "Veer Games minimum deposit 100",
     "Veer Games telegram channel",
     "Veer Games login link",
     "Veer Games sign up",
     "Veer Games agent salary",
+    "Veer Games login kaise kare",
+    "Veer Game login kaise kare",
+    "Veer Games me register kaise kare",
+    "Veer Game se paise kaise kamaye",
+    "Veer Games withdrawal proof",
+    "Veer Games winning trick",
+    "Veer Game prediction today",
     "Veer Games 2026",
     "veergames1.com",
   ],
@@ -343,21 +353,71 @@ export default function HomePage() {
                 Official Veer Game Platform 2026
               </span>
               <h1>
-                Veer Game - Login, Register, APK Download &amp;{" "}
-                <em>Online Gaming Platform in India</em>
+                Veer Games (Veer Game) Official Website 2026: Login, Register &amp;{" "}
+                <em>APK Download</em>
               </h1>
               <p>
-                <strong>Veer Game</strong> is a secure online gaming platform where
-                users can explore a variety of popular games such as{" "}
-                <strong>Wingo, K3, 5D, and Aviator</strong>. Users can test their
-                skills, play to earn exciting real rewards through skill-based gameplay.
+                <strong>Veer Games</strong> (also widely searched as <strong>Veer Game</strong>) is India&rsquo;s most popular online gaming ecosystem featuring <strong>Wingo Colour Prediction</strong>, <strong>Aviator Crash</strong>, K3, 5D Lottery, and Slots. Register with verified invitation code <strong>69548120159</strong> to claim up to ₹100 welcome bonus with instant ₹100 UPI recharge and 8–15 minute withdrawals.
               </p>
-              <p>
-                In this guide, you&rsquo;ll learn about Veer Game, including step-by-step
-                registration, Veer Game Login, APK download, key features, wallet
-                management, deposit and withdrawal methods, Gift Codes, and the
-                Refer &amp; Earn Program.
-              </p>
+
+              {/* SERP Position 0 Featured Snippet & Direct Answer Box */}
+              <div
+                style={{
+                  margin: "1.25rem 0",
+                  padding: "1rem 1.25rem",
+                  background: "rgba(15, 27, 45, 0.85)",
+                  border: "1px solid rgba(255, 93, 67, 0.4)",
+                  borderRadius: "12px",
+                  backdropFilter: "blur(10px)",
+                }}
+              >
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "6px",
+                    color: "#ff8c42",
+                    fontWeight: 700,
+                    fontSize: "0.825rem",
+                    textTransform: "uppercase",
+                    letterSpacing: "0.04em",
+                    marginBottom: "0.5rem",
+                  }}
+                >
+                  <i className="fas fa-bolt"></i> Official 2026 Portal Quick Summary &amp; Direct Access
+                </div>
+                <p
+                  style={{
+                    fontSize: "0.925rem",
+                    lineHeight: 1.6,
+                    color: "rgba(255, 255, 255, 0.88)",
+                    margin: "0 0 0.85rem 0",
+                  }}
+                >
+                  To register on Veer Game, visit the official portal <a href="https://www.veergame14.com/#/register?invitationCode=69548120159" target="_blank" rel="noopener noreferrer" style={{ color: "#ffd75e", fontWeight: 700, textDecoration: "underline" }}>veergame14.com</a>, enter your 10-digit mobile number, set a password, and verify invite code <strong style={{ color: "#ffd75e" }}>69548120159</strong>. This activates ₹100 welcome rewards, ₹100 minimum UPI deposit, and VIP telegram signals.
+                </p>
+                <div
+                  style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    gap: "0.5rem",
+                    fontSize: "0.8rem",
+                  }}
+                >
+                  <span style={{ background: "rgba(255,255,255,0.08)", padding: "4px 10px", borderRadius: "6px", border: "1px solid rgba(255,255,255,0.12)" }}>
+                    <strong>Invite Code:</strong> <code style={{ color: "#ffd75e", fontWeight: 700 }}>69548120159</code>
+                  </span>
+                  <span style={{ background: "rgba(255,255,255,0.08)", padding: "4px 10px", borderRadius: "6px", border: "1px solid rgba(255,255,255,0.12)" }}>
+                    <strong>Min Deposit:</strong> ₹100 (UPI / PhonePe / Paytm)
+                  </span>
+                  <span style={{ background: "rgba(255,255,255,0.08)", padding: "4px 10px", borderRadius: "6px", border: "1px solid rgba(255,255,255,0.12)" }}>
+                    <strong>Withdrawal Speed:</strong> 8–15 Mins
+                  </span>
+                  <span style={{ background: "rgba(255,255,255,0.08)", padding: "4px 10px", borderRadius: "6px", border: "1px solid rgba(255,255,255,0.12)" }}>
+                    <strong>APK Version:</strong> v2.1 (12.4 MB)
+                  </span>
+                </div>
+              </div>
               <div className="hero-btns">
                 <RegisterButton />
                 <a
@@ -2175,6 +2235,94 @@ export default function HomePage() {
               take breaks from gaming, and treat the platform as a source of
               entertainment.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== 19.5 OFFICIAL STRATEGY GUIDES & INTERNAL LINK SILO ===== */}
+      <section className="vg-section vg-guides vg-section-light vg-section-soft" id="guides">
+        <div className="site-shell">
+          <div className="vg-section-header">
+            <span className="vg-tag">
+              <i className="fas fa-book-open"></i> Knowledge Base &amp; Strategy
+            </span>
+            <h2 className="vg-section-title">Official Veer Game Strategy Guides &amp; Tutorials</h2>
+            <p className="vg-section-desc">
+              Comprehensive platform tutorials, verified APK downloads, mathematical Wingo prediction formulas, and agent salary insights.
+            </p>
+          </div>
+          <div className="why-grid">
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-user-lock"></i></div>
+                <span className="why-badge">TUTORIAL</span>
+              </div>
+              <h3><Link href="/blog/veer-game-login-registration-guide" style={{ textDecoration: "none", color: "inherit" }}>Veer Game Login &amp; Registration Guide 2026</Link></h3>
+              <p>Step-by-step walkthrough to register with invite code 69548120159, login on web or mobile, reset passwords, and claim ₹100 welcome rewards.</p>
+              <Link href="/blog/veer-game-login-registration-guide" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Read Complete Guide &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fab fa-android"></i></div>
+                <span className="why-badge">12.4 MB</span>
+              </div>
+              <h3><Link href="/blog/veer-game-app-download-apk" style={{ textDecoration: "none", color: "inherit" }}>Veer Game APK Download v2.1 (Official Android App)</Link></h3>
+              <p>Download the verified, virus-free Android APK with sub-20ms latency, biometrics 1-tap login, and real-time Telegram prediction notifications.</p>
+              <Link href="/blog/veer-game-app-download-apk" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Download &amp; Install APK &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-chart-line"></i></div>
+                <span className="why-badge">STRATEGY</span>
+              </div>
+              <h3><Link href="/blog/wingo-colour-prediction-tricks-veer-game" style={{ textDecoration: "none", color: "inherit" }}>Wingo Colour Prediction Tricks &amp; Winning Formula</Link></h3>
+              <p>Master the 3X investment plan, period number parity analysis, zigzag streaks, and chart reading for 30s, 1m, and 3m Wingo rounds.</p>
+              <Link href="/blog/wingo-colour-prediction-tricks-veer-game" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Learn Winning Tricks &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-shield-check"></i></div>
+                <span className="why-badge">VERIFIED</span>
+              </div>
+              <h3><Link href="/blog/veer-game-real-or-fake-withdrawal-proof" style={{ textDecoration: "none", color: "inherit" }}>Veer Game Real or Fake? Full Audit &amp; Withdrawal Proof</Link></h3>
+              <p>Independent security review verifying bank withdrawal receipts, Provably Fair RNG integrity, 256-bit encryption, and fake clone site protection.</p>
+              <Link href="/blog/veer-game-real-or-fake-withdrawal-proof" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Read Audit Report &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-money-bill-trend-up"></i></div>
+                <span className="why-badge">EARN</span>
+              </div>
+              <h3><Link href="/blog/veer-game-invite-code-referral-daily-salary" style={{ textDecoration: "none", color: "inherit" }}>Invite Code 69548120159 &amp; Agent Daily Salary</Link></h3>
+              <p>Complete breakdown of the 6-tier agent turnover commission structure and up to ₹50,000 fixed daily salary paid directly to UPI without wagering.</p>
+              <Link href="/blog/veer-game-invite-code-referral-daily-salary" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                View Agent Salary Chart &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card" style={{ background: "linear-gradient(135deg, rgba(255, 93, 67, 0.08) 0%, rgba(15, 27, 45, 0.04) 100%)", border: "1px dashed var(--vg-coral)" }}>
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-newspaper"></i></div>
+                <span className="why-badge">HUB</span>
+              </div>
+              <h3><Link href="/blog" style={{ textDecoration: "none", color: "inherit" }}>All Official Articles &amp; Updates Hub</Link></h3>
+              <p>Browse our complete publication repository with real-time RSS updates, gift code announcements, and platform notices.</p>
+              <Link href="/blog" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Visit Blog Hub &rarr;
+              </Link>
+            </div>
           </div>
         </div>
       </section>

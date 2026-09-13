@@ -11,8 +11,11 @@ function escapeXml(unsafe: string): string {
 
 export async function GET() {
   const feedItems = blogPosts
-    .map(
-      (post) => `
+    .map((post) => {
+      const imageUrl = post.image.startsWith("http")
+        ? post.image
+        : `${BASE_URL}${post.image.startsWith("/") ? "" : "/"}${post.image}`;
+      return `
     <item>
       <title><![CDATA[${post.title}]]></title>
       <link>${BASE_URL}/blog/${post.slug}</link>
@@ -21,9 +24,10 @@ export async function GET() {
       <pubDate>${new Date(post.datePublished).toUTCString()}</pubDate>
       <author>support@veergames1.com (${escapeXml(post.author)})</author>
       <category><![CDATA[${post.category}]]></category>
-      <enclosure url="${escapeXml(post.image)}" length="0" type="image/jpeg" />
-    </item>`
-    )
+      <enclosure url="${escapeXml(imageUrl)}" length="0" type="image/jpeg" />
+      <media:content url="${escapeXml(imageUrl)}" medium="image" type="image/jpeg" />
+    </item>`;
+    })
     .join("\n");
 
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
-import { blogPosts } from "@/data/blogData";
+import { blogPosts, BASE_URL } from "@/data/blogData";
 
-const baseUrl = "https://veergames1.com";
+const baseUrl = BASE_URL;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date().toISOString();
@@ -28,13 +28,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: post.dateModified || currentDate,
-    changeFrequency: "daily",
-    priority: 0.90,
-    images: [post.image],
-  }));
+  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post) => {
+    const imageUrl = post.image.startsWith("http")
+      ? post.image
+      : `${baseUrl}${post.image.startsWith("/") ? "" : "/"}${post.image}`;
+    return {
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: post.dateModified || currentDate,
+      changeFrequency: "daily",
+      priority: 0.90,
+      images: [imageUrl],
+    };
+  });
 
   return [...staticRoutes, ...blogRoutes];
 }

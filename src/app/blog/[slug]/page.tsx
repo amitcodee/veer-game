@@ -34,6 +34,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const postUrl = `${BASE_URL}/blog/${post.slug}`;
+  const imageUrl = post.image.startsWith("http")
+    ? post.image
+    : `${BASE_URL}${post.image.startsWith("/") ? "" : "/"}${post.image}`;
 
   return {
     title: post.metaTitle,
@@ -54,7 +57,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: "Veer Game",
       images: [
         {
-          url: post.image,
+          url: imageUrl,
           width: 1200,
           height: 630,
           alt: post.imageAlt,
@@ -65,7 +68,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: "summary_large_image",
       title: post.title,
       description: post.metaDescription,
-      images: [post.image],
+      images: [imageUrl],
       creator: "@veergames",
     },
   };
@@ -81,6 +84,9 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const relatedPosts = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
   const postUrl = `${BASE_URL}/blog/${post.slug}`;
+  const imageUrl = post.image.startsWith("http")
+    ? post.image
+    : `${BASE_URL}${post.image.startsWith("/") ? "" : "/"}${post.image}`;
 
   // Article Schema
   const articleSchema = {
@@ -88,7 +94,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     "@type": "Article",
     headline: post.title,
     description: post.metaDescription,
-    image: [post.image],
+    image: [imageUrl],
     datePublished: post.datePublished,
     dateModified: post.dateModified,
     wordCount: post.wordCount,

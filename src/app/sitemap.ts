@@ -36,6 +36,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ],
     },
     {
+      url: `${baseUrl}/register`,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 0.95,
+      images: [
+        `${baseUrl}/images/imgs/veer-game-login-573x1024.jpeg`,
+      ],
+    },
+    {
+      url: `${baseUrl}/wingo`,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 0.95,
+      images: [
+        `${baseUrl}/images/imgs/veergame-1024x683.jpeg`,
+      ],
+    },
+    {
+      url: `${baseUrl}/aviator`,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 0.95,
+      images: [
+        `${baseUrl}/images/imgs/veer-game-app-1-1024x683.jpeg`,
+      ],
+    },
+    {
+      url: `${baseUrl}/referral`,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 0.95,
+      images: [
+        `${baseUrl}/images/imgs/veer-game-salary-1024x936.jpeg`,
+      ],
+    },
+    {
       url: `${baseUrl}/blog`,
       lastModified: currentDate,
       changeFrequency: "hourly",

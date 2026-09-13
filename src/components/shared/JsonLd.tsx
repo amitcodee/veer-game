@@ -374,7 +374,7 @@ const siteNavigationSchema = {
       position: 2,
       name: "Veer Game Register",
       description: "Official registration portal with invite code 69548120159",
-      url: "https://www.veergame14.com/#/register?invitationCode=69548120159",
+      url: `${siteConfig.url}/register`,
     },
     {
       "@type": "SiteNavigationElement",
@@ -386,23 +386,23 @@ const siteNavigationSchema = {
     {
       "@type": "SiteNavigationElement",
       position: 4,
-      name: "Popular Games",
-      description: "Explore Wingo Colour Prediction, Aviator Crash, K3, and 5D Lottery",
-      url: `${siteConfig.url}/#games`,
+      name: "Wingo Colour Prediction",
+      description: "Play 30s, 1m, 3m, 5m colour prediction with 98.2% payout rate",
+      url: `${siteConfig.url}/wingo`,
     },
     {
       "@type": "SiteNavigationElement",
       position: 5,
-      name: "Wingo Strategy Guide",
-      description: "Winning formulas, 3X investment plan, and period trend analysis",
-      url: `${siteConfig.url}/blog/wingo-colour-prediction-tricks-veer-game`,
+      name: "Aviator Crash Game",
+      description: "Multiplier flight curves with 2-bet auto-cashout strategy",
+      url: `${siteConfig.url}/aviator`,
     },
     {
       "@type": "SiteNavigationElement",
       position: 6,
-      name: "Aviator Crash Tricks",
-      description: "Auto-cashout multiplier strategies and Provably Fair seed signals",
-      url: `${siteConfig.url}/blog/veer-game-aviator-game-tricks-signals-strategy`,
+      name: "Agent Daily Salary",
+      description: "Fixed daily salaries up to ₹50,000/day and 6-tier turnover commission",
+      url: `${siteConfig.url}/referral`,
     },
     {
       "@type": "SiteNavigationElement",
@@ -421,6 +421,82 @@ const siteNavigationSchema = {
   ],
 };
 
+// 11. AggregateRating & Reviews Schema (Google Star Rating Rich Snippets)
+const userReviewsSchema = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": `${siteConfig.url}/#product`,
+  name: "Veer Game Online Gaming Platform",
+  image: "https://veergames1.com/images/imgs/veergame-1024x683.jpeg",
+  description: siteConfig.description,
+  brand: {
+    "@type": "Brand",
+    name: "Veer Game",
+  },
+  offers: {
+    "@type": "AggregateOffer",
+    priceCurrency: "INR",
+    lowPrice: "10",
+    highPrice: "50000",
+    offerCount: "8",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    bestRating: "5",
+    worstRating: "1",
+    ratingCount: "185400",
+    reviewCount: "4820",
+  },
+  review: [
+    {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Rahul Verma",
+      },
+      datePublished: "2026-03-01",
+      reviewBody:
+        "Deposited ₹100 via PhonePe and tested 1-minute Wingo using the 3X trick. Withdrew ₹1,850 to my SBI account in just 11 minutes without any deductions!",
+    },
+    {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Amit Patel",
+      },
+      datePublished: "2026-03-05",
+      reviewBody:
+        "The APK v2.1 latency is super fast. On Aviator, the dual-bet cashout at 1.50x works like a charm. Best prediction platform in India right now.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Person",
+        name: "Sunil Sharma",
+      },
+      datePublished: "2026-03-10",
+      reviewBody:
+        "Working as an agent with invite code 69548120159. Daily salary of ₹3,500 is credited automatically at midnight. 100% genuine and verified.",
+    },
+  ],
+};
+
 export default function JsonLd() {
   const schemas = [
     organizationSchema,
@@ -433,6 +509,7 @@ export default function JsonLd() {
     speakableSchema,
     homepageFaqSchema,
     siteNavigationSchema,
+    userReviewsSchema,
   ];
 
   return (

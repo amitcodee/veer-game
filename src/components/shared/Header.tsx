@@ -6,13 +6,10 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const links = [
-  ["Games", "/#games"],
-  ["Wingo Guide", "/#wingo-guide"],
-  ["Aviator", "/#aviator-guide"],
+  ["Win Go", "/wingo"],
+  ["Aviator", "/aviator"],
   ["Download APK", "/download"],
-  ["Deposit", "/#deposit"],
-  ["Withdraw", "/#withdraw"],
-  ["Rewards", "/#bonus"],
+  ["Agent Salary", "/referral"],
   ["Guides", "/blog"],
   ["FAQ", "/#faq"],
 ] as const;
@@ -21,24 +18,45 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const [activeHash, setActiveHash] = useState("");
   const pathname = usePathname();
+
   useEffect(() => {
     if (pathname !== "/") return;
     const ids = ["overview", "games", "wingo-guide", "aviator-guide", "telegram", "deposit", "withdraw", "bonus", "faq"];
     const updateHash = () => setActiveHash(window.location.hash.replace("#", ""));
     updateHash();
     window.addEventListener("hashchange", updateHash);
-    const observer = new IntersectionObserver((entries) => {
-      const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-      if (visible) setActiveHash(visible.target.id);
-    }, { rootMargin: "-92px 0px -55% 0px", threshold: [0.15, 0.5, 1] });
-    ids.forEach((id) => { const section = document.getElementById(id); if (section) observer.observe(section); });
-    return () => { window.removeEventListener("hashchange", updateHash); observer.disconnect(); };
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+        if (visible) setActiveHash(visible.target.id);
+      },
+      { rootMargin: "-72px 0px -55% 0px", threshold: [0.15, 0.5, 1] }
+    );
+    ids.forEach((id) => {
+      const section = document.getElementById(id);
+      if (section) observer.observe(section);
+    });
+    return () => {
+      window.removeEventListener("hashchange", updateHash);
+      observer.disconnect();
+    };
   }, [pathname]);
+
   return (
     <header className="site-header">
       <div className="site-shell nav-wrap">
         <Link className="brand" href="/" aria-label="Veer Game home">
-          <Image src="/images/logo/logo.png" alt="Veer Game" width={140} height={40} priority className="brand-logo" style={{ width: "auto" }} />
+          <Image
+            src="/images/logo/logo.png"
+            alt="Veer Game"
+            width={125}
+            height={34}
+            priority
+            className="brand-logo"
+            style={{ width: "auto", height: "34px" }}
+          />
         </Link>
         <nav className="desktop-nav" aria-label="Main Navigation">
           {links.map(([label, href]) => (
@@ -52,37 +70,16 @@ export default function Header() {
           ))}
         </nav>
         <div className="nav-actions">
-          <Link
-            href="/login"
-            className="nav-login-link"
-            style={{
-              padding: "7px 14px",
-              borderRadius: "8px",
-              color: "#fff",
-              textDecoration: "none",
-              fontWeight: 700,
-              fontSize: "0.88rem",
-              border: "1px solid rgba(255, 255, 255, 0.2)",
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "6px",
-            }}
-          >
-            <i className="fas fa-right-to-bracket"></i> Login
+          <Link href="/login" className="nav-login">
+            <i className="fas fa-right-to-bracket" aria-hidden="true"></i> Login
           </Link>
-          <a
-            href="https://www.veergame14.com/#/register?invitationCode=69548120159"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-register"
-            style={{ textDecoration: "none" }}
-          >
-            Register
-          </a>
+          <Link href="/register" className="nav-register">
+            <i className="fas fa-user-plus" aria-hidden="true"></i> Register
+          </Link>
           <button
             className="menu-button"
             onClick={() => setOpen(!open)}
-            aria-label="Open menu"
+            aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
           >
             {open ? "\u2715" : "\u2630"}
@@ -96,34 +93,22 @@ export default function Header() {
               {label}
             </Link>
           ))}
-          <Link
-            href="/login"
-            className="mobile-register-btn"
-            style={{
-              width: "100%",
-              marginTop: "8px",
-              textDecoration: "none",
-              display: "block",
-              background: "rgba(255, 255, 255, 0.1)",
-              border: "1px solid rgba(255, 255, 255, 0.2)",
-              color: "#fff",
-            }}
-            onClick={() => setOpen(false)}
-          >
-            <i className="fas fa-right-to-bracket" style={{ marginRight: "8px" }}></i>
-            Member Login
-          </Link>
-          <a
-            href="https://www.veergame14.com/#/register?invitationCode=69548120159"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mobile-register-btn"
-            style={{ width: "100%", marginTop: "8px", textDecoration: "none", display: "block" }}
-            onClick={() => setOpen(false)}
-          >
-            <i className="fas fa-user-plus" style={{ marginRight: "8px" }}></i>
-            Register Now
-          </a>
+          <div className="mobile-nav-actions">
+            <Link
+              href="/login"
+              className="mobile-login-btn"
+              onClick={() => setOpen(false)}
+            >
+              <i className="fas fa-right-to-bracket" aria-hidden="true"></i> Member Login
+            </Link>
+            <Link
+              href="/register"
+              className="mobile-register-btn"
+              onClick={() => setOpen(false)}
+            >
+              <i className="fas fa-user-plus" aria-hidden="true"></i> Register (₹100 Bonus)
+            </Link>
+          </div>
         </nav>
       )}
     </header>

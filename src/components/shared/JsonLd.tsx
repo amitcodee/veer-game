@@ -1,8 +1,8 @@
 const siteConfig = {
-  name: "Veer Games (Veer Game)",
+  name: "Veer Game",
   url: "https://veergames1.com",
   description:
-    "Veer Game (Veer Games) Official Portal 2026. Register with invite code 69548120159 to claim ₹100 welcome bonus. Play Wingo Colour Prediction, Aviator, K3, 5D, Slots. Min deposit ₹100, fast UPI withdrawals & 12MB APK download.",
+    "Welcome to the official Veer Game platform. Download the official Veer Games APK (v2.1), login securely, and access Wingo Colour Prediction and Aviator crash games with 256-bit encryption.",
   logo: "https://veergames1.com/images/logo/logo.png",
   email: "support@veergames1.com",
   telephone: "+91-8000000000",
@@ -21,7 +21,7 @@ const organizationSchema = {
   "@type": "Organization",
   "@id": `${siteConfig.url}/#organization`,
   name: siteConfig.name,
-  alternateName: ["Veer Games", "Veer Game", "VeerGame", "Veer Games Official", "veergames1.com"],
+  alternateName: ["Veer Games", "Veer Game", "VeerGame", "Veer Game Official Site", "veergames1.com"],
   url: siteConfig.url,
   logo: {
     "@type": "ImageObject",
@@ -76,8 +76,8 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${siteConfig.url}/#website`,
-  name: "Veer Games (Veer Game)",
-  alternateName: ["Veer Games", "Veer Game", "VeerGame"],
+  name: "Veer Game Official Site",
+  alternateName: ["Veer Games", "Veer Game", "VeerGame", "Veer Game Official"],
   url: siteConfig.url,
   description: siteConfig.description,
   publisher: {
@@ -101,7 +101,7 @@ const webApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "@id": `${siteConfig.url}/#webapp`,
-  name: "Veer Games Official Web App",
+  name: "Veer Game Official Web App",
   alternateName: ["Veer Games", "Veer Game App", "Veer Game Web"],
   url: siteConfig.url,
   description:
@@ -129,7 +129,7 @@ const webApplicationSchema = {
     "24/7 Live Telegram Support",
     "Agent Daily Salary Referral Program",
   ],
-  downloadUrl: `${siteConfig.url}/#apk`,
+  downloadUrl: `${siteConfig.url}/download`,
   softwareVersion: "2.1",
   fileSize: "12.4 MB",
 };
@@ -154,7 +154,7 @@ const softwareApplicationSchema = {
     bestRating: "5",
     worstRating: "1",
   },
-  downloadUrl: `${siteConfig.url}/#apk`,
+  downloadUrl: `${siteConfig.url}/download`,
   fileSize: "12.4 MB",
   softwareVersion: "2.1",
   author: {
@@ -355,6 +355,72 @@ const homepageFaqSchema = {
   ],
 };
 
+// 10. SiteNavigationElement Schema (for Google Sitelinks)
+const siteNavigationSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Veer Game Sitelinks Navigation",
+  description: "Primary navigational sitelinks for Veer Game official portal",
+  itemListElement: [
+    {
+      "@type": "SiteNavigationElement",
+      position: 1,
+      name: "Veer Game Login",
+      description: "Secure account login for registered players",
+      url: `${siteConfig.url}/login`,
+    },
+    {
+      "@type": "SiteNavigationElement",
+      position: 2,
+      name: "Veer Game Register",
+      description: "Official registration portal with invite code 69548120159",
+      url: "https://www.veergame14.com/#/register?invitationCode=69548120159",
+    },
+    {
+      "@type": "SiteNavigationElement",
+      position: 3,
+      name: "Veer Game APK Download",
+      description: "Download official 12.4MB Android APK v2.1 with sub-20ms latency",
+      url: `${siteConfig.url}/download`,
+    },
+    {
+      "@type": "SiteNavigationElement",
+      position: 4,
+      name: "Popular Games",
+      description: "Explore Wingo Colour Prediction, Aviator Crash, K3, and 5D Lottery",
+      url: `${siteConfig.url}/#games`,
+    },
+    {
+      "@type": "SiteNavigationElement",
+      position: 5,
+      name: "Wingo Strategy Guide",
+      description: "Winning formulas, 3X investment plan, and period trend analysis",
+      url: `${siteConfig.url}/blog/wingo-colour-prediction-tricks-veer-game`,
+    },
+    {
+      "@type": "SiteNavigationElement",
+      position: 6,
+      name: "Aviator Crash Tricks",
+      description: "Auto-cashout multiplier strategies and Provably Fair seed signals",
+      url: `${siteConfig.url}/blog/veer-game-aviator-game-tricks-signals-strategy`,
+    },
+    {
+      "@type": "SiteNavigationElement",
+      position: 7,
+      name: "UPI Deposit & Withdrawal",
+      description: "Instant ₹100 recharge via PhonePe/Paytm/GPay and 8-15 min bank payouts",
+      url: `${siteConfig.url}/blog/veer-game-deposit-withdrawal-methods-upi-limits`,
+    },
+    {
+      "@type": "SiteNavigationElement",
+      position: 8,
+      name: "Official Blog Hub",
+      description: "Browse verified tutorials, platform reviews, and agent daily salary charts",
+      url: `${siteConfig.url}/blog`,
+    },
+  ],
+};
+
 export default function JsonLd() {
   const schemas = [
     organizationSchema,
@@ -366,6 +432,7 @@ export default function JsonLd() {
     howToLoginSchema,
     speakableSchema,
     homepageFaqSchema,
+    siteNavigationSchema,
   ];
 
   return (

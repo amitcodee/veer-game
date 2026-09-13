@@ -6,37 +6,30 @@ import GamesCategoryTabs from "@/components/home/GamesCategoryTabs";
 import RegisterButton from "@/components/shared/RegisterButton";
 
 export const metadata: Metadata = {
-  title: "Veer Games (Veer Game) Official Website 2026 | Login, Register & APK Download (Code: 69548120159)",
+  title: "Veer Game Official Site | Play Wingo & Aviator Online",
   description:
-    "Veer Games (Veer Game) Official Portal 2026. Register with invite code 69548120159 to claim ₹100 welcome bonus. Play Wingo Colour Prediction, Aviator, K3, 5D. Min deposit ₹100, fast UPI withdrawals & 12MB APK download.",
+    "Welcome to the official Veer Game platform. Download the official Veer Games APK (v2.1), login securely, and access Wingo Colour Prediction and Aviator crash games with 256-bit encryption.",
   keywords: [
-    "Veer Games",
     "Veer Game",
-    "Veer Games official website",
-    "Veer Game official website",
-    "Veer Games login",
-    "Veer Game login",
-    "Veer Games register",
-    "Veer Game register",
-    "Veer Games app download",
+    "Veer Games",
+    "Veer Game Official Site",
+    "Veer Game APK Download",
+    "Veer Game Login",
+    "Veer Game Register",
     "Veer Game app download",
-    "Veer Games APK download",
-    "Veer Game APK download",
-    "Veer Games invite code 69548120159",
+    "Veer Game official website",
     "Veer Game invite code 69548120159",
     "Veer Games referral code",
-    "Veer Game referral code",
     "Wingo colour prediction",
-    "Veer Games real or fake",
+    "Aviator crash game",
     "Veer Game real or fake",
-    "Veer Games minimum deposit 100",
-    "Veer Games telegram channel",
-    "Veer Games login link",
-    "Veer Games sign up",
-    "Veer Games agent salary",
-    "Veer Games login kaise kare",
+    "Veer Game minimum deposit 100",
+    "Veer Game telegram channel",
+    "Veer Game login link",
+    "Veer Game sign up",
+    "Veer Game agent salary",
     "Veer Game login kaise kare",
-    "Veer Games me register kaise kare",
+    "Veer Game me register kaise kare",
     "Veer Game se paise kaise kamaye",
     "Veer Games withdrawal proof",
     "Veer Games winning trick",
@@ -46,6 +39,30 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "/",
+  },
+  openGraph: {
+    title: "Veer Game Official Site | Play Wingo & Aviator Online",
+    description:
+      "Welcome to the official Veer Game platform. Download the official Veer Games APK (v2.1), login securely, and access Wingo Colour Prediction and Aviator crash games with 256-bit encryption.",
+    url: "https://veergames1.com/",
+    siteName: "Veer Game",
+    type: "website",
+    locale: "en_IN",
+    images: [
+      {
+        url: "https://veergames1.com/images/imgs/veergame-1024x683.jpeg",
+        width: 1024,
+        height: 683,
+        alt: "Veer Game Official Site - Wingo Colour Prediction & Aviator Online",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Veer Game Official Site | Play Wingo & Aviator Online",
+    description:
+      "Welcome to the official Veer Game platform. Download the official Veer Games APK (v2.1), login securely, and access Wingo Colour Prediction and Aviator crash games with 256-bit encryption.",
+    images: ["https://veergames1.com/images/imgs/veergame-1024x683.jpeg"],
   },
 };
 
@@ -740,6 +757,198 @@ export default function HomePage() {
               <a href="#bonus" className="btn-hero btn-hero-primary">
                 <i className="fas fa-tags" aria-hidden="true"></i> View Bonuses
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== 3B. WINGO COLOUR PREDICTION EDUCATIONAL GUIDE ===== */}
+      <section className="vg-section vg-wingo-guide vg-section-light vg-section-soft" id="wingo-guide">
+        <div className="site-shell">
+          <div className="vg-section-header">
+            <span className="vg-tag">
+              <i className="fas fa-bullseye"></i> Flagship Game Guide
+            </span>
+            <h2 className="vg-section-title">
+              Veer Game Wingo Colour Prediction: Rules, Chart Trends &amp; 3X Formula
+            </h2>
+            <p className="vg-section-desc">
+              Master the mechanics, mathematical payout multipliers, trend analysis, and disciplined bankroll management for Win Go.
+            </p>
+          </div>
+
+          <div className="guide-content">
+            <div className="why-grid" style={{ marginBottom: "30px" }}>
+              <div className="why-card">
+                <div className="why-card-top">
+                  <div className="why-icon" style={{ background: "rgba(5, 150, 105, 0.15)", color: "#059669" }}>
+                    <i className="fas fa-circle"></i>
+                  </div>
+                  <span className="why-badge">2X PAYOUT</span>
+                </div>
+                <h3>Green &amp; Red Prediction</h3>
+                <p>
+                  <strong>Green Numbers (1, 3, 7, 9)</strong> and <strong>Red Numbers (2, 4, 6, 8)</strong> deliver a 2.0x return on stake.
+                  If the winning number is accompanied by violet, payout adjusts to 1.5x.
+                </p>
+              </div>
+
+              <div className="why-card">
+                <div className="why-card-top">
+                  <div className="why-icon" style={{ background: "rgba(139, 92, 246, 0.15)", color: "#8b5cf6" }}>
+                    <i className="fas fa-gem"></i>
+                  </div>
+                  <span className="why-badge">4.5X PAYOUT</span>
+                </div>
+                <h3>Violet Bonus Multiplier</h3>
+                <p>
+                  <strong>Violet Numbers (0 and 5)</strong> occur on special transition rounds. Staking on Violet yields
+                  a lucrative <strong>4.5x payout</strong>, delivering high upside when trend analysis anticipates a colour shift.
+                </p>
+              </div>
+
+              <div className="why-card">
+                <div className="why-card-top">
+                  <div className="why-icon" style={{ background: "rgba(245, 158, 11, 0.15)", color: "#f59e0b" }}>
+                    <i className="fas fa-crosshairs"></i>
+                  </div>
+                  <span className="why-badge">9X PAYOUT</span>
+                </div>
+                <h3>Single Exact Number (0–9)</h3>
+                <p>
+                  Predicting the exact single digit (0 through 9) pays an industry-leading <strong>9.0x multiplier</strong>.
+                  Combine parity analysis (Big 5–9 / Small 0–4) with colour trends for maximum edge.
+                </p>
+              </div>
+            </div>
+
+            <div className="table-wrap" style={{ marginBottom: "30px" }}>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Win Go Mode</th>
+                    <th>Round Duration</th>
+                    <th>Draws Per Hour</th>
+                    <th>Ideal Strategy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Win Go 30s</strong></td>
+                    <td>30 Seconds</td>
+                    <td>120 Rounds</td>
+                    <td>Fast streak trading &amp; low unit staking</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Win Go 1m</strong></td>
+                    <td>1 Minute</td>
+                    <td>60 Rounds</td>
+                    <td>The 3X Investment Plan with chart confirmation</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Win Go 3m</strong></td>
+                    <td>3 Minutes</td>
+                    <td>20 Rounds</td>
+                    <td>Macro pattern analysis &amp; high confidence entries</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Win Go 5m</strong></td>
+                    <td>5 Minutes</td>
+                    <td>12 Rounds</td>
+                    <td>VIP Telegram signal sync &amp; disciplined bankroll</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="disclaimer-card" style={{ background: "rgba(255, 93, 67, 0.05)", borderLeft: "4px solid var(--vg-coral)" }}>
+              <h3 style={{ color: "var(--vg-coral)", marginBottom: "8px" }}>The 3X Bankroll Preservation Formula</h3>
+              <p>
+                Professional players never bet randomly. If a round is missed, apply the 3X recovery progression:
+                <strong>₹10 &rarr; ₹30 &rarr; ₹90 &rarr; ₹270</strong>. When any stage wins, you recover all prior entries plus net profit.
+                Always set a hard stop-loss of 4 levels (-₹400) to protect your principal capital.
+              </p>
+              <div style={{ marginTop: "12px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                <Link href="/blog/wingo-colour-prediction-tricks-veer-game" style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline" }}>
+                  Read Complete Wingo Tricks &amp; Chart Patterns Guide &rarr;
+                </Link>
+                <Link href="/download" style={{ color: "var(--vg-ink)", fontWeight: 600 }}>
+                  Play Wingo on Android APK &rarr;
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== 3C. AVIATOR CRASH GAME EDUCATIONAL GUIDE ===== */}
+      <section className="vg-section vg-aviator-guide vg-section-dark" id="aviator-guide">
+        <div className="site-shell">
+          <div className="vg-section-header">
+            <span className="vg-tag">
+              <i className="fas fa-paper-plane"></i> Crash Mechanics
+            </span>
+            <h2 className="vg-section-title">
+              Veer Game Aviator: 2-Bet Cashout Formula &amp; Multiplier Signals
+            </h2>
+            <p className="vg-section-desc">
+              Understand Provably Fair SHA-256 seeds, flight volatility cycles, and how to execute dual auto-cashout bets safely.
+            </p>
+          </div>
+
+          <div className="guide-content">
+            <div className="why-grid" style={{ marginBottom: "30px" }}>
+              <div className="why-card">
+                <div className="why-card-top">
+                  <div className="why-icon"><i className="fas fa-plane-up"></i></div>
+                  <span className="why-badge">HOW IT WORKS</span>
+                </div>
+                <h3>Ascending Multiplier Curve</h3>
+                <p>
+                  As the lucky plane climbs, your potential payout multiplier grows from <strong>1.00x up to 100x+</strong>.
+                  You have total control: hit <em>\"Cash Out\"</em> before the plane flies away to secure your multiplier.
+                </p>
+              </div>
+
+              <div className="why-card">
+                <div className="why-card-top">
+                  <div className="why-icon"><i className="fas fa-shield-halved"></i></div>
+                  <span className="why-badge">PROVABLY FAIR</span>
+                </div>
+                <h3>SHA-256 Seed Cryptography</h3>
+                <p>
+                  Each round outcome is generated before bets are placed via merged cryptographic client/server seeds.
+                  Outcomes are tamper-proof and mathematically auditable in your round history.
+                </p>
+              </div>
+
+              <div className="why-card">
+                <div className="why-card-top">
+                  <div className="why-icon"><i className="fas fa-sliders"></i></div>
+                  <span className="why-badge">DUAL BET PANEL</span>
+                </div>
+                <h3>The 2-Bet Cashout Method</h3>
+                <p>
+                  Set <strong>Bet 1 Auto-Cashout strictly at 1.45x to 1.55x</strong> to cover both bets.
+                  Let <strong>Bet 2 ride to 3.0x to 6.0x</strong> for pure, risk-free profit upside.
+                </p>
+              </div>
+            </div>
+
+            <div className="disclaimer-card" style={{ background: "rgba(255, 255, 255, 0.05)", borderLeft: "4px solid #f59e0b" }}>
+              <h3 style={{ color: "#f59e0b", marginBottom: "8px" }}>Telegram Live Flight Signals</h3>
+              <p>
+                Veer Game signal analysts publish verified high-probability round timing windows on the official Telegram channel.
+                Combining automated cashout limits with signal windows dramatically improves winning consistency.
+              </p>
+              <div style={{ marginTop: "12px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                <Link href="/blog/veer-game-aviator-game-tricks-signals-strategy" style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline" }}>
+                  Read Deep-Dive Aviator Cashout &amp; Formula Guide &rarr;
+                </Link>
+                <a href="https://t.me/+SQ2smTBoOV82ZjY9" target="_blank" rel="noopener noreferrer" style={{ color: "#fff", fontWeight: 600 }}>
+                  Join Official Telegram for Aviator Signals &rarr;
+                </a>
+              </div>
             </div>
           </div>
         </div>

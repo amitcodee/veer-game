@@ -11,7 +11,7 @@ const siteConfig = {
   name: "Veer Game",
   url: "https://veergames1.com",
   description:
-    "Veer Game Official Website 2026. Register with invite code 69548120159 to claim ₹100 welcome bonus. Play Wingo Colour Prediction, Aviator, K3, 5D, Slots. Min deposit ₹100, fast UPI withdrawals & 12MB Android APK download.",
+    "Welcome to the official Veer Game platform. Download the official Veer Games APK (v2.1), login securely, and access Wingo Colour Prediction and Aviator crash games with 256-bit encryption.",
 };
 
 export const viewport: Viewport = {
@@ -27,8 +27,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Veer Games (Veer Game) Official Website 2026 | Login, Register & APK (Invite Code: 69548120159)",
-    template: "%s | Veer Games Official 2026",
+    default: "Veer Game Official Site | Play Wingo & Aviator Online",
+    template: "%s | Veer Game Official 2026",
   },
   description: siteConfig.description,
   keywords: [
@@ -108,24 +108,24 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: "Veer Game Official Website 2026 | Login, Register & APK (Invite Code: 69548120159)",
+    title: "Veer Game Official Site | Play Wingo & Aviator Online",
     description:
-      "Play Wingo, K3, 5D, Aviator & more on Veer Game. ₹100 Min Deposit, Instant UPI withdrawals, 24/7 support. Download APK & get up to ₹100 bonus!",
+      "Welcome to the official Veer Game platform. Download the official Veer Games APK (v2.1), login securely, and access Wingo Colour Prediction and Aviator crash games with 256-bit encryption.",
     images: [
       {
         url: "/images/imgs/veergame-1024x683.jpeg",
         width: 1024,
         height: 683,
-        alt: "Veer Game - India's Trusted Online Gaming Platform",
+        alt: "Veer Game Official Site - India's Trusted Online Gaming Platform",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Veer Game Official Website 2026 | Login, Register & APK",
+    title: "Veer Game Official Site | Play Wingo & Aviator Online",
     description:
-      "India's most trusted gaming platform. Play Wingo, K3, 5D, Aviator & more. Download now & win real rewards with invite code 69548120159!",
+      "Welcome to the official Veer Game platform. Download the official Veer Games APK (v2.1), login securely, and access Wingo Colour Prediction and Aviator crash games with 256-bit encryption.",
     images: ["/images/imgs/veergame-1024x683.jpeg"],
     creator: "@veergames",
     site: "@veergames",

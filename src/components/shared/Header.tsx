@@ -6,13 +6,13 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const links = [
-  ["Overview", "/#overview"],
   ["Games", "/#games"],
-  ["Telegram", "/#telegram"],
+  ["Wingo Guide", "/#wingo-guide"],
+  ["Aviator", "/#aviator-guide"],
+  ["Download APK", "/download"],
   ["Deposit", "/#deposit"],
   ["Withdraw", "/#withdraw"],
   ["Rewards", "/#bonus"],
-  ["APK guide", "/#apk"],
   ["Guides", "/blog"],
   ["FAQ", "/#faq"],
 ] as const;
@@ -23,7 +23,7 @@ export default function Header() {
   const pathname = usePathname();
   useEffect(() => {
     if (pathname !== "/") return;
-    const ids = ["overview", "games", "telegram", "deposit", "withdraw", "bonus", "apk", "faq"];
+    const ids = ["overview", "games", "wingo-guide", "aviator-guide", "telegram", "deposit", "withdraw", "bonus", "faq"];
     const updateHash = () => setActiveHash(window.location.hash.replace("#", ""));
     updateHash();
     window.addEventListener("hashchange", updateHash);
@@ -52,6 +52,24 @@ export default function Header() {
           ))}
         </nav>
         <div className="nav-actions">
+          <Link
+            href="/login"
+            className="nav-login-link"
+            style={{
+              padding: "7px 14px",
+              borderRadius: "8px",
+              color: "#fff",
+              textDecoration: "none",
+              fontWeight: 700,
+              fontSize: "0.88rem",
+              border: "1px solid rgba(255, 255, 255, 0.2)",
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "6px",
+            }}
+          >
+            <i className="fas fa-right-to-bracket"></i> Login
+          </Link>
           <a
             href="https://www.veergame14.com/#/register?invitationCode=69548120159"
             target="_blank"
@@ -78,6 +96,23 @@ export default function Header() {
               {label}
             </Link>
           ))}
+          <Link
+            href="/login"
+            className="mobile-register-btn"
+            style={{
+              width: "100%",
+              marginTop: "8px",
+              textDecoration: "none",
+              display: "block",
+              background: "rgba(255, 255, 255, 0.1)",
+              border: "1px solid rgba(255, 255, 255, 0.2)",
+              color: "#fff",
+            }}
+            onClick={() => setOpen(false)}
+          >
+            <i className="fas fa-right-to-bracket" style={{ marginRight: "8px" }}></i>
+            Member Login
+          </Link>
           <a
             href="https://www.veergame14.com/#/register?invitationCode=69548120159"
             target="_blank"

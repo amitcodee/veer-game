@@ -18,6 +18,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ],
     },
     {
+      url: `${baseUrl}/download`,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 0.95,
+      images: [
+        `${baseUrl}/images/imgs/veer-game-app-1-1024x683.jpeg`,
+      ],
+    },
+    {
+      url: `${baseUrl}/login`,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 0.95,
+      images: [
+        `${baseUrl}/images/imgs/veer-game-login-573x1024.jpeg`,
+      ],
+    },
+    {
       url: `${baseUrl}/blog`,
       lastModified: currentDate,
       changeFrequency: "hourly",

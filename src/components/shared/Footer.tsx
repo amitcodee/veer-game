@@ -30,13 +30,14 @@ export default function Footer() {
         <div>
           <h3>Quick Links</h3>
           <Link href="/">Home</Link>
-          <Link href="/#overview">Overview</Link>
-          <Link href="/#games">Games</Link>
-          <Link href="/#telegram">Telegram</Link>
-          <Link href="/#deposit">Deposit</Link>
-          <Link href="/#withdraw">Withdraw</Link>
-          <Link href="/#bonus">Rewards</Link>
-          <Link href="/#apk">APK Guide</Link>
+          <Link href="/login">Member Login</Link>
+          <Link href="/download">APK Download (v2.1)</Link>
+          <Link href="/#games">Games Overview</Link>
+          <Link href="/#wingo-guide">Wingo Guide</Link>
+          <Link href="/#aviator-guide">Aviator Strategy</Link>
+          <Link href="/#telegram">Official Telegram</Link>
+          <Link href="/#deposit">Deposit (₹100)</Link>
+          <Link href="/#withdraw">Instant Withdraw</Link>
           <Link href="/#faq">FAQ</Link>
         </div>
         <div>

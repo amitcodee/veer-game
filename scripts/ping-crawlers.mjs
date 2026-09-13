@@ -10,6 +10,8 @@ const SITEMAP_URL = `${BASE_URL}/sitemap.xml`;
 
 const URL_LIST = [
   `${BASE_URL}/`,
+  `${BASE_URL}/download`,
+  `${BASE_URL}/login`,
   `${BASE_URL}/blog`,
   `${BASE_URL}/blog/veer-game-login-registration-guide`,
   `${BASE_URL}/blog/veer-game-app-download-apk`,

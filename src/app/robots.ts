@@ -9,6 +9,8 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: [
           "/",
+          "/download",
+          "/login",
           "/_next/static/",
           "/images/",
           "/blog/",

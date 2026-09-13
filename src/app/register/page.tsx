@@ -217,9 +217,15 @@ export default function RegisterPage() {
 
               <div className="crawlable-form-container">
                 <div className="form-mode-tabs">
-                  <Link href="/login" className="mode-tab" style={{ textDecoration: "none" }}>
+                  <a
+                    href={REGISTER_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mode-tab"
+                    style={{ textDecoration: "none" }}
+                  >
                     <i className="fas fa-right-to-bracket"></i> Member Login
-                  </Link>
+                  </a>
                   <span className="mode-tab active">
                     <i className="fas fa-user-plus"></i> New Register
                   </span>
@@ -280,9 +286,14 @@ export default function RegisterPage() {
                   <span style={{ fontSize: "0.82rem", color: "#94a3b8" }}>
                     By clicking Register, you confirm you are 18+ and accept terms.
                   </span>
-                  <Link href="/login" className="create-link">
+                  <a
+                    href={REGISTER_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="create-link"
+                  >
                     Already registered? <strong>Log In Here &rarr;</strong>
-                  </Link>
+                  </a>
                 </div>
               </div>
 

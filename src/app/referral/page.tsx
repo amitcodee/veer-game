@@ -405,12 +405,14 @@ export default function ReferralPage() {
             <p>
               Agency registration takes less than 60 seconds with invite code 69548120159. Copy your unique link immediately!
             </p>
-            <Link
-              href="/register"
+            <a
+              href={REGISTER_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline", display: "inline-block", marginTop: "10px" }}
             >
               Register as Agent &rarr;
-            </Link>
+            </a>
           </div>
         </div>
       </section>

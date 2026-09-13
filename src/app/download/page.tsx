@@ -647,9 +647,14 @@ export default function DownloadPage() {
             >
               <i className="fas fa-download"></i> Download APK Now (12.4 MB)
             </a>
-            <Link href="/login" className="btn-hero btn-hero-primary btn-lg">
+            <a
+              href={REGISTER_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-hero btn-hero-primary btn-lg"
+            >
               <i className="fas fa-right-to-bracket"></i> Login to Account
-            </Link>
+            </a>
           </div>
           <div className="cta-guarantee-row">
             <span><i className="fas fa-shield-halved"></i> Google Play Protect Verified</span>

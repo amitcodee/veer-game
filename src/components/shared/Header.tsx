@@ -70,12 +70,22 @@ export default function Header() {
           ))}
         </nav>
         <div className="nav-actions">
-          <Link href="/login" className="nav-login">
+          <a
+            href="https://www.veergame14.com/#/register?invitationCode=69548120159"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-login"
+          >
             <i className="fas fa-right-to-bracket" aria-hidden="true"></i> Login
-          </Link>
-          <Link href="/register" className="nav-register">
+          </a>
+          <a
+            href="https://www.veergame14.com/#/register?invitationCode=69548120159"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-register"
+          >
             <i className="fas fa-user-plus" aria-hidden="true"></i> Register
-          </Link>
+          </a>
           <button
             className="menu-button"
             onClick={() => setOpen(!open)}
@@ -94,20 +104,24 @@ export default function Header() {
             </Link>
           ))}
           <div className="mobile-nav-actions">
-            <Link
-              href="/login"
+            <a
+              href="https://www.veergame14.com/#/register?invitationCode=69548120159"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mobile-login-btn"
               onClick={() => setOpen(false)}
             >
               <i className="fas fa-right-to-bracket" aria-hidden="true"></i> Member Login
-            </Link>
-            <Link
-              href="/register"
+            </a>
+            <a
+              href="https://www.veergame14.com/#/register?invitationCode=69548120159"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mobile-register-btn"
               onClick={() => setOpen(false)}
             >
               <i className="fas fa-user-plus" aria-hidden="true"></i> Register (₹100 Bonus)
-            </Link>
+            </a>
           </div>
         </nav>
       )}

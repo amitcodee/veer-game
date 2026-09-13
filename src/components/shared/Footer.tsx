@@ -30,8 +30,20 @@ export default function Footer() {
         <div>
           <h3>Quick Links</h3>
           <Link href="/">Home</Link>
-          <Link href="/register">Register (₹100 Bonus)</Link>
-          <Link href="/login">Member Login</Link>
+          <a
+            href="https://www.veergame14.com/#/register?invitationCode=69548120159"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Register (₹100 Bonus)
+          </a>
+          <a
+            href="https://www.veergame14.com/#/register?invitationCode=69548120159"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Member Login
+          </a>
           <Link href="/download">APK Download (v2.1)</Link>
           <Link href="/wingo">Wingo Prediction</Link>
           <Link href="/aviator">Aviator Crash Game</Link>

@@ -2369,6 +2369,54 @@ export default function HomePage() {
               </Link>
             </div>
 
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-plane-departure"></i></div>
+                <span className="why-badge">AVIATOR</span>
+              </div>
+              <h3><Link href="/blog/veer-game-aviator-game-tricks-signals-strategy" style={{ textDecoration: "none", color: "inherit" }}>Veer Game Aviator Tricks, Crash Signals &amp; Cashout Strategy</Link></h3>
+              <p>Master the 2-bet cashout formula, read SHA-256 server seed history, and utilize official Telegram prediction signals safely.</p>
+              <Link href="/blog/veer-game-aviator-game-tricks-signals-strategy" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Explore Aviator Strategy &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-wallet"></i></div>
+                <span className="why-badge">PAYMENTS</span>
+              </div>
+              <h3><Link href="/blog/veer-game-deposit-withdrawal-methods-upi-limits" style={{ textDecoration: "none", color: "inherit" }}>Veer Game Deposit &amp; Withdrawal Guide (UPI &amp; Payout Times)</Link></h3>
+              <p>Step-by-step ₹100 recharge via PhonePe/Paytm/GPay, bank IFSC binding, 8–15 minute withdrawal speeds, and zero-fee settlement.</p>
+              <Link href="/blog/veer-game-deposit-withdrawal-methods-upi-limits" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Read Banking Guide &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-gift"></i></div>
+                <span className="why-badge">GIFT CODES</span>
+              </div>
+              <h3><Link href="/blog/veer-game-gift-code-today-free-bonus-redeem" style={{ textDecoration: "none", color: "inherit" }}>Veer Game Gift Code Today: Daily Drops &amp; How to Redeem</Link></h3>
+              <p>Claim daily free recharge codes worth ₹20–₹500 dropped on Telegram. Fast 30-second redemption with instant wallet crediting.</p>
+              <Link href="/blog/veer-game-gift-code-today-free-bonus-redeem" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                Claim Gift Code Today &rarr;
+              </Link>
+            </div>
+
+            <div className="why-card">
+              <div className="why-card-top">
+                <div className="why-icon"><i className="fas fa-scale-balanced"></i></div>
+                <span className="why-badge">COMPARISON</span>
+              </div>
+              <h3><Link href="/blog/veer-game-vs-daman-game-bdg-win-comparison" style={{ textDecoration: "none", color: "inherit" }}>Veer Game vs Daman Game vs BDG Win (2026 Review)</Link></h3>
+              <p>Detailed comparison of withdrawal speeds, ₹100 deposit entry barrier, sub-20ms latency, and Provably Fair RNG integrity.</p>
+              <Link href="/blog/veer-game-vs-daman-game-bdg-win-comparison" style={{ color: "var(--vg-coral)", fontWeight: 700, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "6px", marginTop: "10px" }}>
+                View Comparison &rarr;
+              </Link>
+            </div>
+
             <div className="why-card" style={{ background: "linear-gradient(135deg, rgba(255, 93, 67, 0.08) 0%, rgba(15, 27, 45, 0.04) 100%)", border: "1px dashed var(--vg-coral)" }}>
               <div className="why-card-top">
                 <div className="why-icon"><i className="fas fa-newspaper"></i></div>

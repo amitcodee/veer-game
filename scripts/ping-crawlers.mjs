@@ -16,6 +16,10 @@ const URL_LIST = [
   `${BASE_URL}/blog/wingo-colour-prediction-tricks-veer-game`,
   `${BASE_URL}/blog/veer-game-real-or-fake-withdrawal-proof`,
   `${BASE_URL}/blog/veer-game-invite-code-referral-daily-salary`,
+  `${BASE_URL}/blog/veer-game-aviator-game-tricks-signals-strategy`,
+  `${BASE_URL}/blog/veer-game-deposit-withdrawal-methods-upi-limits`,
+  `${BASE_URL}/blog/veer-game-gift-code-today-free-bonus-redeem`,
+  `${BASE_URL}/blog/veer-game-vs-daman-game-bdg-win-comparison`,
 ];
 
 async function pingIndexNow() {

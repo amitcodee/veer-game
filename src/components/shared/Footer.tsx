@@ -47,6 +47,10 @@ export default function Footer() {
           <Link href="/blog/wingo-colour-prediction-tricks-veer-game">Wingo Tricks &amp; Formula</Link>
           <Link href="/blog/veer-game-real-or-fake-withdrawal-proof">Real or Fake Audit &amp; Proof</Link>
           <Link href="/blog/veer-game-invite-code-referral-daily-salary">Invite Code 69548120159</Link>
+          <Link href="/blog/veer-game-aviator-game-tricks-signals-strategy">Aviator Tricks &amp; Signals</Link>
+          <Link href="/blog/veer-game-deposit-withdrawal-methods-upi-limits">Deposit &amp; Withdrawal UPI</Link>
+          <Link href="/blog/veer-game-gift-code-today-free-bonus-redeem">Gift Code Today &amp; Drops</Link>
+          <Link href="/blog/veer-game-vs-daman-game-bdg-win-comparison">Veer vs Daman vs BDG</Link>
           <Link href="/#referral">Refer &amp; Earn (Agent Salary)</Link>
         </div>
         <div>

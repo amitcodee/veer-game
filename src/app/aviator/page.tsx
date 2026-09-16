@@ -4,19 +4,28 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game Aviator 2026 | Crash Game Formula, Signals & 100x Multipliers",
+  title: "Veer Game Aviator 2026 | Crash Game Tricks, Signals & Win 100x",
   description:
-    "Play official Aviator Crash Game on Veer Game. Master the 2-bet cashout strategy, read Provably Fair SHA-256 seeds, and access high-accuracy Telegram prediction signals.",
+    "Play Aviator crash game on Veer Game - proven 2-bet cashout strategy for consistent wins. Get Telegram prediction signals, auto-cashout at 1.5x-3x, win up to 100x multipliers. ₹100 deposit, fast withdrawals.",
   keywords: [
     "Veer Game Aviator",
+    "Aviator game",
+    "Aviator crash game",
+    "Aviator tricks",
+    "Aviator prediction",
+    "Aviator signals",
     "Veer Game Aviator tricks",
     "Veer Game crash game",
+    "Aviator predictor",
     "Aviator predictor Veer Game",
-    "Veer Games Aviator signals",
+    "Aviator formula",
+    "Aviator hack",
+    "how to win Aviator",
+    "Aviator cashout strategy",
+    "Aviator telegram signals",
     "Veer Game Aviator formula 2026",
-    "how to play Aviator on Veer Game",
-    "Veer Game Aviator login",
-    "Veer Game Aviator cashout",
+    "how to play Aviator",
+    "Aviator game download",
   ],
   alternates: {
     canonical: "/aviator",

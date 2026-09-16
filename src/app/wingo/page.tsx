@@ -4,20 +4,29 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game Wingo | Official Colour Prediction Portal & 3X Formula 2026",
+  title: "Veer Game Wingo Colour Prediction 2026 | Tricks, Formula & Live Signals",
   description:
-    "Play official Wingo Colour Prediction on Veer Game. Predict Green, Red & Violet in 30s, 1m, 3m & 5m rounds. Master the 3X investment plan and join daily Telegram prediction signals.",
+    "Play Wingo colour prediction on Veer Game - India's #1 platform. Predict Green, Red, Violet in 30s/1m/3m/5m rounds. Master 3X formula, get Telegram signals, win real money. ₹100 deposit, 8-15 min withdrawals.",
   keywords: [
     "Veer Game Wingo",
+    "Wingo colour prediction",
+    "Wingo game",
+    "Wingo tricks",
+    "Wingo prediction",
     "Veer Game colour prediction",
     "Wingo colour prediction Veer Game",
+    "Veer Game Wingo tricks",
+    "Wingo formula",
+    "Wingo 1 minute trick",
+    "Wingo 3X formula",
     "Veer Game Wingo 30s",
     "Veer Game Wingo 1m",
-    "Wingo tricks Veer Game",
-    "Veer Game colour prediction tricks",
-    "how to play Wingo on Veer Game",
-    "Veer Games Wingo login",
+    "colour prediction app",
+    "colour prediction game",
+    "how to win Wingo",
+    "Wingo prediction today",
     "Veer Game prediction today",
+    "Wingo telegram signals",
   ],
   alternates: {
     canonical: "/wingo",

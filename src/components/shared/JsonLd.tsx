@@ -460,7 +460,7 @@ const userReviewsSchema = {
         "@type": "Person",
         name: "Rahul Verma",
       },
-      datePublished: "2026-03-01",
+      datePublished: "2026-09-01",
       reviewBody:
         "Deposited ₹100 via PhonePe and tested 1-minute Wingo using the 3X trick. Withdrew ₹1,850 to my SBI account in just 11 minutes without any deductions!",
     },
@@ -475,7 +475,7 @@ const userReviewsSchema = {
         "@type": "Person",
         name: "Amit Patel",
       },
-      datePublished: "2026-03-05",
+      datePublished: "2026-09-08",
       reviewBody:
         "The APK v2.1 latency is super fast. On Aviator, the dual-bet cashout at 1.50x works like a charm. Best prediction platform in India right now.",
     },
@@ -490,7 +490,7 @@ const userReviewsSchema = {
         "@type": "Person",
         name: "Sunil Sharma",
       },
-      datePublished: "2026-03-10",
+      datePublished: "2026-09-12",
       reviewBody:
         "Working as an agent with invite code 69548120159. Daily salary of ₹3,500 is credited automatically at midnight. 100% genuine and verified.",
     },

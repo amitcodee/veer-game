@@ -4,21 +4,28 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game Login & Register Portal 2026 | Official Account Access",
+  title: "Veer Game Login & Register 2026 | Official Portal (Code: 69548120159)",
   description:
-    "Official Veer Game login and registration portal. Access your account securely with 256-bit encryption. Login via mobile & OTP, or register with invite code 69548120159 to claim ₹100 bonus.",
+    "Veer Game login and register portal 2026. Sign in to your account or create new account with invite code 69548120159. Get ₹100 welcome bonus, play Wingo & Aviator. Secure 256-bit SSL encrypted access.",
   keywords: [
-    "Veer Game Login Register",
     "Veer Game login",
     "Veer Game register",
+    "Veer Game sign up",
     "Veer Game sign in",
+    "Veer Game login 2026",
+    "Veer Game registration",
     "Veer Game login link",
-    "Veer Games account login",
+    "Veer Game account login",
+    "Veer Game new account",
     "Veer Game login kaise kare",
     "Veer Game me register kaise kare",
     "Veer Game password reset",
+    "Veer Game forgot password",
+    "Veer Game invite code",
     "Veer Game invite code 69548120159",
+    "Veer Game official login",
     "veergames1.com login",
+    "veergames login",
   ],
   alternates: {
     canonical: "/login",

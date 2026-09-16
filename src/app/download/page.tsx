@@ -4,20 +4,28 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game APK Download (Official v2.1) | Android App for Wingo & Aviator",
+  title: "Veer Game APK Download 2026 (Official v2.1) | Free Android App",
   description:
-    "Download the official Veer Game APK v2.1 (12.4 MB) for Android. Play Wingo Colour Prediction and Aviator with sub-20ms latency, 100% Play Protect safety, and instant UPI withdrawals.",
+    "Download Veer Game APK v2.1 for Android free (12.4 MB). Official 2026 app - 100% safe, Play Protect verified. Play Wingo colour prediction & Aviator crash game. Register with code 69548120159 for ₹100 bonus.",
   keywords: [
-    "Veer Game APK Download",
+    "Veer Game APK download",
     "Veer Game app download",
+    "Veer Game download",
+    "download Veer Game",
+    "Veer Game APK",
+    "Veer Game APK 2026",
     "Veer Game APK v2.1",
-    "Veer Games APK",
     "Veer Game Android app",
+    "Veer Game app",
     "Veer Game download link",
     "Veer Game mobile app",
     "download Veer Game latest version",
-    "Veer Game app 2026",
+    "Veer Game app free download",
+    "Veer Game APK free download",
+    "Veer Game official APK",
     "Veer Game invite code 69548120159",
+    "Veer Game install",
+    "Veer Game install kaise kare",
   ],
   alternates: {
     canonical: "/download",

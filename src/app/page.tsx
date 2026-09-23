@@ -241,9 +241,9 @@ const whyPopular = [
   },
   {
     icon: "fa-indian-rupee-sign",
-    badge: "Zero Convenience Fee",
-    title: "Familiar Indian Payment Methods",
-    desc: "Since most Indian users already use GPay, PhonePe, or Paytm every day, depositing and withdrawing on Veer Game feels natural and convenient.",
+    badge: "Indian App",
+    title: "Made for Indian Users",
+    desc: "The app is designed with Indian users in mind, featuring a familiar interface and local language support.",
   },
   {
     icon: "fa-layer-group",
@@ -253,9 +253,9 @@ const whyPopular = [
   },
   {
     icon: "fa-clock-rotate-left",
-    badge: "Fast Turnaround",
-    title: "Fast Withdrawal Processing",
-    desc: "Fast and reliable withdrawals build trust, and Veer Game delivers on this. UPI withdrawals in particular are processed quickly, usually within a few hours.",
+    badge: "Fast Response",
+    title: "Quick Customer Support",
+    desc: "Veer Game provides responsive customer support through multiple channels including Telegram community.",
   },
   {
     icon: "fa-award",
@@ -316,16 +316,16 @@ const alternatives = [
   },
 ];
 
-const agentSalaries = [
-  { tier: "Tier 1", members: "10", deposit: "₹5,000", salary: "₹600" },
-  { tier: "Tier 2", members: "25", deposit: "₹10,000", salary: "₹1,300" },
-  { tier: "Tier 3", members: "40", deposit: "₹20,000", salary: "₹2,500" },
-  { tier: "Tier 4", members: "60", deposit: "₹35,000", salary: "₹4,000" },
-  { tier: "Tier 5", members: "80", deposit: "₹60,000", salary: "₹6,000" },
-  { tier: "Tier 6", members: "100", deposit: "₹80,000", salary: "₹8,000" },
-  { tier: "Tier 7", members: "150", deposit: "₹1,30,000", salary: "₹13,000" },
-  { tier: "Tier 8", members: "200", deposit: "₹2,20,000", salary: "₹20,000" },
-  { tier: "Tier 9", members: "500", deposit: "₹5,00,000", salary: "₹50,000" },
+const referralTiers = [
+  { tier: "Level 1", members: "10", activity: "Active", rewards: "Basic" },
+  { tier: "Level 2", members: "25", activity: "Active", rewards: "Bronze" },
+  { tier: "Level 3", members: "40", activity: "Active", rewards: "Silver" },
+  { tier: "Level 4", members: "60", activity: "Active", rewards: "Gold" },
+  { tier: "Level 5", members: "80", activity: "Active", rewards: "Platinum" },
+  { tier: "Level 6", members: "100", activity: "Active", rewards: "Diamond" },
+  { tier: "Level 7", members: "150", activity: "Active", rewards: "Elite" },
+  { tier: "Level 8", members: "200", activity: "Active", rewards: "VIP" },
+  { tier: "Level 9", members: "500", activity: "Active", rewards: "Premium" },
 ];
 
 const faqs = [
@@ -744,18 +744,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== 3B. WINGO COLOUR PREDICTION EDUCATIONAL GUIDE ===== */}
+      {/* ===== 3B. WINGO GAME OVERVIEW ===== */}
       <section className="vg-section vg-wingo-guide vg-section-light vg-section-soft" id="wingo-guide">
         <div className="site-shell">
           <div className="vg-section-header">
             <span className="vg-tag">
-              <i className="fas fa-bullseye"></i> Flagship Game Guide
+              <i className="fas fa-bullseye"></i> Game Overview
             </span>
             <h2 className="vg-section-title">
-              Veer Game Wingo Colour Prediction: Rules, Chart Trends &amp; 3X Formula
+              Wingo Game Features &amp; Interface
             </h2>
             <p className="vg-section-desc">
-              Master the mechanics, mathematical payout multipliers, trend analysis, and disciplined bankroll management for Win Go.
+              Learn about the Wingo colour selection game interface and available features.
             </p>
           </div>
 
@@ -766,12 +766,11 @@ export default function HomePage() {
                   <div className="why-icon" style={{ background: "rgba(5, 150, 105, 0.15)", color: "#059669" }}>
                     <i className="fas fa-circle"></i>
                   </div>
-                  <span className="why-badge">2X PAYOUT</span>
+                  <span className="why-badge">COLOURS</span>
                 </div>
-                <h3>Green &amp; Red Prediction</h3>
+                <h3>Green &amp; Red Options</h3>
                 <p>
-                  <strong>Green Numbers (1, 3, 7, 9)</strong> and <strong>Red Numbers (2, 4, 6, 8)</strong> deliver a 2.0x return on stake.
-                  If the winning number is accompanied by violet, payout adjusts to 1.5x.
+                  <strong>Green Numbers (1, 3, 7, 9)</strong> and <strong>Red Numbers (2, 4, 6, 8)</strong> are the primary colour categories in the game interface.
                 </p>
               </div>
 
@@ -780,12 +779,11 @@ export default function HomePage() {
                   <div className="why-icon" style={{ background: "rgba(139, 92, 246, 0.15)", color: "#8b5cf6" }}>
                     <i className="fas fa-gem"></i>
                   </div>
-                  <span className="why-badge">4.5X PAYOUT</span>
+                  <span className="why-badge">SPECIAL</span>
                 </div>
-                <h3>Violet Bonus Multiplier</h3>
+                <h3>Violet Category</h3>
                 <p>
-                  <strong>Violet Numbers (0 and 5)</strong> occur on special transition rounds. Staking on Violet yields
-                  a lucrative <strong>4.5x payout</strong>, delivering high upside when trend analysis anticipates a colour shift.
+                  <strong>Violet Numbers (0 and 5)</strong> represent a special category in the game with unique visual elements.
                 </p>
               </div>
 
@@ -794,12 +792,11 @@ export default function HomePage() {
                   <div className="why-icon" style={{ background: "rgba(245, 158, 11, 0.15)", color: "#f59e0b" }}>
                     <i className="fas fa-crosshairs"></i>
                   </div>
-                  <span className="why-badge">9X PAYOUT</span>
+                  <span className="why-badge">NUMBERS</span>
                 </div>
-                <h3>Single Exact Number (0–9)</h3>
+                <h3>Number Selection (0–9)</h3>
                 <p>
-                  Predicting the exact single digit (0 through 9) pays an industry-leading <strong>9.0x multiplier</strong>.
-                  Combine parity analysis (Big 5–9 / Small 0–4) with colour trends for maximum edge.
+                  Users can select specific numbers from 0 through 9, each associated with different colour categories.
                 </p>
               </div>
             </div>
@@ -808,54 +805,52 @@ export default function HomePage() {
               <table>
                 <thead>
                   <tr>
-                    <th>Win Go Mode</th>
+                    <th>Game Mode</th>
                     <th>Round Duration</th>
-                    <th>Draws Per Hour</th>
-                    <th>Ideal Strategy</th>
+                    <th>Rounds Per Hour</th>
+                    <th>Pace</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong>Win Go 30s</strong></td>
+                    <td><strong>Wingo 30s</strong></td>
                     <td>30 Seconds</td>
                     <td>120 Rounds</td>
-                    <td>Fast streak trading &amp; low unit staking</td>
+                    <td>Fast-paced</td>
                   </tr>
                   <tr>
-                    <td><strong>Win Go 1m</strong></td>
+                    <td><strong>Wingo 1m</strong></td>
                     <td>1 Minute</td>
                     <td>60 Rounds</td>
-                    <td>The 3X Investment Plan with chart confirmation</td>
+                    <td>Standard</td>
                   </tr>
                   <tr>
-                    <td><strong>Win Go 3m</strong></td>
+                    <td><strong>Wingo 3m</strong></td>
                     <td>3 Minutes</td>
                     <td>20 Rounds</td>
-                    <td>Macro pattern analysis &amp; high confidence entries</td>
+                    <td>Relaxed</td>
                   </tr>
                   <tr>
-                    <td><strong>Win Go 5m</strong></td>
+                    <td><strong>Wingo 5m</strong></td>
                     <td>5 Minutes</td>
                     <td>12 Rounds</td>
-                    <td>VIP Telegram signal sync &amp; disciplined bankroll</td>
+                    <td>Extended</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
             <div className="disclaimer-card" style={{ background: "rgba(255, 93, 67, 0.05)", borderLeft: "4px solid var(--vg-coral)" }}>
-              <h3 style={{ color: "var(--vg-coral)", marginBottom: "8px" }}>The 3X Bankroll Preservation Formula</h3>
+              <h3 style={{ color: "var(--vg-coral)", marginBottom: "8px" }}>Learn More</h3>
               <p>
-                Professional players never bet randomly. If a round is missed, apply the 3X recovery progression:
-                <strong>₹10 &rarr; ₹30 &rarr; ₹90 &rarr; ₹270</strong>. When any stage wins, you recover all prior entries plus net profit.
-                Always set a hard stop-loss of 4 levels (-₹400) to protect your principal capital.
+                Explore the Wingo game interface and features in the Veer Game app.
               </p>
               <div style={{ marginTop: "12px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
-                <Link href="/blog/wingo-colour-prediction-tricks-veer-game" style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline" }}>
-                  Read Complete Wingo Tricks &amp; Chart Patterns Guide &rarr;
+                <Link href="/wingo" style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline" }}>
+                  Read Wingo Game Guide &rarr;
                 </Link>
                 <Link href="/download" style={{ color: "var(--vg-ink)", fontWeight: 600 }}>
-                  Play Wingo on Android APK &rarr;
+                  Download App &rarr;
                 </Link>
               </div>
             </div>
@@ -863,18 +858,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== 3C. AVIATOR CRASH GAME EDUCATIONAL GUIDE ===== */}
+      {/* ===== 3C. AVIATOR GAME OVERVIEW ===== */}
       <section className="vg-section vg-aviator-guide vg-section-dark" id="aviator-guide">
         <div className="site-shell">
           <div className="vg-section-header">
             <span className="vg-tag">
-              <i className="fas fa-paper-plane"></i> Crash Mechanics
+              <i className="fas fa-paper-plane"></i> Game Overview
             </span>
             <h2 className="vg-section-title">
-              Veer Game Aviator: 2-Bet Cashout Formula &amp; Multiplier Signals
+              Aviator Game Features &amp; Interface
             </h2>
             <p className="vg-section-desc">
-              Understand Provably Fair SHA-256 seeds, flight volatility cycles, and how to execute dual auto-cashout bets safely.
+              Learn about the Aviator flight-themed game interface and features.
             </p>
           </div>
 
@@ -883,51 +878,48 @@ export default function HomePage() {
               <div className="why-card">
                 <div className="why-card-top">
                   <div className="why-icon"><i className="fas fa-plane-up"></i></div>
-                  <span className="why-badge">HOW IT WORKS</span>
+                  <span className="why-badge">ANIMATION</span>
                 </div>
-                <h3>Ascending Multiplier Display</h3>
+                <h3>Flight Animation</h3>
                 <p>
-                  As the animated plane climbs, the multiplier display increases from <strong>1.00x up to 100x+</strong>.
-                  The game features interactive timing mechanics where users engage with the flight animation.
+                  The game features an animated plane that climbs with visual effects and dynamic graphics.
                 </p>
               </div>
 
               <div className="why-card">
                 <div className="why-card-top">
                   <div className="why-icon"><i className="fas fa-shield-halved"></i></div>
-                  <span className="why-badge">PROVABLY FAIR</span>
+                  <span className="why-badge">TECHNOLOGY</span>
                 </div>
                 <h3>Technical Features</h3>
                 <p>
-                  The game uses cryptographic technology for round generation.
-                  Results are transparent and can be verified in the game history.
+                  The game uses modern web technology for smooth animations and responsive interface.
                 </p>
               </div>
 
               <div className="why-card">
                 <div className="why-card-top">
                   <div className="why-icon"><i className="fas fa-sliders"></i></div>
-                  <span className="why-badge">GAME INTERFACE</span>
+                  <span className="why-badge">INTERFACE</span>
                 </div>
-                <h3>Interactive Controls</h3>
+                <h3>User Controls</h3>
                 <p>
-                  The Aviator game features a user-friendly interface with multiple control options
-                  and visual feedback during gameplay.
+                  The Aviator game features an intuitive interface with clear controls and visual feedback.
                 </p>
               </div>
             </div>
 
             <div className="disclaimer-card" style={{ background: "rgba(255, 255, 255, 0.05)", borderLeft: "4px solid #f59e0b" }}>
-              <h3 style={{ color: "#f59e0b", marginBottom: "8px" }}>Community Updates</h3>
+              <h3 style={{ color: "#f59e0b", marginBottom: "8px" }}>Community</h3>
               <p>
-                The official Telegram channel provides community updates, announcements, and user discussions.
+                Join the community Telegram channel for updates and discussions.
               </p>
               <div style={{ marginTop: "12px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
-                <Link href="/blog/veer-game-aviator-game-tricks-signals-strategy" style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline" }}>
+                <Link href="/aviator" style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline" }}>
                   Read Aviator Game Guide &rarr;
                 </Link>
                 <a href="https://t.me/+SQ2smTBoOV82ZjY9" target="_blank" rel="noopener noreferrer" style={{ color: "#fff", fontWeight: 600 }}>
-                  Join Community Telegram &rarr;
+                  Join Community &rarr;
                 </a>
               </div>
             </div>
@@ -2251,27 +2243,27 @@ export default function HomePage() {
             </ol>
           </div>
           <div className="agent-salary">
-            <h3>Veer Game Agent - Daily Salary System</h3>
+            <h3>Veer Game Referral Program Tiers</h3>
             <p>
-              Becoming a Veer Game agent enables you to earn a steady daily income based on your team&apos;s active player participation:
+              The referral program has multiple tiers based on the number of friends you invite:
             </p>
             <div className="table-wrap">
               <table>
                 <thead>
                   <tr>
                     <th>Tier Level</th>
-                    <th>Team Members</th>
-                    <th>Min Team Deposit</th>
-                    <th>Daily Salary</th>
+                    <th>Referrals</th>
+                    <th>Status</th>
+                    <th>Tier Rewards</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {agentSalaries.map((s) => (
+                  {referralTiers.map((s) => (
                     <tr key={s.tier}>
                       <td><span className="tier-badge">{s.tier}</span></td>
-                      <td>{s.members} Active Members</td>
-                      <td>{s.deposit}</td>
-                      <td><span className="salary-val">{s.salary} / Day</span></td>
+                      <td>{s.members} Friends</td>
+                      <td>{s.activity}</td>
+                      <td><span className="salary-val">{s.rewards}</span></td>
                     </tr>
                   ))}
                 </tbody>
@@ -2280,7 +2272,7 @@ export default function HomePage() {
             <div className="guide-tip" style={{ marginTop: "16px" }}>
               <i className="fas fa-circle-info"></i>
               <div>
-                <strong>Agent Note:</strong> Daily salaries are calculated and credited automatically every 24 hours based on active team member qualifications.
+                <strong>Note:</strong> Referral tiers are based on the number of active friends using your invitation code.
               </div>
             </div>
 

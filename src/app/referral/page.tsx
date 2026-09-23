@@ -4,30 +4,27 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game Referral Code 69548120159 | Agent Daily Salary Chart 2026",
+  title: "Veer Game Referral Program Guide | Invitation Code 69548120159",
   description:
-    "Official Veer Game referral code is 69548120159. Earn up to ₹50,000 fixed daily salary and 6-tier lifetime turnover commission with automated midnight UPI settlement.",
+    "Learn about Veer Game referral program and invitation code 69548120159. Information about the app's referral features and invite system.",
   keywords: [
     "Veer Game referral code",
     "Veer Game invite code 69548120159",
-    "Veer Game agent salary",
-    "Veer Game daily salary chart",
-    "Veer Game commission structure",
-    "Veer Games affiliate program",
-    "Veer Game agent login",
-    "Veer Game se paise kaise kamaye",
-    "Veer Game referral bonus",
+    "Veer Game referral program",
+    "Veer Game invitation code",
+    "Veer Games referral",
+    "Veer Game invite friends",
     "veergames1.com referral",
   ],
   alternates: {
     canonical: "/referral",
   },
   openGraph: {
-    title: "Veer Game Referral Code 69548120159 | Agent Daily Salary Chart 2026",
+    title: "Veer Game Referral Program Guide | Invitation Code 69548120159",
     description:
-      "Join the official Veer Game agent program. Earn up to ₹50,000 daily salary and 6-tier betting turnover commission with 0% wagering on withdrawals.",
+      "Information about Veer Game referral program and how to use invitation code 69548120159.",
     url: "https://veergames1.com/referral",
-    siteName: "Veer Game",
+    siteName: "Veer Game Guide",
     type: "website",
     locale: "en_IN",
     images: [
@@ -35,15 +32,15 @@ export const metadata: Metadata = {
         url: "https://veergames1.com/images/imgs/veer-game-salary-1024x936.jpeg",
         width: 1024,
         height: 936,
-        alt: "Veer Game Official Agent Daily Salary Chart 2026",
+        alt: "Veer Game Referral Program Information",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Veer Game Referral Code 69548120159 | Agent Daily Salary",
+    title: "Veer Game Referral Program Guide | Invitation Code 69548120159",
     description:
-      "Earn up to ₹50,000 daily salary on Veer Game. 6-tier turnover commission with automated midnight UPI settlement.",
+      "Learn about Veer Game referral program and invitation code 69548120159.",
     images: ["https://veergames1.com/images/imgs/veer-game-salary-1024x936.jpeg"],
   },
 };
@@ -56,14 +53,14 @@ export default function ReferralPage() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": `${BASE_URL}/referral#webpage`,
-    name: "Veer Game Referral Program & Agent Daily Salary Portal",
+    name: "Veer Game Referral Program Guide",
     description:
-      "Official details of the Veer Game multi-tier agent affiliate program, daily fixed salaries, and invite code 69548120159 benefits.",
+      "Information about Veer Game referral program and invitation code 69548120159.",
     url: `${BASE_URL}/referral`,
     inLanguage: ["en-IN", "hi-IN"],
     publisher: {
       "@type": "Organization",
-      name: "Veer Game Official",
+      name: "Veer Game Guide",
       url: BASE_URL,
     },
   };
@@ -93,10 +90,10 @@ export default function ReferralPage() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "What is the official Veer Game invite code for 2026?",
+        name: "What is the Veer Game invitation code?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The official Veer Game referral/invite code is 69548120159. Using this code activates welcome bonuses, priority VIP withdrawal queues, and agent salary qualification.",
+          text: "The Veer Game invitation code is 69548120159. Use this code when creating your account to access app features.",
         },
       },
       {

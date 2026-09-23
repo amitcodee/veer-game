@@ -6,10 +6,10 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const links = [
-  ["Win Go", "/wingo"],
-  ["Aviator", "/aviator"],
-  ["Download APK", "/download"],
-  ["Agent Salary", "/referral"],
+  ["Wingo Guide", "/wingo"],
+  ["Aviator Guide", "/aviator"],
+  ["Download", "/download"],
+  ["Referral", "/referral"],
   ["Guides", "/blog"],
   ["FAQ", "/#faq"],
 ] as const;
@@ -120,7 +120,7 @@ export default function Header() {
               className="mobile-register-btn"
               onClick={() => setOpen(false)}
             >
-              <i className="fas fa-user-plus" aria-hidden="true"></i> Register (₹100 Bonus)
+              <i className="fas fa-user-plus" aria-hidden="true"></i> Create Account
             </a>
           </div>
         </nav>

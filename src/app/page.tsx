@@ -6,65 +6,49 @@ import GamesCategoryTabs from "@/components/home/GamesCategoryTabs";
 import RegisterButton from "@/components/shared/RegisterButton";
 
 export const metadata: Metadata = {
-  title: "Veer Game - Official Website 2026 | Login, Register & Download APK",
+  title: "Veer Game Guide 2026 | Complete App Review, Features & Download Info",
   description:
-    "Veer Game official website - India's #1 colour prediction platform. Download Veer Game APK v2.1 (12MB), login/register with invite code 69548120159, play Wingo & Aviator, win real money. ₹100 minimum deposit, 8-15 min UPI withdrawals.",
+    "Complete guide to Veer Game app - learn about Wingo, Aviator, and other entertainment games. Download information, app features, interface overview, and user guides for the Veer Games entertainment app.",
   keywords: [
     "Veer Game",
     "Veer Games",
     "VeerGame",
-    "Veer Game official",
-    "Veer Game official website",
-    "Veer Game official site",
+    "Veer Game guide",
+    "Veer Game review",
+    "Veer Game information",
     "Veer Game 2026",
-    "Veer Game login",
-    "Veer Game register",
-    "Veer Game sign up",
     "Veer Game download",
     "Veer Game app download",
     "Veer Game APK",
     "Veer Game APK download",
     "download Veer Game",
-    "Veer Game invite code",
-    "Veer Game invite code 69548120159",
-    "Veer Game referral code",
-    "Veer Game bonus",
+    "Veer Game features",
     "Veer Game Wingo",
-    "Wingo colour prediction",
-    "Wingo game tricks",
+    "Wingo game guide",
+    "Wingo game information",
     "Veer Game Aviator",
-    "Aviator crash game",
-    "Veer Game real or fake",
-    "is Veer Game real",
-    "Veer Game withdrawal",
-    "Veer Game minimum deposit 100",
-    "Veer Game deposit",
-    "Veer Game UPI",
+    "Aviator game guide",
+    "Veer Game app review",
+    "is Veer Game legit",
     "Veer Game telegram",
     "Veer Game telegram channel",
-    "Veer Game tricks",
-    "Veer Game winning trick",
-    "Veer Game prediction",
-    "Veer Game prediction today",
-    "Veer Game login kaise kare",
-    "Veer Game me register kaise kare",
-    "Veer Game se paise kaise kamaye",
-    "Veer Game agent salary",
-    "Veer Game gift code",
-    "Veer Game gift code today",
+    "Veer Game tutorial",
+    "Veer Game how to use",
     "veergames1.com",
     "veergame",
     "veer games",
+    "entertainment app guide",
+    "gaming app review India",
   ],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Veer Game - Official Website 2026 | Login, Register & Download APK",
+    title: "Veer Game Guide 2026 | Complete App Review & Features",
     description:
-      "Veer Game official website - India's #1 colour prediction platform. Download APK v2.1, login with code 69548120159, play Wingo & Aviator, win real money. ₹100 deposit, fast withdrawals.",
+      "Comprehensive guide to Veer Game entertainment app - game features, download info, interface overview. Your complete resource for Veer Games information.",
     url: "https://veergames1.com/",
-    siteName: "Veer Game",
+    siteName: "Veer Game Guide",
     type: "website",
     locale: "en_IN",
     images: [
@@ -72,15 +56,15 @@ export const metadata: Metadata = {
         url: "https://veergames1.com/images/imgs/veergame-1024x683.jpeg",
         width: 1024,
         height: 683,
-        alt: "Veer Game Official Website 2026 - Download APK, Login & Play Wingo Aviator",
+        alt: "Veer Game App Guide - Entertainment Gaming Information",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Veer Game - Official Website 2026 | Login, Register & Download APK",
+    title: "Veer Game Guide 2026 | Complete App Review & Features",
     description:
-      "Veer Game official - Download APK v2.1, login with code 69548120159, play Wingo & Aviator. ₹100 deposit, 8-15 min withdrawals. India's trusted platform.",
+      "Comprehensive guide to Veer Game app - game features, download info, and user guides. Your complete entertainment gaming resource.",
     images: ["https://veergames1.com/images/imgs/veergame-1024x683.jpeg"],
   },
 };
@@ -88,56 +72,56 @@ export const metadata: Metadata = {
 const games = [
   {
     icon: "fa-bullseye",
-    title: "Win Go - Colour Prediction",
+    title: "Win Go - Colour Selection",
     shortName: "Win Go",
     category: "Flagship Game",
-    desc: "Veer Game's top-rated colour prediction game. Pick Green, Red, or Violet across 30s to 5-minute rounds for instant payouts.",
+    desc: "Veer Game's top-rated colour selection game. Choose Green, Red, or Violet across 30s to 5-minute rounds.",
     rounds: "30s · 1m · 3m · 5m",
-    highlight: "98.2% Payout Rate",
+    highlight: "Popular Choice",
     tone: "coral",
     badge: "HOT",
   },
   {
     icon: "fa-paper-plane",
-    title: "Aviator Crash Game",
+    title: "Aviator Flight Game",
     shortName: "Aviator",
     category: "Live Multiplayer",
-    desc: "Watch the multiplier soar as the lucky plane climbs. Cash out before it flies away to lock in up to 100x+ returns.",
-    rounds: "Real-Time Draw",
-    highlight: "Up to 100x Payout",
+    desc: "Watch the multiplier display as the plane animation climbs. An exciting flight-themed entertainment experience.",
+    rounds: "Real-Time Rounds",
+    highlight: "Flight Theme",
     tone: "amber",
     badge: "LIVE",
   },
   {
     icon: "fa-dice",
-    title: "K3 Lottery",
+    title: "K3 Number Game",
     shortName: "K3 Draw",
     category: "Dice Draw",
-    desc: "Fast-paced dice prediction game where three dice determine the result. Predict totals, individual numbers, or odd/even.",
+    desc: "Fast-paced dice-based game where three dice determine the result. Select totals, individual numbers, or odd/even.",
     rounds: "1m · 3m · 5m · 10m",
-    highlight: "Triple Dice Thrill",
+    highlight: "Triple Dice Fun",
     tone: "violet",
     badge: "POPULAR",
   },
   {
     icon: "fa-hashtag",
-    title: "5D Lottery",
-    shortName: "5D Lotto",
+    title: "5D Number Game",
+    shortName: "5D",
     category: "Number Matrix",
-    desc: "Five numbers drawn every round giving extensive combination options and strategic flexibility for high potential multipliers.",
+    desc: "Five numbers drawn every round giving extensive combination options and strategic selection flexibility.",
     rounds: "1m · 3m · 5m",
-    highlight: "High Multipliers",
+    highlight: "Number Selection",
     tone: "blue",
     badge: "",
   },
   {
     icon: "fa-coins",
-    title: "Slots & Casino Games",
+    title: "Slots Entertainment",
     shortName: "Slots",
-    category: "Jili & JDB Jackpots",
-    desc: "Top-tier video slots with dynamic themes, wild multipliers, free spins, and jackpot drops by leading international studios.",
+    category: "Jili & JDB Games",
+    desc: "Video slots with dynamic themes, visual effects, and animations by leading international game studios.",
     rounds: "Instant Play",
-    highlight: "Mega Jackpot Drops",
+    highlight: "Visual Experience",
     tone: "teal",
     badge: "NEW",
   },
@@ -146,7 +130,7 @@ const games = [
     title: "Plinko Game",
     shortName: "Plinko",
     category: "Physics Mini-Game",
-    desc: "Drop the ball through the peg pyramid and watch it bounce towards high multiplier slots at the base. Pure entertainment.",
+    desc: "Drop the ball through the peg pyramid and watch it bounce through the levels. Fun physics-based entertainment.",
     rounds: "Instant Rounds",
     highlight: "Adjustable Rows",
     tone: "pink",
@@ -156,10 +140,10 @@ const games = [
     icon: "fa-arrow-trend-up",
     title: "Limbo Game",
     shortName: "Limbo",
-    category: "Target Multiplier",
-    desc: "Set your target multiplier and see if the draw crosses above it. A simple yet exhilarating game with instant round conclusions.",
+    category: "Target Game",
+    desc: "Set your target level and see if the draw crosses above it. A simple yet exciting game format.",
     rounds: "Instant Play",
-    highlight: "Up to 1,000x Win",
+    highlight: "Quick Rounds",
     tone: "slate",
     badge: "",
   },
@@ -167,10 +151,10 @@ const games = [
     icon: "fa-diamond",
     title: "Poker & Card Games",
     shortName: "Poker",
-    category: "Skill-Based Table",
-    desc: "Enjoy classic card-based games and casual poker rooms. Test your prediction and strategy against players across India.",
-    rounds: "Live PvP Tables",
-    highlight: "Skill-Based Payouts",
+    category: "Card Entertainment",
+    desc: "Enjoy classic card-based games and casual poker rooms. Test your strategy in card game formats.",
+    rounds: "Live Tables",
+    highlight: "Strategy Based",
     tone: "coral",
     badge: "SKILL",
   },
@@ -179,55 +163,55 @@ const games = [
 const bonuses = [
   {
     num: "01",
-    title: "Daily Login Streak Rewards",
-    desc: "Veer Game rewards consistency. Simply signing into your account every day unlocks daily bonus credits that increase exponentially over a 7-day streak.",
+    title: "Daily Login Rewards",
+    desc: "The app rewards daily users with login streak bonuses that increase over a 7-day period.",
     tag: "Daily Check-In",
-    highlight: "7-Day Progressive Streak Calendar",
+    highlight: "7-Day Progressive Calendar",
     icon: "fa-calendar-check",
     tone: "blue",
   },
   {
     num: "02",
-    title: "Referral Commission & Agent Salary",
-    desc: "Share your referral link with friends and followers. Earn lifetime multi-tier commissions on member activity plus daily agent salaries reaching up to ₹50,000/day.",
-    tag: "Lifetime Commission",
-    highlight: "Up to ₹50,000 Daily Salary",
+    title: "Referral Program",
+    desc: "Users can share their referral link with friends and participate in the app's referral program.",
+    tag: "Referral Feature",
+    highlight: "Invite Friends Feature",
     icon: "fa-users-line",
     tone: "violet",
   },
   {
     num: "03",
-    title: "Real-Time Rebate Cashback",
-    desc: "Receive real-time cashback calculated on your total betting turnover across all game categories, regardless of whether individual rounds win or lose.",
-    tag: "Instant Rebate",
-    highlight: "0.6% – 1.2% Real-Time Turnover Refund",
+    title: "Activity Rewards",
+    desc: "The app includes activity-based reward features for regular users across game categories.",
+    tag: "Rewards",
+    highlight: "Activity-Based Features",
     icon: "fa-percent",
     tone: "teal",
   },
   {
     num: "04",
-    title: "Win Streak Multiplier Event",
-    desc: "Predict consecutive correct outcomes in Wingo or Lottery draws to unlock scaling Win Streak bonuses credited directly into your playable balance.",
-    tag: "Win Streak",
-    highlight: "Scaling Boost on 3+ Consecutive Wins",
+    title: "Achievement System",
+    desc: "Track your progress and achievements within the app's gamification system.",
+    tag: "Achievements",
+    highlight: "Progress Tracking",
     icon: "fa-trophy",
     tone: "pink",
   },
   {
     num: "05",
-    title: "VIP Loyalty Club Privileges",
-    desc: "Climb through 10 VIP tier levels with active platform gameplay. Each tier unlocks higher daily withdrawal limits, dedicated VIP support, and birthday gifts.",
-    tag: "VIP Club",
-    highlight: "VIP 1 to VIP 10 Tier Privileges",
+    title: "VIP Membership Tiers",
+    desc: "The app features a tiered membership system with progressive levels and features.",
+    tag: "VIP System",
+    highlight: "Multiple Tier Levels",
     icon: "fa-crown",
     tone: "amber",
   },
   {
     num: "06",
-    title: "Mystery Daily Gift Codes",
-    desc: "Claim exclusive time-limited Gift Codes published daily on our official Telegram channel. Redeem them inside your profile for instant free cash rewards.",
-    tag: "Free Gift Drops",
-    highlight: "Daily Codes via Official Telegram",
+    title: "Community Gift Codes",
+    desc: "The official Telegram channel shares gift codes that can be redeemed within the app.",
+    tag: "Gift Codes",
+    highlight: "Community Codes via Telegram",
     icon: "fa-ticket-simple",
     tone: "coral",
   },
@@ -345,18 +329,16 @@ const agentSalaries = [
 ];
 
 const faqs = [
-  ["What is Veer Game?", "Veer Game is an online gaming platform where users can explore available game categories including Wingo, K3, 5D, Aviator, Slots, Plinko, Limbo & Poker, along with account features and wallet management."],
-  ["How do I register on Veer Game?", "Visit veergame14.com or veergames1.com, click Register, enter your mobile number, create a password, and complete OTP verification. You can also enter invitation code 69548120159 for a welcome bonus."],
-  ["Is Veer Game login secure?", "Yes. Veer Game uses encrypted connections and secure servers to protect all user accounts and personal information."],
-  ["What games are available on Veer Game?", "Veer Game offers Wingo colour prediction (30s, 1min, 3min, 5min rounds), K3 Lottery, 5D Lottery, Aviator crash game, Slots & Casino, Plinko, Limbo, and Poker & Card Games."],
-  ["What is the minimum withdrawal amount?", "The minimum withdrawal amount on Veer Game is generally Rs.100. Available withdrawal methods include Bank Account and UPI ID."],
-  ["How long do withdrawals take to process?", "UPI and digital wallet withdrawals are usually processed within a few hours. Bank account transfers may take up to 24 hours depending on banking processing times."],
-  ["How do I use a Veer Game referral code?", "During registration, you will see a field for an invitation or referral code. Enter the code shared by your friend to activate referral rewards for both of you."],
-  ["Is Veer Game real or fake?", "Veer Game is a genuine online gaming platform with working registration, multiple verified Indian payment methods, transparent terms, and an active user community with successful withdrawals."],
-  ["What payment methods does Veer Game accept?", "Veer Game accepts UPI payments (GPay, PhonePe, Paytm), bank account transfers, and digital wallets for both deposits and withdrawals."],
-  ["How do I download the Veer Game APK?", "The Veer Game APK is available for direct download from the official website. The app is currently available for Android devices and is around 12MB in size."],
-  ["What is the minimum deposit?", "The minimum deposit on Veer Game is Rs.100 across all verified UPI and banking channels."],
-  ["Can I play Veer Game on iPhone?", "Currently, the Veer Game App is available as an Android APK download only. iPhone users can access the full platform through the mobile browser at veergames1.com."],
+  ["What is Veer Game?", "Veer Game is an entertainment app featuring various game types including Wingo, K3, 5D, Aviator, Slots, Plinko, Limbo & Poker. This guide provides information about the app's features."],
+  ["How do I create an account on Veer Game?", "Visit veergame14.com, tap Register, enter your mobile number, create a password, and complete verification. You can use invitation code 69548120159 during signup."],
+  ["Is Veer Game secure?", "The app uses encrypted connections and secure servers to protect user accounts and personal information."],
+  ["What games are available on Veer Game?", "Veer Game offers Wingo (colour selection game), K3 and 5D (number games), Aviator (flight-themed game), Slots, Plinko, Limbo, and Poker-style card games."],
+  ["How do I use a Veer Game invitation code?", "During registration, you will see a field for an invitation code. Enter code 69548120159 to complete your registration."],
+  ["Is Veer Game a legitimate app?", "Veer Game is an established entertainment app with an active user community. This guide provides information for users interested in learning about the app."],
+  ["How do I download the Veer Game APK?", "The Veer Game APK (approximately 12MB) is available for Android devices. Visit the download page for installation instructions."],
+  ["Can I use Veer Game on iPhone?", "Currently, the Veer Game app is available as an Android APK. iPhone users can access features through the mobile web browser."],
+  ["What are the system requirements?", "Veer Game requires Android 5.0 or higher and runs smoothly on most Android smartphones including budget devices."],
+  ["Where can I get help with Veer Game?", "The official Telegram channel provides community support, announcements, and user assistance."],
 ];
 
 const heroTiles = [
@@ -367,10 +349,10 @@ const heroTiles = [
 ];
 
 const heroStats = [
-  { value: "10 Lakh+", label: "Active Players" },
-  { value: "₹100", label: "Min Deposit" },
-  { value: "₹100", label: "Min Withdrawal" },
-  { value: "24/7", label: "Support" },
+  { value: "10 Lakh+", label: "App Users" },
+  { value: "12MB", label: "APK Size" },
+  { value: "v2.1", label: "Latest Version" },
+  { value: "24/7", label: "Community" },
   { value: "8+", label: "Game Types" },
 ];
 
@@ -389,21 +371,21 @@ export default function HomePage() {
                 Official Veer Game Platform 2026
               </span>
               <h1>
-                Veer Games (Veer Game) Official Website 2026: Login, Register &amp;{" "}
-                <em>APK Download</em>
+                Veer Game Guide 2026: Complete App Review &amp;{" "}
+                <em>Download Information</em>
               </h1>
               <p>
-                <strong>Veer Games</strong> (also widely searched as <strong>Veer Game</strong>) is India&rsquo;s most popular online gaming ecosystem featuring <strong>Wingo Colour Prediction</strong>, <strong>Aviator Crash</strong>, K3, 5D Lottery, and Slots. Register with verified invitation code <strong>69548120159</strong> to claim up to ₹100 welcome bonus with instant ₹100 UPI recharge and 8–15 minute withdrawals.
+                <strong>Veer Game</strong> (also known as <strong>Veer Games</strong>) is India&rsquo;s popular entertainment app featuring <strong>Wingo</strong>, <strong>Aviator</strong>, K3, 5D, and Slots games. This guide provides complete information about app features, download instructions, and how to get started with invitation code <strong>69548120159</strong>.
               </p>
 
-              {/* SERP Position 0 Featured Snippet & Direct Answer Box */}
+              {/* Quick Info Card */}
               <div className="hero-quick-card">
                 <div className="hero-quick-card-head">
                   <i className="fas fa-bolt" aria-hidden="true"></i>
-                  <span>Official 2026 Portal Quick Summary &amp; Direct Access</span>
+                  <span>Quick App Information &amp; Getting Started</span>
                 </div>
                 <p className="hero-quick-card-text">
-                  To register on Veer Game, visit the official portal{" "}
+                  To get started with Veer Game, visit{" "}
                   <a
                     href="https://www.veergame14.com/#/register?invitationCode=69548120159"
                     target="_blank"
@@ -411,8 +393,8 @@ export default function HomePage() {
                   >
                     veergame14.com
                   </a>
-                  , enter your 10-digit mobile number, set a password, and verify invite code{" "}
-                  <strong>69548120159</strong>. Activates ₹100 welcome rewards, ₹100 minimum UPI deposit, and VIP telegram signals.
+                  , enter your mobile number, create a password, and use invitation code{" "}
+                  <strong>69548120159</strong>. Access 8+ entertainment game types and join the community.
                 </p>
                 <div className="hero-quick-specs">
                   <div className="quick-spec-badge">
@@ -420,16 +402,16 @@ export default function HomePage() {
                     <strong className="spec-val highlight">69548120159</strong>
                   </div>
                   <div className="quick-spec-badge">
-                    <span className="spec-title">Min Deposit</span>
-                    <strong className="spec-val">₹100 (UPI)</strong>
+                    <span className="spec-title">App Size</span>
+                    <strong className="spec-val">12.4 MB</strong>
                   </div>
                   <div className="quick-spec-badge">
-                    <span className="spec-title">Withdrawal Speed</span>
-                    <strong className="spec-val">8–15 Mins</strong>
+                    <span className="spec-title">Platform</span>
+                    <strong className="spec-val">Android</strong>
                   </div>
                   <div className="quick-spec-badge">
                     <span className="spec-title">APK Version</span>
-                    <strong className="spec-val">v2.1 (12.4 MB)</strong>
+                    <strong className="spec-val">v2.1 (2026)</strong>
                   </div>
                 </div>
               </div>
@@ -456,11 +438,11 @@ export default function HomePage() {
               </div>
 
               <div className="invite-perk">
-                <i className="fas fa-ticket-alt" aria-hidden="true"></i> Use Official Invite Code:{" "}
+                <i className="fas fa-ticket-alt" aria-hidden="true"></i> Use Invitation Code:{" "}
                 <strong style={{ color: "#ffd75e", letterSpacing: "0.05em" }}>
                   69548120159
                 </strong>{" "}
-                for ₹100 Welcome Bonus
+                to Get Started
               </div>
             </div>
 
@@ -521,13 +503,13 @@ export default function HomePage() {
 
           <div className="hero-meta">
             <span>
-              <i className="fas fa-shield-halved"></i> Official Veer Game Platform
+              <i className="fas fa-shield-halved"></i> Veer Game Information Guide
             </span>
             <span>
               <i className="fas fa-calendar-day"></i> Last Updated: September 2026
             </span>
             <span>
-              <i className="fas fa-users"></i> Trusted by Lakhs of Players in India
+              <i className="fas fa-users"></i> Entertainment App Guide
             </span>
           </div>
         </div>
@@ -903,10 +885,10 @@ export default function HomePage() {
                   <div className="why-icon"><i className="fas fa-plane-up"></i></div>
                   <span className="why-badge">HOW IT WORKS</span>
                 </div>
-                <h3>Ascending Multiplier Curve</h3>
+                <h3>Ascending Multiplier Display</h3>
                 <p>
-                  As the lucky plane climbs, your potential payout multiplier grows from <strong>1.00x up to 100x+</strong>.
-                  You have total control: hit <em>\"Cash Out\"</em> before the plane flies away to secure your multiplier.
+                  As the animated plane climbs, the multiplier display increases from <strong>1.00x up to 100x+</strong>.
+                  The game features interactive timing mechanics where users engage with the flight animation.
                 </p>
               </div>
 
@@ -915,38 +897,37 @@ export default function HomePage() {
                   <div className="why-icon"><i className="fas fa-shield-halved"></i></div>
                   <span className="why-badge">PROVABLY FAIR</span>
                 </div>
-                <h3>SHA-256 Seed Cryptography</h3>
+                <h3>Technical Features</h3>
                 <p>
-                  Each round outcome is generated before bets are placed via merged cryptographic client/server seeds.
-                  Outcomes are tamper-proof and mathematically auditable in your round history.
+                  The game uses cryptographic technology for round generation.
+                  Results are transparent and can be verified in the game history.
                 </p>
               </div>
 
               <div className="why-card">
                 <div className="why-card-top">
                   <div className="why-icon"><i className="fas fa-sliders"></i></div>
-                  <span className="why-badge">DUAL BET PANEL</span>
+                  <span className="why-badge">GAME INTERFACE</span>
                 </div>
-                <h3>The 2-Bet Cashout Method</h3>
+                <h3>Interactive Controls</h3>
                 <p>
-                  Set <strong>Bet 1 Auto-Cashout strictly at 1.45x to 1.55x</strong> to cover both bets.
-                  Let <strong>Bet 2 ride to 3.0x to 6.0x</strong> for pure, risk-free profit upside.
+                  The Aviator game features a user-friendly interface with multiple control options
+                  and visual feedback during gameplay.
                 </p>
               </div>
             </div>
 
             <div className="disclaimer-card" style={{ background: "rgba(255, 255, 255, 0.05)", borderLeft: "4px solid #f59e0b" }}>
-              <h3 style={{ color: "#f59e0b", marginBottom: "8px" }}>Telegram Live Flight Signals</h3>
+              <h3 style={{ color: "#f59e0b", marginBottom: "8px" }}>Community Updates</h3>
               <p>
-                Veer Game signal analysts publish verified high-probability round timing windows on the official Telegram channel.
-                Combining automated cashout limits with signal windows dramatically improves winning consistency.
+                The official Telegram channel provides community updates, announcements, and user discussions.
               </p>
               <div style={{ marginTop: "12px", display: "flex", gap: "12px", flexWrap: "wrap" }}>
                 <Link href="/blog/veer-game-aviator-game-tricks-signals-strategy" style={{ color: "var(--vg-coral)", fontWeight: 700, textDecoration: "underline" }}>
-                  Read Deep-Dive Aviator Cashout &amp; Formula Guide &rarr;
+                  Read Aviator Game Guide &rarr;
                 </Link>
                 <a href="https://t.me/+SQ2smTBoOV82ZjY9" target="_blank" rel="noopener noreferrer" style={{ color: "#fff", fontWeight: 600 }}>
-                  Join Official Telegram for Aviator Signals &rarr;
+                  Join Community Telegram &rarr;
                 </a>
               </div>
             </div>
@@ -959,13 +940,13 @@ export default function HomePage() {
         <div className="site-shell">
           <div className="vg-section-header">
             <span className="vg-tag vg-tag-telegram">
-              <i className="fab fa-telegram"></i> Official Community
+              <i className="fab fa-telegram"></i> Community
             </span>
             <h2 className="vg-section-title">
-              Join Veer Game Official Telegram Channel
+              Join Veer Game Community Telegram
             </h2>
             <p className="vg-section-desc">
-              Connect with India&apos;s fastest growing prediction gaming community. Get instant Wingo signals, daily gift code drops, and VIP promotions.
+              Connect with the Veer Game community. Get updates, announcements, and discuss with other users.
             </p>
           </div>
 
@@ -973,18 +954,18 @@ export default function HomePage() {
             <div className="telegram-hero-banner">
               <div className="telegram-badge-row">
                 <span className="telegram-live-tag">
-                  <span className="pulse-dot"></span> LIVE CHANNEL
+                  <span className="pulse-dot"></span> ACTIVE CHANNEL
                 </span>
                 <span className="telegram-stat-chip">
-                  <i className="fas fa-users"></i> 50,000+ Active Members
+                  <i className="fas fa-users"></i> 50,000+ Members
                 </span>
                 <span className="telegram-stat-chip">
-                  <i className="fas fa-shield-check"></i> 100% Free &amp; Verified
+                  <i className="fas fa-shield-check"></i> Free Community
                 </span>
               </div>
-              <h3>Exclusive Daily Signals &amp; Free Gift Code Drops</h3>
+              <h3>Community Updates &amp; Announcements</h3>
               <p>
-                Our official Telegram channel delivers round-by-round Wingo color predictions, daily morning &amp; evening redeem codes, win-rate strategies, and direct admin announcements.
+                The official Telegram channel provides app updates, community discussions, and direct announcements.
               </p>
               <div className="telegram-action-group">
                 <a

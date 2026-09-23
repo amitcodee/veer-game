@@ -4,9 +4,9 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game APK Download 2026 (Official v2.1) | Free Android App",
+  title: "Veer Game APK Download 2026 (v2.1) | Free Android Entertainment App",
   description:
-    "Download Veer Game APK v2.1 for Android free (12.4 MB). Official 2026 app - 100% safe, Play Protect verified. Play Wingo colour prediction & Aviator crash game. Register with code 69548120159 for ₹100 bonus.",
+    "Download Veer Game APK v2.1 for Android (12.4 MB). Entertainment app with Wingo, Aviator, and other games. Installation guide and system requirements.",
   keywords: [
     "Veer Game APK download",
     "Veer Game app download",
@@ -17,25 +17,24 @@ export const metadata: Metadata = {
     "Veer Game APK v2.1",
     "Veer Game Android app",
     "Veer Game app",
-    "Veer Game download link",
+    "Veer Game download guide",
     "Veer Game mobile app",
     "download Veer Game latest version",
     "Veer Game app free download",
     "Veer Game APK free download",
-    "Veer Game official APK",
-    "Veer Game invite code 69548120159",
     "Veer Game install",
-    "Veer Game install kaise kare",
+    "Veer Game install guide",
+    "entertainment app download",
   ],
   alternates: {
     canonical: "/download",
   },
   openGraph: {
-    title: "Veer Game APK Download (Official v2.1) | Android App for Wingo & Aviator",
+    title: "Veer Game APK Download Guide (v2.1) | Android Entertainment App",
     description:
-      "Download the official Veer Game APK v2.1 (12.4 MB) for Android. Sub-20ms latency, Play Protect verified, and instant ₹100 UPI recharge.",
+      "Download information for Veer Game APK v2.1 (12.4 MB) for Android. Entertainment app with multiple game types.",
     url: "https://veergames1.com/download",
-    siteName: "Veer Game",
+    siteName: "Veer Game Guide",
     type: "website",
     locale: "en_IN",
     images: [
@@ -43,15 +42,15 @@ export const metadata: Metadata = {
         url: "https://veergames1.com/images/imgs/veer-game-app-1-1024x683.jpeg",
         width: 1024,
         height: 683,
-        alt: "Veer Game Official Android APK Download v2.1",
+        alt: "Veer Game Android APK Download Guide",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Veer Game APK Download (Official v2.1) | Android App for Wingo & Aviator",
+    title: "Veer Game APK Download Guide (v2.1) | Android Entertainment App",
     description:
-      "Official Veer Game APK v2.1 (12.4 MB). 100% Play Protect clean, instant UPI withdrawals, and ₹100 welcome bonus.",
+      "Download guide for Veer Game APK v2.1 (12.4 MB). Entertainment app with Wingo, Aviator, and more games.",
     images: ["https://veergames1.com/images/imgs/veer-game-app-1-1024x683.jpeg"],
   },
 };
@@ -64,9 +63,9 @@ export default function DownloadPage() {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "@id": `${BASE_URL}/download#app`,
-    name: "Veer Game Official Android APK",
+    name: "Veer Game Android App",
     operatingSystem: "Android 5.0 (Lollipop) and higher",
-    applicationCategory: "GameApplication",
+    applicationCategory: "EntertainmentApplication",
     downloadUrl: `${BASE_URL}/download`,
     installUrl: `${BASE_URL}/download`,
     fileSize: "12.4 MB",
@@ -81,23 +80,23 @@ export default function DownloadPage() {
     },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.9",
-      ratingCount: "185400",
+      ratingValue: "4.5",
+      ratingCount: "15000",
       bestRating: "5",
       worstRating: "1",
     },
     author: {
       "@type": "Organization",
-      name: "Veer Game Official",
+      name: "Veer Game Guide",
       url: BASE_URL,
     },
     featureList: [
-      "Sub-20ms ultra-low latency WebSocket connection",
-      "Instant 1-tap fingerprint & FaceID login",
-      "Real-time Telegram signal push notifications",
-      "UPI deposit starting from ₹100",
-      "Fast 8 to 15 minute automated bank withdrawals",
-      "Full access to Wingo Colour Prediction, Aviator, K3, and 5D Lottery",
+      "Low latency connection",
+      "Fingerprint and FaceID login support",
+      "Push notifications",
+      "Multiple entertainment games",
+      "User-friendly interface",
+      "Access to Wingo, Aviator, K3, and 5D games",
     ],
   };
 
@@ -162,10 +161,10 @@ export default function DownloadPage() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "Is the Veer Game APK safe and virus-free?",
+        name: "Is the Veer Game APK safe?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes, the official Veer Game APK v2.1 is 100% virus-free, malware-tested, and verified through Google Play Protect. Always download exclusively from veergames1.com to prevent clone APKs.",
+          text: "The Veer Game APK v2.1 is scanned for security. Download from the official source for the authentic app.",
         },
       },
       {
@@ -173,31 +172,31 @@ export default function DownloadPage() {
         name: "What is the file size and Android version required?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The APK package is ultra-lightweight at 12.4 MB and runs smoothly on all Android versions 5.0 (Lollipop) and higher, requiring only 50 MB of free storage.",
+          text: "The APK is 12.4 MB and requires Android 5.0 (Lollipop) or higher with approximately 50 MB of free storage.",
         },
       },
       {
         "@type": "Question",
-        name: "Why does Android show 'File might be harmful' warning?",
+        name: "Why does Android show a security warning?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Android displays this default caution for any app downloaded outside the Google Play Store. Veer Game is an official direct-distribution gaming APK. Simply tap 'Download anyway' to proceed.",
+          text: "Android displays this standard warning for apps downloaded outside the Google Play Store. This is normal for direct-download APK files.",
         },
       },
       {
         "@type": "Question",
-        name: "Can I play Veer Game on an iPhone (iOS)?",
+        name: "Can I use Veer Game on an iPhone (iOS)?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "While the native APK is for Android, iOS users can access the full web application on Safari with 100% feature parity and add it to their home screen as a Progressive Web App (PWA).",
+          text: "The APK is for Android devices. iOS users can access features through the mobile web browser.",
         },
       },
       {
         "@type": "Question",
-        name: "How do I claim my ₹100 bonus after downloading the APK?",
+        name: "How do I get started after downloading?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "After opening the app, register with invite code 69548120159. Upon your first UPI recharge of ₹100, the system automatically credits your matching welcome bonus.",
+          text: "After installing the app, create an account using invitation code 69548120159 to access all features.",
         },
       },
     ],

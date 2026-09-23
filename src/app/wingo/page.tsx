@@ -4,39 +4,33 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game Wingo Colour Prediction 2026 | Tricks, Formula & Live Signals",
+  title: "Veer Game Wingo Guide 2026 | Colour Selection Game Features & How to Play",
   description:
-    "Play Wingo colour prediction on Veer Game - India's #1 platform. Predict Green, Red, Violet in 30s/1m/3m/5m rounds. Master 3X formula, get Telegram signals, win real money. ₹100 deposit, 8-15 min withdrawals.",
+    "Complete guide to Wingo colour selection game on Veer Game app - learn about game mechanics, round types (30s/1m/3m/5m), and how the colour-based entertainment game works.",
   keywords: [
     "Veer Game Wingo",
-    "Wingo colour prediction",
-    "Wingo game",
-    "Wingo tricks",
-    "Wingo prediction",
-    "Veer Game colour prediction",
-    "Wingo colour prediction Veer Game",
-    "Veer Game Wingo tricks",
-    "Wingo formula",
-    "Wingo 1 minute trick",
-    "Wingo 3X formula",
-    "Veer Game Wingo 30s",
-    "Veer Game Wingo 1m",
-    "colour prediction app",
-    "colour prediction game",
-    "how to win Wingo",
-    "Wingo prediction today",
-    "Veer Game prediction today",
-    "Wingo telegram signals",
+    "Wingo game guide",
+    "Wingo game information",
+    "Veer Game colour game",
+    "Wingo colour game guide",
+    "Veer Game Wingo guide",
+    "how to play Wingo",
+    "Wingo game tutorial",
+    "Veer Game Wingo 2026",
+    "Wingo game interface",
+    "Wingo game mechanics",
+    "colour selection game",
+    "entertainment app game",
   ],
   alternates: {
     canonical: "/wingo",
   },
   openGraph: {
-    title: "Veer Game Wingo | Official Colour Prediction Portal & 3X Formula 2026",
+    title: "Veer Game Wingo Guide 2026 | Colour Selection Game Information",
     description:
-      "Official Wingo Colour Prediction on Veer Game. 98.2% payout rate, 30s to 5m rounds, 3X recovery formula, and daily Telegram signals.",
+      "Learn about Wingo game on Veer Game - game mechanics, round types, and how the colour-based entertainment game works.",
     url: "https://veergames1.com/wingo",
-    siteName: "Veer Game",
+    siteName: "Veer Game Guide",
     type: "website",
     locale: "en_IN",
     images: [
@@ -44,15 +38,15 @@ export const metadata: Metadata = {
         url: "https://veergames1.com/images/imgs/veergame-1024x683.jpeg",
         width: 1024,
         height: 683,
-        alt: "Veer Game Official Wingo Colour Prediction Interface",
+        alt: "Veer Game Wingo Game Interface Guide",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Veer Game Wingo | Official Colour Prediction & 3X Formula",
+    title: "Veer Game Wingo Guide 2026 | Colour Selection Game",
     description:
-      "Play 30s, 1m, 3m, 5m Wingo on Veer Game. Instant ₹100 deposit and 8-15 min withdrawals.",
+      "Complete guide to Wingo game on Veer Game - game features, round types, and interface information.",
     images: ["https://veergames1.com/images/imgs/veergame-1024x683.jpeg"],
   },
 };
@@ -63,27 +57,22 @@ export default function WingoPage() {
 
   const gameSchema = {
     "@context": "https://schema.org",
-    "@type": "Game",
-    name: "Veer Game Wingo Colour Prediction",
+    "@type": "VideoGame",
+    name: "Veer Game Wingo",
     description:
-      "Real-time multiplayer colour prediction game with 30s, 1m, 3m, and 5m intervals, Provably Fair SHA-256 RNG draws, and up to 9x multipliers.",
-    genre: ["Prediction", "Lottery", "Strategy"],
+      "Colour selection entertainment game with multiple round intervals (30s, 1m, 3m, 5m) and interactive gameplay.",
+    genre: ["Entertainment", "Casual Game"],
     operatingSystem: "Android, iOS, Web",
-    offers: {
-      "@type": "Offer",
-      price: "10",
-      priceCurrency: "INR",
-    },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.9",
-      ratingCount: "162000",
+      ratingValue: "4.5",
+      ratingCount: "15000",
       bestRating: "5",
       worstRating: "1",
     },
     publisher: {
       "@type": "Organization",
-      name: "Veer Game Official",
+      name: "Veer Game Guide",
       url: BASE_URL,
     },
   };
@@ -113,26 +102,26 @@ export default function WingoPage() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "What are the rules of Wingo Colour Prediction on Veer Game?",
+        name: "How does Wingo work on Veer Game?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "In Wingo, a 1-digit number (0-9) is drawn every round. Numbers 1, 3, 7, 9 are Green (2x payout); 2, 4, 6, 8 are Red (2x payout); and 0 and 5 contain Violet (4.5x payout). Staking on the exact single number awards 9x your bet.",
+          text: "Wingo is a colour selection game where users choose from Green, Red, or Violet options. Each round displays a number (0-9) with corresponding colours.",
         },
       },
       {
         "@type": "Question",
-        name: "What is the 3X investment plan in Wingo?",
+        name: "What are the different Wingo round types?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The 3X plan is a disciplined recovery staking strategy: ₹10 → ₹30 → ₹90 → ₹270. Whenever any round hits, all prior losses are recovered plus positive net profit.",
+          text: "Wingo offers multiple round intervals: 30 seconds, 1 minute, 3 minutes, and 5 minutes. Each interval provides different gameplay pacing.",
         },
       },
       {
         "@type": "Question",
-        name: "What is the difference between Win Go 30s, 1m, 3m, and 5m?",
+        name: "How do I access Wingo on Veer Game?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The difference is draw frequency. Win Go 30s draws every 30 seconds (120 rounds/hour), Win Go 1m draws every 60 seconds (60 rounds/hour), Win Go 3m draws every 3 minutes, and Win Go 5m draws every 5 minutes.",
+          text: "Wingo is available within the Veer Game app. Create an account using invitation code 69548120159 to access all game features.",
         },
       },
     ],

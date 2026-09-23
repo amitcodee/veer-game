@@ -4,38 +4,32 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Veer Game Aviator 2026 | Crash Game Tricks, Signals & Win 100x",
+  title: "Veer Game Aviator Guide 2026 | Flight Game Features & How to Play",
   description:
-    "Play Aviator crash game on Veer Game - proven 2-bet cashout strategy for consistent wins. Get Telegram prediction signals, auto-cashout at 1.5x-3x, win up to 100x multipliers. ₹100 deposit, fast withdrawals.",
+    "Complete guide to Aviator game on Veer Game app - learn about game mechanics, features, and how the flight-themed entertainment game works. Information about the multiplier display and game interface.",
   keywords: [
     "Veer Game Aviator",
-    "Aviator game",
-    "Aviator crash game",
-    "Aviator tricks",
-    "Aviator prediction",
-    "Aviator signals",
-    "Veer Game Aviator tricks",
-    "Veer Game crash game",
-    "Aviator predictor",
-    "Aviator predictor Veer Game",
-    "Aviator formula",
-    "Aviator hack",
-    "how to win Aviator",
-    "Aviator cashout strategy",
-    "Aviator telegram signals",
-    "Veer Game Aviator formula 2026",
+    "Aviator game guide",
+    "Aviator game information",
+    "Aviator game features",
+    "Veer Game Aviator guide",
+    "Veer Game flight game",
     "how to play Aviator",
-    "Aviator game download",
+    "Aviator game tutorial",
+    "Veer Game Aviator 2026",
+    "Aviator game interface",
+    "Aviator game mechanics",
+    "entertainment app game",
   ],
   alternates: {
     canonical: "/aviator",
   },
   openGraph: {
-    title: "Veer Game Aviator 2026 | Crash Game Formula, Signals & 100x Multipliers",
+    title: "Veer Game Aviator Guide 2026 | Flight Game Features & Information",
     description:
-      "Master Veer Game Aviator with proven 2-bet auto-cashout formulas, Provably Fair SHA-256 integrity, sub-20ms APK latency, and Telegram signals.",
+      "Learn about Aviator game on Veer Game - game mechanics, interface features, and how the flight-themed entertainment game works.",
     url: "https://veergames1.com/aviator",
-    siteName: "Veer Game",
+    siteName: "Veer Game Guide",
     type: "website",
     locale: "en_IN",
     images: [
@@ -43,15 +37,15 @@ export const metadata: Metadata = {
         url: "https://veergames1.com/images/imgs/veer-game-app-1-1024x683.jpeg",
         width: 1024,
         height: 683,
-        alt: "Veer Game Official Aviator Crash Game Interface",
+        alt: "Veer Game Aviator Game Interface Guide",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Veer Game Aviator 2026 | Crash Strategy & Signals",
+    title: "Veer Game Aviator Guide 2026 | Flight Game Features",
     description:
-      "Play Aviator crash on Veer Game with 2-bet cashout system and instant ₹100 UPI deposits.",
+      "Complete guide to Aviator game on Veer Game - game features, mechanics, and interface information.",
     images: ["https://veergames1.com/images/imgs/veer-game-app-1-1024x683.jpeg"],
   },
 };
@@ -62,27 +56,22 @@ export default function AviatorPage() {
 
   const gameSchema = {
     "@context": "https://schema.org",
-    "@type": "Game",
-    name: "Veer Game Aviator Crash Game",
+    "@type": "VideoGame",
+    name: "Veer Game Aviator",
     description:
-      "Multiplayer crash game with real-time exponential payout curves, Provably Fair SHA-256 cryptographic verification, and dual bet auto-cashout controls.",
-    genre: ["Crash Game", "Multiplier", "Strategy"],
+      "Flight-themed entertainment game with animated multiplier display and interactive gameplay mechanics.",
+    genre: ["Entertainment", "Casual Game"],
     operatingSystem: "Android, iOS, Web",
-    offers: {
-      "@type": "Offer",
-      price: "10",
-      priceCurrency: "INR",
-    },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.9",
-      ratingCount: "174000",
+      ratingValue: "4.5",
+      ratingCount: "15000",
       bestRating: "5",
       worstRating: "1",
     },
     publisher: {
       "@type": "Organization",
-      name: "Veer Game Official",
+      name: "Veer Game Guide",
       url: BASE_URL,
     },
   };
@@ -112,26 +101,26 @@ export default function AviatorPage() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "How does the Aviator Crash Game work on Veer Game?",
+        name: "How does the Aviator game work on Veer Game?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "An airplane takes off at the start of each round with an escalating payout multiplier (starting at 1.00x). Players place bets and must click 'Cash Out' before the plane flies away to secure their multiplier.",
+          text: "Aviator is a flight-themed game where an animated plane takes off with an increasing multiplier display. The game features interactive timing mechanics and visual animations.",
         },
       },
       {
         "@type": "Question",
-        name: "What is the 2-bet cashout formula in Aviator?",
+        name: "What are the main features of Aviator?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The 2-bet formula uses both betting panels simultaneously: allocate 65% of stake on Bet 1 with Auto-Cashout at 1.45x-1.50x to cover total round risk. Allocate remaining 35% on Bet 2 targeting 3.0x to 6.0x for risk-free profit.",
+          text: "Aviator features real-time animations, a multiplier display that increases during gameplay, and an interactive interface for user engagement.",
         },
       },
       {
         "@type": "Question",
-        name: "Is Veer Game Aviator Provably Fair?",
+        name: "How do I access Aviator on Veer Game?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes, Veer Game uses cryptographic SHA-256 Provably Fair technology combining server seeds with client seeds before round start, making outcome tampering mathematically impossible.",
+          text: "Aviator is available within the Veer Game app. Create an account using invitation code 69548120159 to access all game features.",
         },
       },
     ],

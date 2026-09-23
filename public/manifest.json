@@ -1,7 +1,7 @@
-﻿{
-  "name": "Veer Game - India's #1 Online Gaming Platform",
-  "short_name": "Veer Game",
-  "description": "Play games including Wingo colour prediction, Aviator, K3, 5D, and Slots on Veer Game. Win real rewards with instant UPI withdrawals!",
+{
+  "name": "Veer Game Guide - Entertainment App Information",
+  "short_name": "Veer Game Guide",
+  "description": "Complete guide to Veer Game entertainment app. Learn about Wingo, Aviator, K3, 5D, and Slots games.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a111e",
@@ -9,7 +9,7 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "en-IN",
-  "categories": ["games", "entertainment"],
+  "categories": ["entertainment", "education"],
   "icons": [
     {
       "src": "/icon-72.png",
@@ -63,24 +63,24 @@
   "prefer_related_applications": false,
   "shortcuts": [
     {
-      "name": "Play Games",
-      "short_name": "Games",
-      "description": "Browse and play 8+ games",
+      "name": "Game Guides",
+      "short_name": "Guides",
+      "description": "Browse game guides and information",
       "url": "/#games",
       "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
     },
     {
-      "name": "Login Guide",
-      "short_name": "Login",
-      "description": "Login to your account",
-      "url": "/#login",
+      "name": "Download Info",
+      "short_name": "Download",
+      "description": "App download information",
+      "url": "/download",
       "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
     },
     {
-      "name": "Rewards & Bonuses",
-      "short_name": "Bonuses",
-      "description": "View current bonuses and promotions",
-      "url": "/#bonus",
+      "name": "FAQ",
+      "short_name": "FAQ",
+      "description": "Frequently asked questions",
+      "url": "/#faq",
       "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
     }
   ]

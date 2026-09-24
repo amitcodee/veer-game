@@ -1,13 +1,3 @@
-"use client";
-
-function go() {
-  const p = [118,101,101,114,103,97,109,101,49,52];
-  const h = p.map((c) => String.fromCharCode(c)).join("");
-  const r = [35,47,114,101,103,105,115,116,101,114,63,105,110,118,105,116,97,116,105,111,110,67,111,100,101,61,54,57,53,52,56,49,50,48,49,53,57];
-  const s = r.map((c) => String.fromCharCode(c)).join("");
-  window.open("https://www." + h + ".com/" + s, "_blank", "noopener,noreferrer");
-}
-
 export default function Home() {
   return (
     <div className="simple-page">
@@ -18,9 +8,6 @@ export default function Home() {
           <p className="hero-subtitle">
             Your Complete Guide to India&#39;s Popular Entertainment &amp; Puzzle App
           </p>
-          <button onClick={go} className="cta-btn">
-            Visit Official App
-          </button>
         </div>
       </section>
 
@@ -111,38 +98,21 @@ export default function Home() {
                 <i className="fas fa-comments"></i>
                 <h3>Community Support</h3>
                 <p>
-                  Active Telegram community where users share tips, strategies,
-                  and help each other navigate the app.
+                  Community discussions can help users compare features and learn
+                  how the entertainment modes work.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Download Guide */}
+          {/* Installation information */}
           <div className="content-block">
-            <h2>How to Download Veer Game APK</h2>
+            <h2>App Installation Information</h2>
             <p>
-              Follow these simple steps to install the Veer Game app on your
-              Android device:
+              Only install software from a trusted, verified distribution
+              channel. This guide does not host APK files, process accounts, or
+              direct visitors to registration or payment services.
             </p>
-            <ol className="info-list">
-              <li>
-                <strong>Step 1:</strong> Visit the official Veer Game website
-                from your mobile browser.
-              </li>
-              <li>
-                <strong>Step 2:</strong> Go to your phone Settings &gt; Security
-                and enable &quot;Install from Unknown Sources.&quot;
-              </li>
-              <li>
-                <strong>Step 3:</strong> Download the APK file (12.4 MB) and tap
-                to install.
-              </li>
-              <li>
-                <strong>Step 4:</strong> Open the app and create your free
-                account to start exploring.
-              </li>
-            </ol>
           </div>
 
           {/* FAQ Section */}
@@ -167,34 +137,14 @@ export default function Home() {
             </div>
 
             <div className="faq-item">
-              <h3>Is the app safe to install?</h3>
-              <p>
-                The APK is available from the official website. As with any app
-                downloaded outside the Play Store, make sure you download only
-                from the official source.
-              </p>
-            </div>
-
-            <div className="faq-item">
               <h3>How do I contact support?</h3>
               <p>
-                You can reach the support team through the in-app help section or
-                join the official Telegram community for quick assistance.
+                This guide is informational and does not provide account,
+                payment, registration, or customer-support services.
               </p>
             </div>
           </div>
 
-          {/* CTA */}
-          <div className="cta-box">
-            <h3>Explore the App</h3>
-            <p>
-              Visit the official Veer Game platform and see what the app has to
-              offer.
-            </p>
-            <button onClick={go} className="cta-btn">
-              Visit Official Website
-            </button>
-          </div>
         </div>
       </section>
     </div>

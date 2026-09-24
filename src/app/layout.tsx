@@ -12,7 +12,7 @@ const siteConfig = {
   name: "Veer Game Guide",
   url: "https://veergames1.com",
   description:
-    "Veer Game Guide - Complete information about the Veer Game casual entertainment app. Read our detailed review, download instructions, app features, and user community resources.",
+    "Veer Game Guide - Independent information and review of a casual entertainment app, including its features and user experience.",
 };
 
 export const viewport: Viewport = {
@@ -28,7 +28,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Veer Game Guide 2026 | Casual Entertainment App Review & Download",
+    default: "Veer Game Guide 2026 | Casual Entertainment App Review",
     template: "%s | Veer Game Guide",
   },
   description: siteConfig.description,
@@ -42,10 +42,6 @@ export const metadata: Metadata = {
     "Veer Game 2026",
     "Veer Game app",
     "Veer Game app features",
-    "Veer Game APK",
-    "Veer Game APK download",
-    "Veer Game download",
-    "download Veer Game",
     "Veer Game app review",
     "Veer Game features",
     "Veer Game tutorial",
@@ -102,7 +98,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: "Veer Game Guide 2026 | Casual Entertainment App Review",
     description:
-      "Read our detailed review of the Veer Game casual entertainment app. Learn about app features, download instructions, user interface, and community resources.",
+      "Read an independent review of the Veer Game casual entertainment app, including its features and user interface.",
     images: [
       {
         url: "/images/logo/logo.svg",
@@ -117,7 +113,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Veer Game Guide 2026 | Casual Entertainment App Review",
     description:
-      "Detailed review of the Veer Game entertainment app - features, download guide, user interface overview, and community resources.",
+      "Independent review of the Veer Game entertainment app, with feature and user interface information.",
     images: ["/images/logo/logo.svg"],
     creator: "@veergames",
     site: "@veergames",

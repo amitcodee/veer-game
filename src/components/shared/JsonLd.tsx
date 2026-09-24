@@ -124,8 +124,6 @@ const softwareApplicationSchema = {
     bestRating: "5",
     worstRating: "1",
   },
-  downloadUrl: `${siteConfig.url}/download`,
-  fileSize: "12.4 MB",
   softwareVersion: "2.1",
   author: {
     "@id": `${siteConfig.url}/#organization`,
@@ -146,37 +144,7 @@ const homeBreadcrumbSchema = {
   ],
 };
 
-// 6. HowTo Schema (Download Guide)
-const howToDownloadSchema = {
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  name: "How to Download Veer Game App",
-  description:
-    "Step-by-step guide to downloading and installing the Veer Game casual entertainment app on Android devices.",
-  totalTime: "PT3M",
-  step: [
-    {
-      "@type": "HowToStep",
-      position: 1,
-      name: "Visit Download Page",
-      text: "Navigate to the official Veer Game download page to access the APK file.",
-    },
-    {
-      "@type": "HowToStep",
-      position: 2,
-      name: "Enable Unknown Sources",
-      text: "Go to Android Settings > Security and enable 'Install from Unknown Sources' to allow APK installation.",
-    },
-    {
-      "@type": "HowToStep",
-      position: 3,
-      name: "Download and Install",
-      text: "Download the APK file (12.4 MB) and tap to install once the download completes.",
-    },
-  ],
-};
-
-// 7. FAQ Schema
+// 6. FAQ Schema
 const homepageFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -191,10 +159,10 @@ const homepageFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "How do I download the Veer Game app?",
+      name: "Where can I learn about Veer Game?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The Veer Game APK (v2.1, 12.4 MB) can be downloaded from the official website. Enable 'Unknown Sources' in your Android settings before installation.",
+        text: "This independent guide provides general information about the app's features and user experience. It does not provide downloads, registrations, payments, or account services.",
       },
     },
     {
@@ -207,18 +175,18 @@ const homepageFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "Is Veer Game available for iPhone?",
+      name: "What devices are discussed in this guide?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Currently, the Veer Game app is available as an Android APK. iPhone users can access features through the mobile web browser.",
+        text: "The guide discusses the app's reported mobile experience without hosting or distributing installation files.",
       },
     },
     {
       "@type": "Question",
-      name: "What are the system requirements for Veer Game?",
+      name: "Does this site provide app accounts or payments?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Veer Game requires Android 5.0 or higher. The app is optimized to work on budget and mid-range smartphones with limited RAM and storage.",
+        text: "No. This is an independent informational guide and does not process registrations, payments, deposits, withdrawals, or prizes.",
       },
     },
     {
@@ -232,7 +200,7 @@ const homepageFaqSchema = {
   ],
 };
 
-// 8. Article Schema
+// 7. Article Schema
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -257,7 +225,6 @@ export default function JsonLd() {
     webPageSchema,
     softwareApplicationSchema,
     homeBreadcrumbSchema,
-    howToDownloadSchema,
     homepageFaqSchema,
     articleSchema,
   ];

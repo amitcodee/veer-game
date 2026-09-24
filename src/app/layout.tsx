@@ -9,10 +9,10 @@ import JsonLd from "@/components/shared/JsonLd";
 import "./globals.css";
 
 const siteConfig = {
-  name: "Veer Game",
+  name: "Veer Game Guide",
   url: "https://veergames1.com",
   description:
-    "Veer Game Guide - Complete information about the Veer Games app including features, game types, download instructions, and user reviews. Learn about Wingo, Aviator, and other entertainment games.",
+    "Veer Game Guide - Complete information about the Veer Game casual entertainment app. Read our detailed review, download instructions, app features, and user community resources.",
 };
 
 export const viewport: Viewport = {
@@ -28,7 +28,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Veer Game Guide 2026 | App Features, Download & Complete Review",
+    default: "Veer Game Guide 2026 | Casual Entertainment App Review & Download",
     template: "%s | Veer Game Guide",
   },
   description: siteConfig.description,
@@ -46,19 +46,8 @@ export const metadata: Metadata = {
     "Veer Game APK download",
     "Veer Game download",
     "download Veer Game",
-    "Veer Game Wingo",
-    "Wingo game guide",
-    "Wingo game information",
-    "Veer Game Aviator",
-    "Aviator game guide",
-    "Veer Game review",
-    "is Veer Game legit",
     "Veer Game app review",
     "Veer Game features",
-    "Veer Game games list",
-    "Veer Game telegram",
-    "Veer Game telegram channel",
-    "Veer Game guide",
     "Veer Game tutorial",
     "Veer Game how to use",
     "Veer Game app guide",
@@ -66,12 +55,13 @@ export const metadata: Metadata = {
     "veergame",
     "veer games",
     "entertainment app India",
-    "gaming app review",
-    "mobile gaming guide",
+    "casual gaming app",
+    "puzzle app review",
+    "mobile entertainment guide",
   ],
-  authors: [{ name: "Veer Game Official", url: siteConfig.url }],
-  creator: "Veer Game",
-  publisher: "Veer Game",
+  authors: [{ name: "Veer Game Guide", url: siteConfig.url }],
+  creator: "Veer Game Guide",
+  publisher: "Veer Game Guide",
   formatDetection: {
     email: false,
     address: false,
@@ -110,24 +100,24 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: "Veer Game Guide 2026 | Complete App Review & Features",
+    title: "Veer Game Guide 2026 | Casual Entertainment App Review",
     description:
-      "Comprehensive guide to Veer Game app - learn about game features, download instructions, app interface, and user experiences. Informational resource for entertainment gaming.",
+      "Read our detailed review of the Veer Game casual entertainment app. Learn about app features, download instructions, user interface, and community resources.",
     images: [
       {
         url: "/images/imgs/veergame-1024x683.jpeg",
         width: 1024,
         height: 683,
-        alt: "Veer Game App Guide - Entertainment Gaming Information",
+        alt: "Veer Game App Review - Casual Entertainment Guide",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Veer Game Guide 2026 | Complete App Review & Features",
+    title: "Veer Game Guide 2026 | Casual Entertainment App Review",
     description:
-      "Comprehensive guide to Veer Game app - game features, download info, interface overview. Your complete resource for entertainment gaming information.",
+      "Detailed review of the Veer Game entertainment app - features, download guide, user interface overview, and community resources.",
     images: ["/images/imgs/veergame-1024x683.jpeg"],
     creator: "@veergames",
     site: "@veergames",
@@ -159,7 +149,7 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   category: "entertainment",
-  classification: "Entertainment App Guide & Review Website",
+  classification: "Casual Entertainment App Guide & Review Website",
   referrer: "origin-when-cross-origin",
 };
 

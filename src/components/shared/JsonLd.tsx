@@ -2,7 +2,7 @@ const siteConfig = {
   name: "Veer Game Guide",
   url: "https://veergames1.com",
   description:
-    "Veer Game Guide - Complete information about the Veer Games app including features, game types, download instructions, and user reviews. Your comprehensive resource for entertainment gaming.",
+    "Veer Game Guide - Complete information about the Veer Game casual entertainment app including features, download instructions, and user reviews. Your comprehensive resource for this popular mobile app.",
   logo: "https://veergames1.com/images/logo/logo.png",
   email: "support@veergames1.com",
   telephone: "+91-8000000000",
@@ -21,7 +21,7 @@ const organizationSchema = {
   "@type": "Organization",
   "@id": `${siteConfig.url}/#organization`,
   name: siteConfig.name,
-  alternateName: ["Veer Games Guide", "Veer Game Review", "VeerGame Guide"],
+  alternateName: ["Veer Games Guide", "Veer Game Review"],
   url: siteConfig.url,
   logo: {
     "@type": "ImageObject",
@@ -49,13 +49,8 @@ const organizationSchema = {
       hoursAvailable: {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday",
+          "Monday", "Tuesday", "Wednesday", "Thursday",
+          "Friday", "Saturday", "Sunday",
         ],
         opens: "00:00",
         closes: "23:59",
@@ -65,7 +60,7 @@ const organizationSchema = {
   foundingDate: "2023",
 };
 
-// 2. Website Schema with Sitelinks Searchbox
+// 2. Website Schema
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -90,7 +85,7 @@ const websiteSchema = {
   inLanguage: ["en-IN", "hi-IN"],
 };
 
-// 3. WebPage Schema (Information Site)
+// 3. WebPage Schema
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -109,7 +104,7 @@ const webPageSchema = {
   inLanguage: ["en-IN", "hi-IN"],
 };
 
-// 4. SoftwareApplication Schema (for APK info - informational)
+// 4. SoftwareApplication Schema
 const softwareApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
@@ -137,7 +132,7 @@ const softwareApplicationSchema = {
   },
 };
 
-// 5. BreadcrumbList Schema for homepage
+// 5. BreadcrumbList Schema
 const homeBreadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -157,7 +152,7 @@ const howToDownloadSchema = {
   "@type": "HowTo",
   name: "How to Download Veer Game App",
   description:
-    "Step-by-step guide to downloading and installing the Veer Game entertainment app on Android devices.",
+    "Step-by-step guide to downloading and installing the Veer Game casual entertainment app on Android devices.",
   totalTime: "PT3M",
   step: [
     {
@@ -181,7 +176,7 @@ const howToDownloadSchema = {
   ],
 };
 
-// 7. Comprehensive FAQ Schema
+// 7. FAQ Schema
 const homepageFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -191,7 +186,7 @@ const homepageFaqSchema = {
       name: "What is Veer Game?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Veer Game is an entertainment app featuring various game types including Wingo, Aviator, K3, 5D, Slots, Plinko, Limbo, and Poker. This guide provides comprehensive information about the app's features and functionality.",
+        text: "Veer Game is a casual entertainment app featuring various interactive mini-games including puzzle challenges, pattern recognition activities, arcade experiences, and strategy games. This guide provides comprehensive information about the app.",
       },
     },
     {
@@ -204,10 +199,10 @@ const homepageFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "What games are available in Veer Game?",
+      name: "What type of entertainment does Veer Game offer?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Veer Game offers entertainment games including Wingo (colour selection game), Aviator (flight-themed game), K3 and 5D (number games), Slots, Plinko, Limbo, and Poker-style card games.",
+        text: "Veer Game offers casual entertainment including interactive puzzles, pattern-matching challenges, arcade-style mini-games, and strategy activities designed for short-session mobile entertainment.",
       },
     },
     {
@@ -231,55 +226,17 @@ const homepageFaqSchema = {
       name: "Is this an official Veer Game website?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "This is an informational guide and review website about the Veer Game app. We provide comprehensive information, tutorials, and user guides for entertainment purposes.",
+        text: "This is an independent informational guide and review website about the Veer Game app. We provide comprehensive information, tutorials, and user guides for educational and informational purposes.",
       },
     },
   ],
 };
 
-// 8. SiteNavigationElement Schema (for Google Sitelinks)
-const siteNavigationSchema = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  name: "Veer Game Guide Navigation",
-  description: "Primary navigational links for Veer Game information guide",
-  itemListElement: [
-    {
-      "@type": "SiteNavigationElement",
-      position: 1,
-      name: "Veer Game Download",
-      description: "Download information for Android APK v2.1",
-      url: `${siteConfig.url}/download`,
-    },
-    {
-      "@type": "SiteNavigationElement",
-      position: 2,
-      name: "Wingo Game Guide",
-      description: "Complete guide to the Wingo colour selection game",
-      url: `${siteConfig.url}/wingo`,
-    },
-    {
-      "@type": "SiteNavigationElement",
-      position: 3,
-      name: "Aviator Game Guide",
-      description: "Information about the Aviator flight-themed game",
-      url: `${siteConfig.url}/aviator`,
-    },
-    {
-      "@type": "SiteNavigationElement",
-      position: 4,
-      name: "Blog & Guides",
-      description: "Articles, tutorials, and guides about Veer Game",
-      url: `${siteConfig.url}/blog`,
-    },
-  ],
-};
-
-// 9. Article Schema (for blog/guide content)
+// 8. Article Schema
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Complete Guide to Veer Game App 2026",
+  headline: "Complete Guide to Veer Game Casual Entertainment App 2026",
   description: siteConfig.description,
   author: {
     "@type": "Organization",
@@ -289,7 +246,7 @@ const articleSchema = {
     "@id": `${siteConfig.url}/#organization`,
   },
   datePublished: "2026-01-01",
-  dateModified: "2026-09-23",
+  dateModified: "2026-09-24",
   mainEntityOfPage: siteConfig.url,
 };
 
@@ -302,7 +259,6 @@ export default function JsonLd() {
     homeBreadcrumbSchema,
     howToDownloadSchema,
     homepageFaqSchema,
-    siteNavigationSchema,
     articleSchema,
   ];
 

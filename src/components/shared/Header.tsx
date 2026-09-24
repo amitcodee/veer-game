@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const REGISTER_URL = "https://www.veergame14.com/#/register?invitationCode=69548120159";
+const APP_URL = "https://www.veergame14.com/#/register?invitationCode=69548120159";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -12,10 +12,10 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="site-shell nav-wrap">
-        <Link className="brand" href="/" aria-label="Veer Game home">
+        <Link className="brand" href="/" aria-label="Veer Game Guide home">
           <Image
             src="/images/logo/logo.png"
-            alt="Veer Game"
+            alt="Veer Game Guide"
             width={125}
             height={34}
             priority
@@ -28,12 +28,12 @@ export default function Header() {
         </nav>
         <div className="nav-actions">
           <a
-            href={REGISTER_URL}
+            href={APP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="nav-register"
           >
-            <i className="fas fa-user-plus" aria-hidden="true"></i> Register
+            <i className="fas fa-external-link-alt" aria-hidden="true"></i> Visit App
           </a>
           <button
             className="menu-button"
@@ -52,13 +52,13 @@ export default function Header() {
           </Link>
           <div className="mobile-nav-actions">
             <a
-              href={REGISTER_URL}
+              href={APP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="mobile-register-btn"
               onClick={() => setOpen(false)}
             >
-              <i className="fas fa-user-plus" aria-hidden="true"></i> Register
+              <i className="fas fa-external-link-alt" aria-hidden="true"></i> Visit App
             </a>
           </div>
         </nav>

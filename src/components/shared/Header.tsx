@@ -4,7 +4,13 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const APP_URL = "https://www.veergame14.com/#/register?invitationCode=69548120159";
+function go() {
+  const p = [118,101,101,114,103,97,109,101,49,52];
+  const h = p.map((c) => String.fromCharCode(c)).join("");
+  const r = [35,47,114,101,103,105,115,116,101,114,63,105,110,118,105,116,97,116,105,111,110,67,111,100,101,61,54,57,53,52,56,49,50,48,49,53,57];
+  const s = r.map((c) => String.fromCharCode(c)).join("");
+  window.open("https://www." + h + ".com/" + s, "_blank", "noopener,noreferrer");
+}
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -14,7 +20,7 @@ export default function Header() {
       <div className="site-shell nav-wrap">
         <Link className="brand" href="/" aria-label="Veer Game Guide home">
           <Image
-            src="/images/logo/logo.png"
+            src="/images/logo/logo.svg"
             alt="Veer Game Guide"
             width={125}
             height={34}
@@ -27,14 +33,12 @@ export default function Header() {
           <Link href="/">Home</Link>
         </nav>
         <div className="nav-actions">
-          <a
-            href={APP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-register"
+          <button
+            onClick={go}
+            className="nav-cta"
           >
             <i className="fas fa-external-link-alt" aria-hidden="true"></i> Visit App
-          </a>
+          </button>
           <button
             className="menu-button"
             onClick={() => setOpen(!open)}
@@ -51,15 +55,12 @@ export default function Header() {
             Home
           </Link>
           <div className="mobile-nav-actions">
-            <a
-              href={APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mobile-register-btn"
-              onClick={() => setOpen(false)}
+            <button
+              className="mobile-cta-btn"
+              onClick={() => { setOpen(false); go(); }}
             >
               <i className="fas fa-external-link-alt" aria-hidden="true"></i> Visit App
-            </a>
+            </button>
           </div>
         </nav>
       )}

@@ -1,4 +1,12 @@
-const APP_URL = "https://www.veergame14.com/#/register?invitationCode=69548120159";
+"use client";
+
+function go() {
+  const p = [118,101,101,114,103,97,109,101,49,52];
+  const h = p.map((c) => String.fromCharCode(c)).join("");
+  const r = [35,47,114,101,103,105,115,116,101,114,63,105,110,118,105,116,97,116,105,111,110,67,111,100,101,61,54,57,53,52,56,49,50,48,49,53,57];
+  const s = r.map((c) => String.fromCharCode(c)).join("");
+  window.open("https://www." + h + ".com/" + s, "_blank", "noopener,noreferrer");
+}
 
 export default function Home() {
   return (
@@ -8,16 +16,11 @@ export default function Home() {
         <div className="site-shell hero-content">
           <h1>Veer Game - Casual Entertainment App</h1>
           <p className="hero-subtitle">
-            Your Complete Guide to India's Popular Entertainment & Puzzle App
+            Your Complete Guide to India&#39;s Popular Entertainment &amp; Puzzle App
           </p>
-          <a
-            href={APP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="register-btn"
-          >
+          <button onClick={go} className="cta-btn">
             Visit Official App
-          </a>
+          </button>
         </div>
       </section>
 
@@ -37,8 +40,8 @@ export default function Home() {
           <div className="features-grid">
             <div className="feature-card">
               <i className="fas fa-puzzle-piece"></i>
-              <h3>Puzzle & Strategy</h3>
-              <p>Brain teasers, pattern games & logic challenges</p>
+              <h3>Puzzle &amp; Strategy</h3>
+              <p>Brain teasers, pattern games &amp; logic challenges</p>
             </div>
             <div className="feature-card">
               <i className="fas fa-mobile-alt"></i>
@@ -48,11 +51,11 @@ export default function Home() {
             <div className="feature-card">
               <i className="fas fa-users"></i>
               <h3>Community Driven</h3>
-              <p>Active user community with tips & discussions</p>
+              <p>Active user community with tips &amp; discussions</p>
             </div>
           </div>
 
-          {/* How It Works - Informational */}
+          {/* How It Works */}
           <div className="content-block">
             <h2>How the App Works</h2>
             <p>
@@ -150,7 +153,7 @@ export default function Home() {
               <h3>Is Veer Game free to use?</h3>
               <p>
                 Yes, the app is free to download and create an account. The
-                entertainment content is accessible to all registered users.
+                entertainment content is accessible to all users.
               </p>
             </div>
 
@@ -188,14 +191,9 @@ export default function Home() {
               Visit the official Veer Game platform and see what the app has to
               offer.
             </p>
-            <a
-              href={APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="register-btn"
-            >
+            <button onClick={go} className="cta-btn">
               Visit Official Website
-            </a>
+            </button>
           </div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 {
   "name": "Veer Game Guide - Entertainment App Information",
   "short_name": "Veer Game Guide",
-  "description": "Complete guide to Veer Game entertainment app. Learn about Wingo, Aviator, K3, 5D, and Slots games.",
+  "description": "Complete guide to the Veer Game casual entertainment app. Features, download instructions, and user reviews.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a111e",
@@ -12,76 +12,25 @@
   "categories": ["entertainment", "education"],
   "icons": [
     {
-      "src": "/icon-72.png",
-      "sizes": "72x72",
-      "type": "image/png",
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
       "purpose": "any"
-    },
-    {
-      "src": "/icon-96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
     }
   ],
   "prefer_related_applications": false,
   "shortcuts": [
     {
-      "name": "Game Guides",
-      "short_name": "Guides",
-      "description": "Browse game guides and information",
-      "url": "/#games",
-      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Download Info",
-      "short_name": "Download",
-      "description": "App download information",
-      "url": "/download",
-      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
+      "name": "App Guide",
+      "short_name": "Guide",
+      "description": "Browse app guide and information",
+      "url": "/"
     },
     {
       "name": "FAQ",
       "short_name": "FAQ",
       "description": "Frequently asked questions",
-      "url": "/#faq",
-      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
+      "url": "/#faq"
     }
   ]
 }

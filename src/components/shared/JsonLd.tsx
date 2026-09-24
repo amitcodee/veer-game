@@ -3,7 +3,7 @@ const siteConfig = {
   url: "https://veergames1.com",
   description:
     "Veer Game Guide - Complete information about the Veer Game casual entertainment app including features, download instructions, and user reviews. Your comprehensive resource for this popular mobile app.",
-  logo: "https://veergames1.com/images/logo/logo.png",
+  logo: "https://veergames1.com/images/logo/logo.svg",
   email: "support@veergames1.com",
   telephone: "+91-8000000000",
   address: {

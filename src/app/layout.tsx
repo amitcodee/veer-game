@@ -105,11 +105,11 @@ export const metadata: Metadata = {
       "Read our detailed review of the Veer Game casual entertainment app. Learn about app features, download instructions, user interface, and community resources.",
     images: [
       {
-        url: "/images/imgs/veergame-1024x683.jpeg",
-        width: 1024,
-        height: 683,
-        alt: "Veer Game App Review - Casual Entertainment Guide",
-        type: "image/jpeg",
+        url: "/images/logo/logo.svg",
+        width: 512,
+        height: 512,
+        alt: "Veer Game Guide - Casual Entertainment App",
+        type: "image/svg+xml",
       },
     ],
   },
@@ -118,7 +118,7 @@ export const metadata: Metadata = {
     title: "Veer Game Guide 2026 | Casual Entertainment App Review",
     description:
       "Detailed review of the Veer Game entertainment app - features, download guide, user interface overview, and community resources.",
-    images: ["/images/imgs/veergame-1024x683.jpeg"],
+    images: ["/images/logo/logo.svg"],
     creator: "@veergames",
     site: "@veergames",
   },
@@ -137,15 +137,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
       { url: "/icon.svg", type: "image/svg+xml" },
-      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
-    apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-    ],
-    shortcut: "/favicon.ico",
   },
   manifest: "/manifest.json",
   category: "entertainment",
@@ -166,8 +159,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="dns-prefetch" href="https://t.me" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
       </head>
       <body className="min-h-screen">
         <Script
